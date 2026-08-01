@@ -1,0 +1,23 @@
+# Local captures and generated analysis output may contain cookies, tokens,
+# user IDs, nicknames, account state, or copyrighted extracted game payloads.
+captures/*
+!captures/.gitkeep
+out/
+
+# Local agent/editor state.
+.claude/
+.superpowers/
+docs/superpowers/
+
+# Runtime caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local scratch scripts and downloaded research helpers.
+tools/_*
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+*.log

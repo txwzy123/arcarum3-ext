@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>转世沙盒地图</title>
+  <link rel="stylesheet" href="map.css" />
+</head>
+<body>
+  <div id="toolbar">
+    <div class="left">
+      <strong id="title">转世沙盒地图</strong>
+      <div class="window-view-switch" role="tablist" aria-label="窗口内容">
+        <button
+          id="window-tab-map"
+          class="window-view-tab is-active"
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="main"
+          data-window-view="map"
+        >地图</button>
+        <button
+          id="window-tab-guidebooks"
+          class="window-view-tab"
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="guidebook-view"
+          data-window-view="guidebooks"
+        >
+          导本
+          <span id="guidebook-tab-count" class="window-tab-count" hidden>0</span>
+        </button>
+      </div>
+      <span id="progress-line" class="progress-line">第 — 天 · 第 — 回合</span>
+      <span id="badge" class="badge">无数据</span>
+    </div>
+    <div id="map-toolbar-controls" class="right">
+      <label class="chk slider-chk" title="调节底图亮度">
+        亮度
+        <input type="range" id="bg-bright" min="60" max="150" value="100" step="5" />
+        <span id="bg-bright-val" class="slider-val">100%</span>
+      </label>
+      <label class="chk"><input type="checkbox" id="show-empty" checked /> 空白点</label>
+      <label class="chk"><input type="checkbox" id="show-ids" /> 节点 ID</label>
+      <label class="chk"><input type="checkbox" id="show-legend" checked /> 左下图例</label>
+      <button type="button" id="btn-fit">适应窗口</button>
+      <button type="button" id="btn-100">100%</button>
+      <button type="button" id="btn-center">定位自己</button>
+      <span id="zoom-label">100%</span>
+    </div>
+  </div>
+
+  <div id="main" role="tabpanel" aria-labelledby="window-tab-map">
+    <div id="map-column">
+      <canvas id="canvas"></canvas>
+
+      <!-- 左下角图例（可筛选高亮 / 可显隐） -->
+      <div id="legend-dock" class="legend-dock" aria-label="节点图例">
+        <button type="button" id="btn-legend-collapse" class="legend-toggle" title="收起/展开图例">图例</button>
+        <div id="legend-bar" class="legend-bar"></div>
+      </div>
+
+      <div class="map-zoom-controls" aria-label="缩放">
+        <button type="button" id="btn-zoom-out" class="map-zoom-btn">−</button>
+        <span id="zoom-label-float" class="map-zoom-label">100%</span>
+        <button type="button" id="btn-zoom-in" class="map-zoom-btn">+</button>
+      </div>
+    </div>
+
+    <aside id="panel">
+      <section class="panel-block progress-card">
+        <h2>攻略进度</h2>
+        <ul class="progress-rows">
+          <li class="progress-row">
+            <span class="progress-label">日程</span>
+            <span id="progress-schedule" class="progress-value">第 — 天 · 第 — 回合</span>
+          </li>
+          <li class="progress-row">
+            <span class="progress-label">货币</span>
+            <span id="progress-point" class="progress-value">—</span>
+          </li>
+          <li class="progress-row">
+            <span class="progress-label">瘴气</span>
+            <span id="progress-miasma" class="progress-value">—</span>
+          </li>
+        </ul>
+        <p class="progress-note">回合 = total_turn+1；「天」游戏无字段，按 hint/回合启发式（与贤者助手一致）。</p>
+      </section>
+
+      <section class="panel-block">
+        <h2>节点详情</h2>
+        <div id="detail" class="node-detail">
+          <p class="node-detail-empty">点击节点查看详情。
+
+右键：设为目标 / 添加途经点。
+拖拽平移 · 滚轮缩放 · 双击适应窗口。</p>
+        </div>
+        <details id="node-debug-wrap" class="node-debug">
+          <summary>调试字段</summary>
+          <pre id="detail-debug" class="node-detail-debug">—</pre>
+        </details>
+      </section>
+
+      <section class="panel-block route-card">
+        <h2>目标寻路</h2>
+        <div class="route-presets" role="group" aria-label="路线权重">
+          <button type="button" class="btn-preset is-active" data-preset="short">最短</button>
+          <button type="button" class="btn-preset" data-preset="reward">收益</button>
+          <button type="button" class="btn-preset" data-preset="safe">安全</button>
+        </div>
+        <div class="route-actions">
+          <button type="button" id="btn-route-clear" class="btn ghost" disabled>清除路线</button>
+        </div>
+        <p id="route-hint" class="route-hint">
+          左键查看；右键：第一个点=终点，之后=途经。路径为一条无回环折线。
+        </p>
+        <dl id="route-stats" class="route-stats" hidden></dl>
+      </section>
+
+      <section class="panel-block explore-card">
+        <h2>收益扫路（无目标）</h2>
+        <div class="route-actions">
+          <button type="button" id="btn-explore-gen" class="btn primary-ish">生成路径</button>
+          <button type="button" id="btn-explore-clear" class="btn ghost" disabled>清除路径</button>
+        </div>
+        <p class="route-hint" id="explore-score-legend">累计分越低，路线优先级越高。</p>
+        <label class="explore-slider-label" for="explore-points">
+          点数上限 ≤ <strong id="explore-points-val">20</strong>
+        </label>
+        <input
+          type="range"
+          id="explore-points"
+          min="5"
+          max="20"
+          value="20"
+          step="1"
+        />
+        <details class="explore-score-settings" open>
+          <summary>自定义事件评分</summary>
+          <div id="explore-score-controls" class="explore-score-controls"></div>
+        </details>
+        <p id="explore-hint" class="route-hint">
+          从当前位置出发，在上限内选总分最低的简单路径（可短于上限，不必凑满）。
+          沿绿线移动只裁剪；再点生成带粘性，避免每步改道。
+        </p>
+        <dl id="explore-stats" class="route-stats" hidden></dl>
+      </section>
+    </aside>
+  </div>
+
+  <section
+    id="guidebook-view"
+    class="guidebook-view"
+    role="tabpanel"
+    aria-labelledby="window-tab-guidebooks"
+    hidden
+  >
+    <div class="guidebook-shell">
+      <header class="guidebook-header">
+        <div class="guidebook-heading">
+          <h1>导本记录</h1>
+          <p id="book-last-update">尚未捕获导本数据</p>
+        </div>
+        <div class="guidebook-summary" aria-label="导本统计">
+          <div><strong id="book-held-kinds">0</strong><span>持有种类</span></div>
+          <div><strong id="book-held-total">0</strong><span>持有数量</span></div>
+          <div><strong id="book-catalog-total">0</strong><span>累计收录</span></div>
+        </div>
+      </header>
+
+      <div class="guidebook-layout">
+        <section
+          id="guidebook-live-panel"
+          class="guidebook-column guidebook-live-panel"
+          aria-labelledby="book-live-title"
+        >
+          <header class="guidebook-column-header">
+            <div class="guidebook-column-title">
+              <h2 id="book-live-title">本次选择</h2>
+              <span id="book-live-count" class="book-live-count">0 项</span>
+            </div>
+            <button
+              id="btn-clear-book-selection"
+              class="book-clear-selection"
+              type="button"
+              aria-label="清除本次选择"
+              title="清除本次选择"
+              disabled
+            >×</button>
+          </header>
+          <p id="book-live-summary" class="book-live-summary">暂无进行中的选择</p>
+          <p id="book-live-description" class="book-live-description" hidden></p>
+          <p id="book-live-captured" class="book-live-captured">等待下一次选择</p>
+          <div id="guidebook-live-empty" class="guidebook-empty guidebook-live-empty">
+            游戏内出现导本或事件选择后，候选会显示在这里。
+          </div>
+          <div id="guidebook-live-list" class="guidebook-list guidebook-live-list" aria-live="polite"></div>
+          <section id="book-live-notes" class="book-live-notes" aria-labelledby="book-live-notes-title" hidden>
+            <h3 id="book-live-notes-title">收益与风险</h3>
+            <p id="book-live-notes-text"></p>
+          </section>
+        </section>
+
+        <section
+          id="guidebook-catalogue-panel"
+          class="guidebook-column guidebook-catalogue-panel"
+          aria-label="已有导本与数据库导本"
+        >
+          <div class="guidebook-toolbar" aria-label="导本筛选">
+            <div class="book-segmented" role="group" aria-label="导本范围">
+              <button class="book-segment is-active" type="button" data-book-view="inventory" aria-pressed="true">当前持有</button>
+              <button class="book-segment" type="button" data-book-view="catalogue" aria-pressed="false">全部收录</button>
+            </div>
+
+            <div class="rarity-filters" role="group" aria-label="稀有度">
+              <button class="rarity-filter" type="button" data-rarity="3" data-type="unique" aria-pressed="false" title="独有">
+                <img alt="独有" width="96" height="34" />
+              </button>
+              <button class="rarity-filter" type="button" data-rarity="2" data-type="rare" aria-pressed="false" title="稀有">
+                <img alt="稀有" width="96" height="34" />
+              </button>
+              <button class="rarity-filter" type="button" data-rarity="1" data-type="normal" aria-pressed="false" title="普通">
+                <img alt="普通" width="96" height="34" />
+              </button>
+              <button class="rarity-filter" type="button" data-rarity="99" data-type="cursed" aria-pressed="false" title="诅咒">
+                <img alt="诅咒" width="96" height="34" />
+              </button>
+            </div>
+
+            <div class="book-controls">
+              <input id="book-search" type="search" placeholder="搜索原文或 ID" autocomplete="off" />
+              <button id="btn-export-books" type="button" disabled>导出 JSON</button>
+            </div>
+          </div>
+
+          <div id="guidebook-empty" class="guidebook-empty">进入导本列表、事件选择或商店后，这里会自动出现原文记录。</div>
+          <div id="guidebook-list" class="guidebook-list" aria-live="polite"></div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <div id="status">就绪</div>
+  <script type="module" src="map.js"></script>
+</body>
+</html>

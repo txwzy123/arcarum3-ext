@@ -1,0 +1,2879 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-31T16:09:00.727Z",
+  "entries": {
+    "1": {
+      "statusId": 1,
+      "text": {
+        "zh-CN": "攻击力提升(20%)",
+        "ja": "攻撃力UP(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "攻撃力UP(20%)"
+        },
+        {
+          "language": "und",
+          "text": "攻撃力UP(20%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 1,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "node_event",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785332400696,
+      "lastSeenAt": 1785513712196
+    },
+    "2": {
+      "statusId": 2,
+      "text": {
+        "zh-CN": "连击率提升(20%)",
+        "ja": "連続攻撃確率UP(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "連続攻撃確率UP(20%)"
+        },
+        {
+          "language": "und",
+          "text": "連続攻撃確率UP(20%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 2,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "node_event",
+        "incident",
+        "gain"
+      ],
+      "firstSeenAt": 1785332312862,
+      "lastSeenAt": 1785513449520
+    },
+    "3": {
+      "statusId": 3,
+      "text": {
+        "zh-CN": "技能伤害提升(20%)/技能伤害上限提升(10%)",
+        "ja": "アビリティダメージUP(20%)/アビリティダメージ上限UP(10%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "アビリティダメージUP(20%)/アビリティダメージ上限UP(10%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 303,
+      "sources": [
+        "battle_result",
+        "shop",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785332240204,
+      "lastSeenAt": 1785513839849
+    },
+    "4": {
+      "statusId": 4,
+      "text": {
+        "zh-CN": "奥义伤害提升(20%)/奥义伤害上限提升(10%)",
+        "ja": "奥義ダメージUP(20%)/奥義ダメージ上限UP(10%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "奥義ダメージUP(20%)/奥義ダメージ上限UP(10%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 305,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "shop",
+        "node_event"
+      ],
+      "firstSeenAt": 1785340828974,
+      "lastSeenAt": 1785513534091
+    },
+    "5": {
+      "statusId": 5,
+      "text": {
+        "zh-CN": "连锁爆发伤害提升(50%)/连锁爆发伤害上限提升(30%)",
+        "ja": "チェインバーストダメージUP(50%)/チェインバーストダメージ上限UP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "チェインバーストダメージUP(50%)/チェインバーストダメージ上限UP(30%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 307,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "node_event"
+      ],
+      "firstSeenAt": 1785333379868,
+      "lastSeenAt": 1785513449520
+    },
+    "6": {
+      "statusId": 6,
+      "text": {
+        "zh-CN": "奥义伤害特殊上限提升(10%)",
+        "ja": "奥義ダメージ特殊上限UP(10%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "奥義ダメージ特殊上限UP(10%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 305,
+      "sources": [
+        "battle_result",
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "gain",
+        "incident"
+      ],
+      "firstSeenAt": 1785332513004,
+      "lastSeenAt": 1785513449520
+    },
+    "7": {
+      "statusId": 7,
+      "text": {
+        "zh-CN": "伤害上限提升(10%)",
+        "ja": "ダメージ上限UP(10%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ダメージ上限UP(10%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 308,
+      "sources": [
+        "battle_result",
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "incident"
+      ],
+      "firstSeenAt": 1785333273739,
+      "lastSeenAt": 1785513578284
+    },
+    "8": {
+      "statusId": 8,
+      "text": {
+        "zh-CN": "自属性攻击提升(20%)",
+        "ja": "自属性攻撃UP(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性攻撃UP(20%)"
+        },
+        {
+          "language": "und",
+          "text": "自属性攻撃UP(20%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 1,
+      "sources": [
+        "incident",
+        "battle_result",
+        "status_list",
+        "shop",
+        "community-zh-CN",
+        "node_event",
+        "gain"
+      ],
+      "firstSeenAt": 1785332434641,
+      "lastSeenAt": 1785513449520
+    },
+    "9": {
+      "statusId": 9,
+      "text": {
+        "zh-CN": "浑身",
+        "ja": "渾身",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "渾身"
+        },
+        {
+          "language": "und",
+          "text": "渾身"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 3,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "incident",
+        "node_event"
+      ],
+      "firstSeenAt": 1785333739335,
+      "lastSeenAt": 1785513767767
+    },
+    "10": {
+      "statusId": 10,
+      "text": {
+        "zh-CN": "背水",
+        "ja": "背水",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "背水"
+        },
+        {
+          "language": "und",
+          "text": "背水"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 4,
+      "sources": [
+        "shop",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "gain"
+      ],
+      "firstSeenAt": 1785332631432,
+      "lastSeenAt": 1785513612017
+    },
+    "11": {
+      "statusId": 11,
+      "text": {
+        "zh-CN": "暴击率提升(30%)",
+        "ja": "クリティカル確率UP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "クリティカル確率UP(30%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 1,
+      "iconType": 5,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "shop",
+        "community-zh-CN",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785332942922,
+      "lastSeenAt": 1785513449520
+    },
+    "13": {
+      "statusId": 13,
+      "text": {
+        "zh-CN": "最大HP提升(30%)",
+        "ja": "最大HPUP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "最大HPUP(30%)"
+        },
+        {
+          "language": "und",
+          "text": "最大HPUP(30%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 2,
+      "iconType": 201,
+      "sources": [
+        "shop",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "gain",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785332631432,
+      "lastSeenAt": 1785513839849
+    },
+    "14": {
+      "statusId": 14,
+      "text": {
+        "zh-CN": "防御力提升(30%)",
+        "ja": "防御力UP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "防御力UP(30%)"
+        },
+        {
+          "language": "und",
+          "text": "防御力UP(30%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 2,
+      "iconType": 101,
+      "sources": [
+        "node_event",
+        "incident",
+        "battle_result",
+        "status_list",
+        "shop",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332465704,
+      "lastSeenAt": 1785513449520
+    },
+    "15": {
+      "statusId": 15,
+      "text": {
+        "zh-CN": "回复性能提升(20%)",
+        "ja": "回復性能UP(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "回復性能UP(20%)"
+        },
+        {
+          "language": "und",
+          "text": "回復性能UP(20%)"
+        }
+      ],
+      "rarity": 1,
+      "iconCategory": 2,
+      "iconType": 202,
+      "sources": [
+        "battle_result",
+        "incident",
+        "shop",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785332984833,
+      "lastSeenAt": 1785513839849
+    },
+    "17": {
+      "statusId": 17,
+      "text": {
+        "zh-CN": "自属性追击效果(20%)",
+        "ja": "自属性追撃効果(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性追撃効果(20%)"
+        },
+        {
+          "language": "und",
+          "text": "自属性追撃効果(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 6,
+      "sources": [
+        "incident",
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332434641,
+      "lastSeenAt": 1785513536790
+    },
+    "18": {
+      "statusId": 18,
+      "text": {
+        "zh-CN": "自属性奥义追击效果(20%)",
+        "ja": "自属性奥義追撃効果(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性奥義追撃効果(20%)"
+        },
+        {
+          "language": "und",
+          "text": "自属性奥義追撃効果(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 7,
+      "sources": [
+        "node_event",
+        "status_list",
+        "battle_result",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332661566,
+      "lastSeenAt": 1785513183129
+    },
+    "19": {
+      "statusId": 19,
+      "text": {
+        "zh-CN": "自属性冴手效果(20%)",
+        "ja": "自属性冴手効果(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性冴手効果(20%)"
+        },
+        {
+          "language": "und",
+          "text": "自属性冴手効果(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 8,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785333382826,
+      "lastSeenAt": 1785513449520
+    },
+    "20": {
+      "statusId": 20,
+      "text": {
+        "zh-CN": "普通攻击造成伤害提升(30%)",
+        "ja": "通常攻撃の与ダメージUP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "通常攻撃の与ダメージUP(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 311,
+      "sources": [
+        "shop",
+        "community-zh-CN",
+        "node_event",
+        "status_list",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785340171679,
+      "lastSeenAt": 1785513580899
+    },
+    "21": {
+      "statusId": 21,
+      "text": {
+        "zh-CN": "技能造成伤害提升(30%)",
+        "ja": "アビリティ与ダメージUP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "アビリティ与ダメージUP(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 312,
+      "sources": [
+        "incident",
+        "node_event",
+        "gain",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332210297,
+      "lastSeenAt": 1785513716373
+    },
+    "22": {
+      "statusId": 22,
+      "text": {
+        "zh-CN": "奥义造成伤害提升(30%)",
+        "ja": "奥義与ダメージUP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "奥義与ダメージUP(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 313,
+      "sources": [
+        "incident",
+        "node_event",
+        "gain",
+        "community-zh-CN",
+        "status_list",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332210297,
+      "lastSeenAt": 1785507142503
+    },
+    "23": {
+      "statusId": 23,
+      "text": {
+        "zh-CN": "连锁伤害提升(100%)",
+        "ja": "チェイン与ダメージUP(100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "チェイン与ダメージUP(100%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 314,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785333666870,
+      "lastSeenAt": 1785507231764
+    },
+    "24": {
+      "statusId": 24,
+      "text": {
+        "zh-CN": "自属性加护强化(60%)",
+        "ja": "自属性スキルエンハンス(60%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性スキルエンハンス(60%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 9,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result",
+        "shop",
+        "incident"
+      ],
+      "firstSeenAt": 1785344115209,
+      "lastSeenAt": 1785504494397
+    },
+    "25": {
+      "statusId": 25,
+      "text": {
+        "zh-CN": "受到伤害减少(500)",
+        "ja": "被ダメージ減少(500)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "被ダメージ減少(500)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 2,
+      "iconType": 101,
+      "sources": [
+        "battle_result",
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785333105431,
+      "lastSeenAt": 1785513488080
+    },
+    "27": {
+      "statusId": 27,
+      "text": {
+        "zh-CN": "再生(回复1000)",
+        "ja": "再生(1000回復)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "再生(1000回復)"
+        },
+        {
+          "language": "und",
+          "text": "再生(1000回復)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 2,
+      "iconType": 203,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "status_list",
+        "battle_result",
+        "shop"
+      ],
+      "firstSeenAt": 1785332421869,
+      "lastSeenAt": 1785513449520
+    },
+    "28": {
+      "statusId": 28,
+      "text": {
+        "zh-CN": "奥义槽上升量提升(20%)",
+        "ja": "奥義ゲージ上昇量UP(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "奥義ゲージ上昇量UP(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 315,
+      "sources": [
+        "node_event",
+        "incident",
+        "community-zh-CN",
+        "gain",
+        "status_list",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332326169,
+      "lastSeenAt": 1785513536790
+    },
+    "29": {
+      "statusId": 29,
+      "text": {
+        "zh-CN": "高扬(10%)",
+        "ja": "高揚(10%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "高揚(10%)"
+        },
+        {
+          "language": "und",
+          "text": "高揚(10%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 315,
+      "sources": [
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "gain"
+      ],
+      "firstSeenAt": 1785333382826,
+      "lastSeenAt": 1785512940703
+    },
+    "30": {
+      "statusId": 30,
+      "text": {
+        "zh-CN": "每回合可召唤次数增加(1次)",
+        "ja": "1ターン中の召喚可能回数増加(1回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "1ターン中の召喚可能回数増加(1回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785332242471,
+      "lastSeenAt": 1785513674137
+    },
+    "31": {
+      "statusId": 31,
+      "text": {
+        "zh-CN": "无视敌人属性，攻击始终视为克制属性(不可重复)",
+        "ja": "敵の属性に関わらず弱点をつく(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "敵の属性に関わらず弱点をつく(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332326169,
+      "lastSeenAt": 1785513449520
+    },
+    "32": {
+      "statusId": 32,
+      "text": {
+        "zh-CN": "无视敌人的回避和幻影以及我方命中率降低，攻击必定命中(不可重复)",
+        "ja": "敵の回避や幻影、味方の命中率DOWNに関わらず攻撃が命中する(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "敵の回避や幻影、味方の命中率DOWNに関わらず攻撃が命中する(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "gain",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785332993407,
+      "lastSeenAt": 1785507231764
+    },
+    "33": {
+      "statusId": 33,
+      "text": {
+        "zh-CN": "普通攻击命中次数增加(+1)",
+        "ja": "通常攻撃のヒット数増加(＋1)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "通常攻撃のヒット数増加(＋1)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 10,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785333379868,
+      "lastSeenAt": 1785513449520
+    },
+    "34": {
+      "statusId": 34,
+      "text": {
+        "zh-CN": "人族与泽奥诺伊德族造成伤害提升(30%)",
+        "ja": "ヒューマン族とゼオノイド族の与ダメージUP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ヒューマン族とゼオノイド族の与ダメージUP(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 310,
+      "sources": [
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "gain",
+        "shop"
+      ],
+      "firstSeenAt": 1785332242471,
+      "lastSeenAt": 1785513449520
+    },
+    "35": {
+      "statusId": 35,
+      "text": {
+        "zh-CN": "艾露恩族与雷弗里斯族的普通攻击命中次数增加(+1)",
+        "ja": "エルーン族とレヴリス族の通常攻撃のヒット数増加(＋1)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "エルーン族とレヴリス族の通常攻撃のヒット数増加(＋1)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 10,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "battle_result",
+        "status_list"
+      ],
+      "firstSeenAt": 1785340886018,
+      "lastSeenAt": 1785513449520
+    },
+    "36": {
+      "statusId": 36,
+      "text": {
+        "zh-CN": "德拉夫族与格拉克尔族获得自属性奥义追击效果(30%)",
+        "ja": "ドラフ族とグラックル族に自属性奥義追撃効果(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ドラフ族とグラックル族に自属性奥義追撃効果(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 7,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785339738616,
+      "lastSeenAt": 1785513451449
+    },
+    "37": {
+      "statusId": 37,
+      "text": {
+        "zh-CN": "哈文族与沃尔维尔族获得自属性追击效果(30%)",
+        "ja": "ハーヴィン族とヴォルヴィル族に自属性追撃効果(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ハーヴィン族とヴォルヴィル族に自属性追撃効果(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 6,
+      "sources": [
+        "battle_result",
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785333481473,
+      "lastSeenAt": 1785513449520
+    },
+    "38": {
+      "statusId": 38,
+      "text": {
+        "zh-CN": "星晶兽与其他种族的伤害上限提升(50%)",
+        "ja": "星晶獣とその他種族のダメージ上限UP(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "星晶獣とその他種族のダメージ上限UP(50%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 308,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "status_list",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785333189355,
+      "lastSeenAt": 1785507364365
+    },
+    "39": {
+      "statusId": 39,
+      "text": {
+        "zh-CN": "战斗开始时，赋予全体反击效果(回避/受到伤害时触发/3次)(不可重复)",
+        "ja": "バトル開始時、味方全体にカウンター効果(回避・被ダメージ/3回)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体にカウンター効果(回避・被ダメージ/3回)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332714801,
+      "lastSeenAt": 1785506541039
+    },
+    "40": {
+      "statusId": 40,
+      "text": {
+        "zh-CN": "战斗开始时，全体奥义槽提升(40%)",
+        "ja": "バトル開始時、味方全体の奥義ゲージUP(40%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体の奥義ゲージUP(40%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785333282066,
+      "lastSeenAt": 1785513580899
+    },
+    "41": {
+      "statusId": 41,
+      "text": {
+        "zh-CN": "战斗开始时，赋予全体5层刻印；刻印种类随各自属性变化(不可重复)",
+        "ja": "バトル開始時、味方全体に刻印を5つ付与　◆付与する刻印の種類は自属性によって変化(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体に刻印を5つ付与　◆付与する刻印の種類は自属性によって変化(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "battle_result",
+        "status_list",
+        "incident"
+      ],
+      "firstSeenAt": 1785333635438,
+      "lastSeenAt": 1785513674137
+    },
+    "42": {
+      "statusId": 42,
+      "text": {
+        "zh-CN": "战斗开始时，赋予全体不死身效果(1次)(不可重复)",
+        "ja": "バトル開始時、味方全体に不死身効果(1回)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体に不死身効果(1回)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 2,
+      "iconType": 102,
+      "sources": [
+        "incident",
+        "node_event",
+        "gain",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332210297,
+      "lastSeenAt": 1785513449520
+    },
+    "43": {
+      "statusId": 43,
+      "text": {
+        "zh-CN": "战斗开始时，赋予全体奥义再次发动效果(1次)(不可重复)",
+        "ja": "バトル開始時、味方全体に奥義再発動効果(1回)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体に奥義再発動効果(1回)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 304,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "status_list",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785332849426,
+      "lastSeenAt": 1785513716373
+    },
+    "44": {
+      "statusId": 44,
+      "text": {
+        "zh-CN": "战斗开始时，赋予全体驱散防御(1次)/弱化效果无效(1次)(不可重复)",
+        "ja": "バトル開始時、味方全体にディスペルガード効果(1回)/弱体効果無効(1回)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、味方全体にディスペルガード効果(1回)/弱体効果無効(1回)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 2,
+      "iconType": 103,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "shop",
+        "incident"
+      ],
+      "firstSeenAt": 1785333237991,
+      "lastSeenAt": 1785513449520
+    },
+    "45": {
+      "statusId": 45,
+      "text": {
+        "zh-CN": "根据持有的诅咒导本效果数量，增加全体普通攻击命中次数(+0/最多+10)",
+        "ja": "所持している呪われた導本効果の数に応じて味方全体の通常攻撃のヒット数増加(＋0/最大＋10)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "所持している呪われた導本効果の数に応じて味方全体の通常攻撃のヒット数増加(＋0/最大＋10)"
+        },
+        {
+          "language": "ja",
+          "text": "所持している呪われた導本効果の数に応じて味方全体の通常攻撃のヒット数増加(＋3/最大＋10)"
+        },
+        {
+          "language": "ja",
+          "text": "所持している呪われた導本効果の数に応じて味方全体の通常攻撃のヒット数増加(＋1/最大＋10)"
+        },
+        {
+          "language": "ja",
+          "text": "所持している呪われた導本効果の数に応じて味方全体の通常攻撃のヒット数増加(＋2/最大＋10)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 10,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "status_list",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785332516067,
+      "lastSeenAt": 1785513451449
+    },
+    "46": {
+      "statusId": 46,
+      "text": {
+        "zh-CN": "回合结束时，未使用技能的我方成员有概率使自身1个随机技能立即可用(不可重复)",
+        "ja": "アビリティを使用しなかった味方がターン終了時、確率で自分のランダムなアビリティが1つ即時使用可能になる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "アビリティを使用しなかった味方がターン終了時、確率で自分のランダムなアビリティが1つ即時使用可能になる(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332434641,
+      "lastSeenAt": 1785513615106
+    },
+    "47": {
+      "statusId": 47,
+      "text": {
+        "zh-CN": "全体使用技能时，根据该技能的使用间隔提升自身造成伤害(最多50%)(不可重复)",
+        "ja": "味方全体がアビリティ使用時、そのアビリティの使用間隔に応じて自分の与ダメージUP(最大50%)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体がアビリティ使用時、そのアビリティの使用間隔に応じて自分の与ダメージUP(最大50%)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785332242471,
+      "lastSeenAt": 1785513449520
+    },
+    "48": {
+      "statusId": 48,
+      "text": {
+        "zh-CN": "回合结束时，未受到伤害的我方成员对敌人造成自属性伤害；根据连续未受伤回合数增加攻击次数(最多5次)",
+        "ja": "ダメージを受けなかった味方がターン終了時、敵に自属性ダメージ　◆継続してダメージを受けなかったターン数に応じて攻撃回数UP(最大5回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ダメージを受けなかった味方がターン終了時、敵に自属性ダメージ　◆継続してダメージを受けなかったターン数に応じて攻撃回数UP(最大5回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "shop"
+      ],
+      "firstSeenAt": 1785332945650,
+      "lastSeenAt": 1785513829782
+    },
+    "49": {
+      "statusId": 49,
+      "text": {
+        "zh-CN": "主角与SSR角色造成伤害提升(10%)/SR角色提升(100%)/R角色提升(200%)",
+        "ja": "主人公とSSレアキャラの与ダメージUP(10%)/Sレアキャラの与ダメージUP(100%)/レアキャラの与ダメージUP(200%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "主人公とSSレアキャラの与ダメージUP(10%)/Sレアキャラの与ダメージUP(100%)/レアキャラの与ダメージUP(200%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 310,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785333189355,
+      "lastSeenAt": 1785507574294
+    },
+    "50": {
+      "statusId": 50,
+      "text": {
+        "zh-CN": "我方全体使用伤害技能时，根据敌人当前HP造成无属性伤害",
+        "ja": "味方全体がダメージアビリティ使用時、敵の現HPに応じた無属性ダメージ",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体がダメージアビリティ使用時、敵の現HPに応じた無属性ダメージ"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "node_event",
+        "gain",
+        "status_list",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785332210297,
+      "lastSeenAt": 1785513387711
+    },
+    "51": {
+      "statusId": 51,
+      "text": {
+        "zh-CN": "战斗胜利时获得的塞菲拉币数量提升(30%)",
+        "ja": "バトル勝利時のセフィラコインの獲得量UP(30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル勝利時のセフィラコインの獲得量UP(30%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "shop",
+        "node_event",
+        "incident",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332631432,
+      "lastSeenAt": 1785513580899
+    },
+    "52": {
+      "statusId": 52,
+      "text": {
+        "zh-CN": "瘴气伤害减轻(20%)",
+        "ja": "瘴気ダメージ軽減(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "瘴気ダメージ軽減(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "battle_result",
+        "status_list"
+      ],
+      "firstSeenAt": 1785332743225,
+      "lastSeenAt": 1785513006103
+    },
+    "53": {
+      "statusId": 53,
+      "text": {
+        "zh-CN": "每移动5格，全体技能使用间隔缩短1回合(0/5格)",
+        "ja": "5マス移動する度に味方全体のアビリティ再使用間隔を1ターン短縮(0/5マス)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "5マス移動する度に味方全体のアビリティ再使用間隔を1ターン短縮(0/5マス)"
+        },
+        {
+          "language": "ja",
+          "text": "5マス移動する度に味方全体のアビリティ再使用間隔を1ターン短縮(2/5マス)"
+        },
+        {
+          "language": "ja",
+          "text": "5マス移動する度に味方全体のアビリティ再使用間隔を1ターン短縮(1/5マス)"
+        },
+        {
+          "language": "ja",
+          "text": "5マス移動する度に味方全体のアビリティ再使用間隔を1ターン短縮(4/5マス)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "battle_result",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332326169,
+      "lastSeenAt": 1785452835466
+    },
+    "54": {
+      "statusId": 54,
+      "text": {
+        "zh-CN": "连续移动3格以上未战斗时，下场战斗开始时全体造成伤害提升(50%)/受到伤害减少(2000)(0/3格)(不可重复)",
+        "ja": "3マス以上連続で戦闘を行わなかった場合、次のバトル開始時に味方全体に与ダメージUP(50%)/被ダメージ減少効果(2000)(0/3マス)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "3マス以上連続で戦闘を行わなかった場合、次のバトル開始時に味方全体に与ダメージUP(50%)/被ダメージ減少効果(2000)(0/3マス)(重複不可)"
+        },
+        {
+          "language": "ja",
+          "text": "3マス以上連続で戦闘を行わなかった場合、次のバトル開始時に味方全体に与ダメージUP(50%)/被ダメージ減少効果(2000)(1/3マス)(重複不可)"
+        },
+        {
+          "language": "ja",
+          "text": "3マス以上連続で戦闘を行わなかった場合、次のバトル開始時に味方全体に与ダメージUP(50%)/被ダメージ減少効果(2000)(2/3マス)(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "battle_result",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785333767048,
+      "lastSeenAt": 1785513449520
+    },
+    "55": {
+      "statusId": 55,
+      "text": {
+        "zh-CN": "抵消下一次获得的诅咒导本效果(剩余1/1次)",
+        "ja": "次に獲得する呪われた導本効果を打ち消す(残り1/1回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "次に獲得する呪われた導本効果を打ち消す(残り1/1回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "battle_result",
+        "shop",
+        "incident"
+      ],
+      "firstSeenAt": 1785332403545,
+      "lastSeenAt": 1785512912082
+    },
+    "56": {
+      "statusId": 56,
+      "text": {
+        "zh-CN": "在回复格休息时，随机获得1个导本效果",
+        "ja": "回復マスで休憩した時、ランダムな導本効果を獲得する",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "回復マスで休憩した時、ランダムな導本効果を獲得する"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "incident",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332403545,
+      "lastSeenAt": 1785513661883
+    },
+    "57": {
+      "statusId": 57,
+      "text": {
+        "zh-CN": "从宝箱格获得导本效果时，额外获得1个导本效果(剩余2/2次)",
+        "ja": "宝箱マスから導本効果を獲得した時、導本効果を追加で1つ獲得する(残り2/2回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "宝箱マスから導本効果を獲得した時、導本効果を追加で1つ獲得する(残り2/2回)"
+        },
+        {
+          "language": "ja",
+          "text": "宝箱マスから導本効果を獲得した時、導本効果を追加で1つ獲得する(残り1/2回)"
+        },
+        {
+          "language": "ja",
+          "text": "宝箱マスから導本効果を獲得した時、導本効果を追加で1つ獲得する(残り0/2回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785332421869,
+      "lastSeenAt": 1785507051288
+    },
+    "58": {
+      "statusId": 58,
+      "text": {
+        "zh-CN": "到达事件格时，随机获得一定数量的塞菲拉币",
+        "ja": "イベントマスに到達した時、ランダムな数のセフィラコインを獲得する",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "イベントマスに到達した時、ランダムな数のセフィラコインを獲得する"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "incident",
+        "status_list",
+        "community-zh-CN",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785332516067,
+      "lastSeenAt": 1785513401820
+    },
+    "59": {
+      "statusId": 59,
+      "text": {
+        "zh-CN": "为队伍成员的得意武器追加全部武器种类(不可重复)",
+        "ja": "パーティメンバーの得意武器に全ての武器種を追加する(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "パーティメンバーの得意武器に全ての武器種を追加する(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785333240962,
+      "lastSeenAt": 1785513449520
+    },
+    "60": {
+      "statusId": 60,
+      "text": {
+        "zh-CN": "为队伍成员的种族追加全部种族(不可重复)",
+        "ja": "パーティメンバーの種族に全ての種族を追加する(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "パーティメンバーの種族に全ての種族を追加する(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332945650,
+      "lastSeenAt": 1785513449520
+    },
+    "61": {
+      "statusId": 61,
+      "text": {
+        "zh-CN": "全体使用弱化技能时，随机赋予敌人2个弱化效果",
+        "ja": "味方全体が弱体アビリティ使用時、敵にランダムな弱体効果を2つ付与",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が弱体アビリティ使用時、敵にランダムな弱体効果を2つ付与"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "gain",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785339748997,
+      "lastSeenAt": 1785513451449
+    },
+    "62": {
+      "statusId": 62,
+      "text": {
+        "zh-CN": "全体普通攻击、技能伤害和奥义可能无法命中，但攻击力提升(100%)/伤害上限提升(50%)",
+        "ja": "味方全体の通常攻撃とアビリティダメージと奥義が命中しないことがあるが、攻撃力UP(100%)/ダメージ上限UP(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体の通常攻撃とアビリティダメージと奥義が命中しないことがあるが、攻撃力UP(100%)/ダメージ上限UP(50%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "status_list"
+      ],
+      "firstSeenAt": 1785332661566,
+      "lastSeenAt": 1785513716373
+    },
+    "63": {
+      "statusId": 63,
+      "text": {
+        "zh-CN": "全体在前3回合造成伤害降低(50%)/第4回合起造成伤害提升(100%)/受到伤害减轻(20%)",
+        "ja": "味方全体が3ターン目まで与ダメージDOWN(50%)/4ターン目以降与ダメージUP(100%)/被ダメージを軽減(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が3ターン目まで与ダメージDOWN(50%)/4ターン目以降与ダメージUP(100%)/被ダメージを軽減(20%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785332849426,
+      "lastSeenAt": 1785513615106
+    },
+    "64": {
+      "statusId": 64,
+      "text": {
+        "zh-CN": "全体发动奥义时，赋予自身奥义封印/普通攻击与技能造成伤害提升(20%)/奥义槽降低无效/发动奥义和技能不消耗奥义槽；不含使用间隔为0回合的技能",
+        "ja": "味方全体が奥義発動時、自分に奥義封印効果/通常攻撃とアビリティの与ダメージUP(20%)/奥義ゲージDOWN効果無効/奥義やアビリティの発動に奥義ゲージを消費しない　◆使用間隔0ターンのアビリティを除く",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が奥義発動時、自分に奥義封印効果/通常攻撃とアビリティの与ダメージUP(20%)/奥義ゲージDOWN効果無効/奥義やアビリティの発動に奥義ゲージを消費しない　◆使用間隔0ターンのアビリティを除く"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785334273430,
+      "lastSeenAt": 1785513401820
+    },
+    "65": {
+      "statusId": 65,
+      "text": {
+        "zh-CN": "对战斗格敌人造成伤害降低(50%)/对强敌格、超强敌格、君临者格和Boss格敌人造成伤害提升(50%)",
+        "ja": "戦闘マスで出現する敵に対して与ダメージDOWN(50%)/強敵マス/超強敵マス/君臨者マス/ボスマスで出現する敵に対して与ダメージUP(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "戦闘マスで出現する敵に対して与ダメージDOWN(50%)/強敵マス/超強敵マス/君臨者マス/ボスマスで出現する敵に対して与ダメージUP(50%)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332849426,
+      "lastSeenAt": 1785507574294
+    },
+    "66": {
+      "statusId": 66,
+      "text": {
+        "zh-CN": "战斗胜利时，获得高稀有度导本效果的概率提升(不可重复)",
+        "ja": "バトル勝利時にレアリティの高い導本効果を獲得できる確率UP(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル勝利時にレアリティの高い導本効果を獲得できる確率UP(重複不可)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785341196534,
+      "lastSeenAt": 1785345204046
+    },
+    "67": {
+      "statusId": 67,
+      "text": {
+        "zh-CN": "全体累计使用3次技能时，首位角色对敌方全体造成3次自属性伤害/攻击防御降低(累积)/受到伤害提升(6次)",
+        "ja": "味方全体が累計で3回アビリティを使用する度に先頭のキャラが敵全体に3回自属性ダメージ/攻防DOWN(累積)/被ダメージUP(6回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が累計で3回アビリティを使用する度に先頭のキャラが敵全体に3回自属性ダメージ/攻防DOWN(累積)/被ダメージUP(6回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785332880141,
+      "lastSeenAt": 1785452848963
+    },
+    "70": {
+      "statusId": 70,
+      "text": {
+        "zh-CN": "全体进行攻击行动时，随机赋予敌人弱化效果",
+        "ja": "味方全体が攻撃行動時、敵にランダムな弱体効果",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が攻撃行動時、敵にランダムな弱体効果"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785512476429,
+      "lastSeenAt": 1785513449520
+    },
+    "73": {
+      "statusId": 73,
+      "text": {
+        "zh-CN": "受到伤害减轻(20%)",
+        "ja": "被ダメージ軽減(20%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "被ダメージ軽減(20%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 2,
+      "iconType": 101,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785419349226,
+      "lastSeenAt": 1785513449520
+    },
+    "74": {
+      "statusId": 74,
+      "text": {
+        "zh-CN": "技能使用间隔缩短(2回合)",
+        "ja": "アビリティ使用間隔短縮(2ターン)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "アビリティ使用間隔短縮(2ターン)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785344115209,
+      "lastSeenAt": 1785345075981
+    },
+    "75": {
+      "statusId": 75,
+      "text": {
+        "zh-CN": "全体发动奥义时，自身技能使用间隔缩短2回合(不可重复)",
+        "ja": "味方全体が奥義発動時、自分のアビリティ再使用間隔を2ターン短縮(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体が奥義発動時、自分のアビリティ再使用間隔を2ターン短縮(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop",
+        "battle_result",
+        "incident"
+      ],
+      "firstSeenAt": 1785333107965,
+      "lastSeenAt": 1785512767590
+    },
+    "76": {
+      "statusId": 76,
+      "text": {
+        "zh-CN": "奥义伤害特殊上限提升(100%)",
+        "ja": "奥義ダメージ特殊上限UP(100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "奥義ダメージ特殊上限UP(100%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 305,
+      "sources": [
+        "node_event",
+        "shop",
+        "status_list",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785333107965,
+      "lastSeenAt": 1785513449520
+    },
+    "77": {
+      "statusId": 77,
+      "text": {
+        "zh-CN": "全体奥义槽最大值变为200(不可重复)",
+        "ja": "味方全体の奥義ゲージ最大値が200になる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体の奥義ゲージ最大値が200になる(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 315,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "shop"
+      ],
+      "firstSeenAt": 1785344746682,
+      "lastSeenAt": 1785513488080
+    },
+    "79": {
+      "statusId": 79,
+      "text": {
+        "zh-CN": "自属性加护强化(180%)",
+        "ja": "自属性スキルエンハンス(180%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "自属性スキルエンハンス(180%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 9,
+      "sources": [
+        "shop",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785333022915,
+      "lastSeenAt": 1785512568150
+    },
+    "80": {
+      "statusId": 80,
+      "text": {
+        "zh-CN": "受到伤害的属性转为有利属性(不可重复)",
+        "ja": "被ダメージを有利属性に変換する(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "被ダメージを有利属性に変換する(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 2,
+      "iconType": 104,
+      "sources": [
+        "node_event",
+        "shop",
+        "community-zh-CN",
+        "incident",
+        "status_list",
+        "battle_result"
+      ],
+      "firstSeenAt": 1785340362579,
+      "lastSeenAt": 1785513449520
+    },
+    "81": {
+      "statusId": 81,
+      "text": {
+        "zh-CN": "战斗开始时，全体处于不可再次使用状态的技能变为可使用/处于不可再次召唤状态的召唤石变为可使用(不可重复)",
+        "ja": "バトル開始時に味方全体の再使用不可状態のアビリティが使用可能になる/再召喚不可状態の召喚石が使用可能になる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時に味方全体の再使用不可状態のアビリティが使用可能になる/再召喚不可状態の召喚石が使用可能になる(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785419167390,
+      "lastSeenAt": 1785513319017
+    },
+    "83": {
+      "statusId": 83,
+      "text": {
+        "zh-CN": "召唤石使用间隔变为1回合(不可重复)",
+        "ja": "召喚石の使用間隔が1ターンになる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "召喚石の使用間隔が1ターンになる(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "shop"
+      ],
+      "firstSeenAt": 1785333338128,
+      "lastSeenAt": 1785513449520
+    },
+    "84": {
+      "statusId": 84,
+      "text": {
+        "zh-CN": "Over Chain时的连锁爆发变为「Ultimate Nova」；造成破坏属性伤害/清除敌人全部强化效果/视为全属性Over Chain(不可重复)",
+        "ja": "オーバーチェイン時のチェインバーストが「アルティメット・ノヴァ」に変化　◆アルティメット・ノヴァ：破壊属性ダメージ/敵の強化効果を全て無効化/全属性のオーバーチェインとして扱う(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "オーバーチェイン時のチェインバーストが「アルティメット・ノヴァ」に変化　◆アルティメット・ノヴァ：破壊属性ダメージ/敵の強化効果を全て無効化/全属性のオーバーチェインとして扱う(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "shop",
+        "status_list",
+        "community-zh-CN",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785332631432,
+      "lastSeenAt": 1785513449520
+    },
+    "85": {
+      "statusId": 85,
+      "text": {
+        "zh-CN": "获得此导本后，根据全体累计消耗的HP提升全体造成伤害(0%/最多100%)",
+        "ja": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(0%/最大100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(0%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(100%/最大100%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 310,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "status_list"
+      ],
+      "firstSeenAt": 1785341120810,
+      "lastSeenAt": 1785513449520
+    },
+    "86": {
+      "statusId": 86,
+      "text": {
+        "zh-CN": "获得此导本后，根据到达事件格的次数提升全体造成伤害(0%/最多100%)",
+        "ja": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(0%/最大100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(0%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(60%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(70%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(90%/最大100%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 310,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785333189355,
+      "lastSeenAt": 1785513449520
+    },
+    "87": {
+      "statusId": 87,
+      "text": {
+        "zh-CN": "战斗胜利时，随机获得一定数量的塞菲拉币和1个随机导本效果",
+        "ja": "バトル勝利時にランダムな数のセフィラコインとランダムな導本効果を1つ獲得する",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル勝利時にランダムな数のセフィラコインとランダムな導本効果を1つ獲得する"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785332987123,
+      "lastSeenAt": 1785504494397
+    },
+    "88": {
+      "statusId": 88,
+      "text": {
+        "zh-CN": "擅长武器包含剑、短剑、枪、斧或杖的角色获得自属性追击(50%)/克制属性追击(50%)",
+        "ja": "得意武器に「剣」「短剣」「槍」「斧」「杖」のいずれかが含まれるキャラに自属性追撃効果(50%)/弱点属性追撃効果(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "得意武器に「剣」「短剣」「槍」「斧」「杖」のいずれかが含まれるキャラに自属性追撃効果(50%)/弱点属性追撃効果(50%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "shop",
+        "status_list"
+      ],
+      "firstSeenAt": 1785340362579,
+      "lastSeenAt": 1785513449520
+    },
+    "89": {
+      "statusId": 89,
+      "text": {
+        "zh-CN": "擅长武器包含铳、格斗、弓、乐器或刀的角色获得自属性奥义追击(50%)/克制属性奥义追击(50%)",
+        "ja": "得意武器に「銃」「格闘」「弓」「楽器」「刀」のいずれかが含まれるキャラに自属性奥義追撃効果(50%)/弱点属性奥義追撃効果(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "得意武器に「銃」「格闘」「弓」「楽器」「刀」のいずれかが含まれるキャラに自属性奥義追撃効果(50%)/弱点属性奥義追撃効果(50%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785340362579,
+      "lastSeenAt": 1785512901476
+    },
+    "90": {
+      "statusId": 90,
+      "text": {
+        "zh-CN": "最大HP达到25000的我方成员造成伤害提升(30%)；达到50000时追加自属性追击(30%)；达到100000时强化造成伤害提升与追击效果",
+        "ja": "最大HPが25000以上の味方の与ダメージUP(30%)　◆50000以上の場合自属性追撃効果(30%)/100000以上の場合与ダメージUPと自属性追撃効果の性能UP",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "最大HPが25000以上の味方の与ダメージUP(30%)　◆50000以上の場合自属性追撃効果(30%)/100000以上の場合与ダメージUPと自属性追撃効果の性能UP"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "status_list",
+        "shop"
+      ],
+      "firstSeenAt": 1785333107965,
+      "lastSeenAt": 1785506168205
+    },
+    "91": {
+      "statusId": 91,
+      "text": {
+        "zh-CN": "回合中进行第2次及以后攻击行动时攻击大幅提升；进行第3次及以后攻击行动时获得克制属性追击(100%)",
+        "ja": "ターン進行時に2回目以降の攻撃行動を行うとき、攻撃大幅UP/3回目以降の攻撃行動を行うとき弱点属性追撃効果(100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ターン進行時に2回目以降の攻撃行動を行うとき、攻撃大幅UP/3回目以降の攻撃行動を行うとき弱点属性追撃効果(100%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "shop",
+        "community-zh-CN",
+        "node_event",
+        "incident",
+        "status_list"
+      ],
+      "firstSeenAt": 1785334388518,
+      "lastSeenAt": 1785504494397
+    },
+    "92": {
+      "statusId": 92,
+      "text": {
+        "zh-CN": "全体在一回合内累计造成100次命中时，回合结束时全体技能使用间隔缩短2回合(不可重复)",
+        "ja": "味方全体で100ヒット与えたターン終了時、味方全体のアビリティ再使用間隔を2ターン短縮(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体で100ヒット与えたターン終了時、味方全体のアビリティ再使用間隔を2ターン短縮(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785334308257,
+      "lastSeenAt": 1785507364365
+    },
+    "93": {
+      "statusId": 93,
+      "text": {
+        "zh-CN": "回合结束时，若全体奥义槽均达到100%以上，首位角色消耗全体各100%奥义槽，对敌方全体造成10次合计100倍自属性伤害(不可重复)",
+        "ja": "ターン終了時に味方全体の奥義ゲージが100%以上の時、先頭のキャラが味方全体の奥義ゲージを100%消費して敵全体に10回合計100倍自属性ダメージ(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "ターン終了時に味方全体の奥義ゲージが100%以上の時、先頭のキャラが味方全体の奥義ゲージを100%消費して敵全体に10回合計100倍自属性ダメージ(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "shop",
+        "community-zh-CN",
+        "battle_result",
+        "incident",
+        "node_event"
+      ],
+      "firstSeenAt": 1785345906012,
+      "lastSeenAt": 1785513839849
+    },
+    "95": {
+      "statusId": 95,
+      "text": {
+        "zh-CN": "攻击开始时，若全体均处于濒死状态，全体攻击行动次数增加(+1)",
+        "ja": "攻撃開始時に味方全体が瀕死状態の時、味方全体の攻撃行動回数増加(＋1)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "攻撃開始時に味方全体が瀕死状態の時、味方全体の攻撃行動回数増加(＋1)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "shop",
+        "status_list",
+        "incident"
+      ],
+      "firstSeenAt": 1785344746682,
+      "lastSeenAt": 1785512597040
+    },
+    "96": {
+      "statusId": 96,
+      "text": {
+        "zh-CN": "防御力大幅降低/战斗开始时获得自动复活效果(保留强化效果/1次)/获得此导本后，根据我方战斗不能的累计次数提升全体造成伤害(0%/最多100%)(不可重复)",
+        "ja": "防御大幅DOWN/バトル開始時に自動復活効果(強化効果を保持/1回)/この導本効果を入手して以降に味方が戦闘不能になった回数に応じて味方全体の与ダメージUP(0%/最大100%)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "防御大幅DOWN/バトル開始時に自動復活効果(強化効果を保持/1回)/この導本効果を入手して以降に味方が戦闘不能になった回数に応じて味方全体の与ダメージUP(0%/最大100%)(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident",
+        "shop"
+      ],
+      "firstSeenAt": 1785345286957,
+      "lastSeenAt": 1785512767590
+    },
+    "97": {
+      "statusId": 97,
+      "text": {
+        "zh-CN": "战斗开始时，前排成员HP变为1，但获得相当于自身消耗HP 5倍的护盾(不可重复)",
+        "ja": "バトル開始時にバトルメンバーのHPが1になるが、自身が消費したHPの5倍分のバリア効果(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時にバトルメンバーのHPが1になるが、自身が消費したHPの5倍分のバリア効果(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 2,
+      "iconType": 105,
+      "sources": [
+        "shop",
+        "community-zh-CN",
+        "incident",
+        "node_event",
+        "status_list"
+      ],
+      "firstSeenAt": 1785341225260,
+      "lastSeenAt": 1785504494397
+    },
+    "98": {
+      "statusId": 98,
+      "text": {
+        "zh-CN": "在火山区域的君临者格中，造成伤害提升(30%)/水属性追击效果(20%)/水属性奥义追击效果(20%)/敌人的预兆解除条件减少",
+        "ja": "火山地帯の君臨者マスにおいて、与ダメージUP(30%)/水属性追撃効果(20%)/水属性奥義追撃効果(20%)/敵の予兆解除条件が減少",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "火山地帯の君臨者マスにおいて、与ダメージUP(30%)/水属性追撃効果(20%)/水属性奥義追撃効果(20%)/敵の予兆解除条件が減少"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "gain",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431189839,
+      "lastSeenAt": 1785506421849
+    },
+    "99": {
+      "statusId": 99,
+      "text": {
+        "zh-CN": "在湖泊区域的君临者格中，造成伤害提升(30%)/土属性追击效果(20%)/土属性奥义追击效果(20%)/敌人的预兆解除条件减少",
+        "ja": "湖地帯の君臨者マスにおいて、与ダメージUP(30%)/土属性追撃効果(20%)/土属性奥義追撃効果(20%)/敵の予兆解除条件が減少",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "湖地帯の君臨者マスにおいて、与ダメージUP(30%)/土属性追撃効果(20%)/土属性奥義追撃効果(20%)/敵の予兆解除条件が減少"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "gain",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431189839,
+      "lastSeenAt": 1785506421849
+    },
+    "100": {
+      "statusId": 100,
+      "text": {
+        "zh-CN": "在森林区域的君临者格中，造成伤害提升(30%)/风属性追击效果(20%)/风属性奥义追击效果(20%)/敌人的预兆解除条件减少",
+        "ja": "森林地帯の君臨者マスにおいて、与ダメージUP(30%)/風属性追撃効果(20%)/風属性奥義追撃効果(20%)/敵の予兆解除条件が減少",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "森林地帯の君臨者マスにおいて、与ダメージUP(30%)/風属性追撃効果(20%)/風属性奥義追撃効果(20%)/敵の予兆解除条件が減少"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 401,
+      "sources": [
+        "gain",
+        "status_list",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431189839,
+      "lastSeenAt": 1785506421849
+    },
+    "101": {
+      "statusId": 101,
+      "text": {
+        "zh-CN": "主角寄宿创世神之力(不可重复)",
+        "ja": "主人公が創世神の力を宿す(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "主人公が創世神の力を宿す(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785334208533,
+      "lastSeenAt": 1785334317361
+    },
+    "102": {
+      "statusId": 102,
+      "text": {
+        "zh-CN": "战斗开始时，首位角色对敌方全体造成土·风属性伤害/攻击防御降低/连击率降低/赋予全体土属性追击效果/回合结束时，首位角色回复全体HP/奥义槽提升(10%)(不可重复)",
+        "ja": "バトル開始時、先頭のキャラが敵全体に土・風属性ダメージ/攻防DOWN/連続攻撃確率DOWN/味方全体に土属性追撃効果/ターン終了時、先頭のキャラが味方全体のHPを回復/奥義ゲージUP(10%)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、先頭のキャラが敵全体に土・風属性ダメージ/攻防DOWN/連続攻撃確率DOWN/味方全体に土属性追撃効果/ターン終了時、先頭のキャラが味方全体のHPを回復/奥義ゲージUP(10%)(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785419854803,
+      "lastSeenAt": 1785513546306
+    },
+    "103": {
+      "statusId": 103,
+      "text": {
+        "zh-CN": "在战斗格/强敌格/超强敌格中，敌人属性降低(不可重复)",
+        "ja": "戦闘マス/強敵マス/超強敵マスにおいて、敵のステータス減少(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "戦闘マス/強敵マス/超強敵マスにおいて、敵のステータス減少(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785432053444,
+      "lastSeenAt": 1785432098518
+    },
+    "104": {
+      "statusId": 104,
+      "text": {
+        "zh-CN": "全体技能使用间隔缩短1回合/战斗开始时回复全体最大HP的10%",
+        "ja": "味方全体のアビリティの使用間隔を1ターン短縮/バトル開始時に味方全体が最大HPの10%分を回復",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体のアビリティの使用間隔を1ターン短縮/バトル開始時に味方全体が最大HPの10%分を回復"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453538488,
+      "lastSeenAt": 1785453538488
+    },
+    "105": {
+      "statusId": 105,
+      "text": {
+        "zh-CN": "战斗开始后的2回合内，赋予全体受到伤害无效/弱化效果无效/强化效果不会被无效化(不可重复)",
+        "ja": "バトル開始から2ターンの間、味方全体に被ダメージ無効/弱体効果無効/強化効果が無効化されない(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始から2ターンの間、味方全体に被ダメージ無効/弱体効果無効/強化効果が無効化されない(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 2,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785454243942,
+      "lastSeenAt": 1785454243942
+    },
+    "108": {
+      "statusId": 108,
+      "text": {
+        "zh-CN": "战斗开始时，玛丽亚·特蕾莎发动「女帝的正位」/攻击开始时，若全体HP均为最大值，赋予全体攻击力大幅提升(1次)；仅当玛丽亚·特蕾莎位于前排时发动(不可重复)",
+        "ja": "バトル開始時にマリア・テレサが「女帝の正位置」を発動/攻撃開始時に味方全体のHPが最大の時、味方全体に攻撃大幅UP(1回)　◆マリア・テレサがバトルメンバーにいる時のみ発動(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時にマリア・テレサが「女帝の正位置」を発動/攻撃開始時に味方全体のHPが最大の時、味方全体に攻撃大幅UP(1回)　◆マリア・テレサがバトルメンバーにいる時のみ発動(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "node_event",
+        "status_list",
+        "community-zh-CN",
+        "shop"
+      ],
+      "firstSeenAt": 1785344085041,
+      "lastSeenAt": 1785506828021
+    },
+    "110": {
+      "statusId": 110,
+      "text": {
+        "zh-CN": "战斗开始时，凯姆发动「愚者的正位」/我方累计使用12次技能时，仅限一次使全体技能立即可用；仅当凯姆位于前排时发动(不可重复)",
+        "ja": "バトル開始時にカイムが「愚者の正位置」を発動/味方がアビリティを12回使用した時、一度だけ味方全体のアビリティが即時使用可能になる　◆カイムがバトルメンバーにいる時のみ発動(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時にカイムが「愚者の正位置」を発動/味方がアビリティを12回使用した時、一度だけ味方全体のアビリティが即時使用可能になる　◆カイムがバトルメンバーにいる時のみ発動(重複不可)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422489019,
+      "lastSeenAt": 1785423275531
+    },
+    "116": {
+      "statusId": 116,
+      "text": {
+        "zh-CN": "全体在回合结束时，随机获得弱化效果",
+        "ja": "味方全体がターン終了時、自分にランダムな弱体効果",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体がターン終了時、自分にランダムな弱体効果"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "node_event",
+        "status_list",
+        "remove",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785344004878,
+      "lastSeenAt": 1785506455187
+    },
+    "117": {
+      "statusId": 117,
+      "text": {
+        "zh-CN": "连击率降低(100%)",
+        "ja": "連続攻撃確率DOWN(100%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "連続攻撃確率DOWN(100%)"
+        },
+        {
+          "language": "und",
+          "text": "連続攻撃確率DOWN(100%)"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 502,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422875372,
+      "lastSeenAt": 1785422940957
+    },
+    "119": {
+      "statusId": 119,
+      "text": {
+        "zh-CN": "君临者格/Boss格出现的敌人预兆解除条件增加",
+        "ja": "君臨者マス/ボスマスで出現する敵の予兆解除条件が増加",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "君臨者マス/ボスマスで出現する敵の予兆解除条件が増加"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN",
+        "remove",
+        "node_event"
+      ],
+      "firstSeenAt": 1785344011681,
+      "lastSeenAt": 1785504463891
+    },
+    "120": {
+      "statusId": 120,
+      "text": {
+        "zh-CN": "全体在回合结束时，有概率使自身技能使用间隔延长1回合",
+        "ja": "味方全体がターン終了時、確率で自分のアビリティ再使用間隔を1ターン延長",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体がターン終了時、確率で自分のアビリティ再使用間隔を1ターン延長"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "status_list",
+        "remove",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422867660,
+      "lastSeenAt": 1785423909880
+    },
+    "121": {
+      "statusId": 121,
+      "text": {
+        "zh-CN": "战斗胜利时获得的塞菲拉币数量降低(-30%)",
+        "ja": "バトル勝利時のセフィラコインの獲得量DOWN(-30%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル勝利時のセフィラコインの獲得量DOWN(-30%)"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "status_list",
+        "node_event",
+        "remove",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431199082,
+      "lastSeenAt": 1785453514562
+    },
+    "122": {
+      "statusId": 122,
+      "text": {
+        "zh-CN": "战斗开始时，赋予敌人受到伤害无效(30次)(不可重复)",
+        "ja": "バトル開始時、敵に被ダメージ無効(30回)(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "バトル開始時、敵に被ダメージ無効(30回)(重複不可)"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "remove",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785512446966,
+      "lastSeenAt": 1785512520549
+    },
+    "123": {
+      "statusId": 123,
+      "text": {
+        "zh-CN": "敌人的攻击和弱化效果必定命中(不可重复)",
+        "ja": "敵の攻撃と弱体効果の付与が必中になる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "敵の攻撃と弱体効果の付与が必中になる(重複不可)"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431976459,
+      "lastSeenAt": 1785432098518
+    },
+    "124": {
+      "statusId": 124,
+      "text": {
+        "zh-CN": "所有属性均变为弱点属性(不可重复)",
+        "ja": "全ての属性が弱点属性になる(重複不可)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "全ての属性が弱点属性になる(重複不可)"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "status_list",
+        "community-zh-CN",
+        "node_event"
+      ],
+      "firstSeenAt": 1785344262571,
+      "lastSeenAt": 1785512557923
+    },
+    "126": {
+      "statusId": 126,
+      "text": {
+        "zh-CN": "造成伤害降低(50%)；战斗胜利3次后变为「造成伤害提升(50%)」(0/3次)",
+        "ja": "与ダメージDOWN(50%)　◆バトルに3回勝利すると「与ダメージUP(50%)」に変化(0/3回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "与ダメージDOWN(50%)　◆バトルに3回勝利すると「与ダメージUP(50%)」に変化(0/3回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 4,
+      "iconType": 504,
+      "sources": [
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785432151934,
+      "lastSeenAt": 1785432151934
+    },
+    "127": {
+      "statusId": 127,
+      "text": {
+        "zh-CN": "受到伤害提升(20%)；战斗胜利3次后变为「受到伤害减轻(20%)」(0/3次)",
+        "ja": "被ダメージUP(20%)　◆バトルに3回勝利すると「被ダメージ軽減(20%)」に変化(0/3回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "被ダメージUP(20%)　◆バトルに3回勝利すると「被ダメージ軽減(20%)」に変化(0/3回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 4,
+      "iconType": 505,
+      "sources": [
+        "incident",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785419088742,
+      "lastSeenAt": 1785512968776
+    },
+    "128": {
+      "statusId": 128,
+      "text": {
+        "zh-CN": "技能使用间隔延长(2回合)；战斗胜利3次后变为「技能使用间隔缩短(2回合)」(0/3次)",
+        "ja": "アビリティ使用間隔延長(2ターン)　◆バトルに3回勝利すると「アビリティ使用間隔短縮(2ターン)」に変化(0/3回)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "アビリティ使用間隔延長(2ターン)　◆バトルに3回勝利すると「アビリティ使用間隔短縮(2ターン)」に変化(0/3回)"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 4,
+      "iconType": 501,
+      "sources": [
+        "incident",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785343995077,
+      "lastSeenAt": 1785344115209
+    }
+  },
+  "unresolved": []
+}

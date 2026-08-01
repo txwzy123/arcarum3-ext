@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GBF 转世沙盒</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <header class="app-header">
+    <img class="app-icon" src="../icons/icon48.png" alt="" width="32" height="32" />
+    <div class="app-heading">
+      <h1>转世沙盒</h1>
+      <p id="header-status">等待地图数据</p>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="status idle">等待游戏页加载地图接口…</div>
+
+    <section class="panel-section" aria-labelledby="map-state-heading">
+      <div class="section-heading">
+        <h2 id="map-state-heading">地图状态</h2>
+        <button id="btn-refresh" class="compact-button" type="button">刷新</button>
+      </div>
+      <dl id="meta" class="meta">
+        <div><dt>地图</dt><dd id="m-name">—</dd></div>
+        <div><dt>日程</dt><dd id="m-progress">—</dd></div>
+        <div><dt>货币</dt><dd id="m-point">—</dd></div>
+        <div><dt>瘴气</dt><dd id="m-miasma">—</dd></div>
+        <div><dt>节点</dt><dd id="m-nodes">—</dd></div>
+        <div><dt>当前位置</dt><dd id="m-current">—</dd></div>
+        <div><dt>Boss</dt><dd id="m-boss">尚未出现</dd></div>
+        <div><dt>最近接口</dt><dd id="m-kind">—</dd></div>
+        <div><dt>更新时间</dt><dd id="m-time">—</dd></div>
+      </dl>
+    </section>
+
+    <section class="panel-section actions" aria-label="地图操作">
+      <button id="btn-open" class="primary" type="button">打开地图</button>
+      <button id="btn-focus" type="button">聚焦窗口</button>
+      <button id="btn-clear" class="danger" type="button">清空地图缓存</button>
+    </section>
+
+    <section class="panel-section" aria-labelledby="type-heading">
+      <h2 id="type-heading">类型统计</h2>
+      <pre id="types">—</pre>
+    </section>
+  </main>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

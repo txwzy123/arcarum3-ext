@@ -1,0 +1,5040 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-01T15:01:26.304Z",
+  "entries": {
+    "100101": {
+      "selectionId": 100101,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1732.jpg",
+      "description": {
+        "ja": "不気味な洞窟を進むと、そこには怪しく脈動する<br><span style=\"color:#6FC4FF;\">巨大な結晶</span>が聳え立っていた。<br>{{PLAYER}}は、抗い難い蠱惑的な光に誘われ、<br>結晶に近づいていく……",
+        "zh-CN": "穿过阴森的洞窟后，一块诡异脉动的<br><span style=\"color:#6FC4FF;\">巨大结晶</span>耸立在眼前。<br>{{PLAYER}}受到那难以抗拒的蛊惑光芒吸引，<br>逐渐向结晶靠近……"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "不気味な洞窟を進むと、そこには怪しく脈動する<br><span style=\"color:#6FC4FF;\">巨大な結晶</span>が聳え立っていた。<br>{{PLAYER}}は、抗い難い蠱惑的な光に誘われ、<br>結晶に近づいていく……"
+        }
+      ],
+      "options": {
+        "10010101": {
+          "choiceId": 10010101,
+          "title": {
+            "ja": "全員の<br>血を捧げる",
+            "zh-CN": "献上所有人的<br>鲜血"
+          },
+          "text": {
+            "ja": "味方全体のHP-30%<br>ランダムな導本効果を2つ獲得",
+            "zh-CN": "全体HP-30%<br>获得2个随机导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "全員の<br>血を捧げる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-30%<br>ランダムな導本効果を2つ獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10010102": {
+          "choiceId": 10010102,
+          "title": {
+            "ja": "ひとり分の<br>血を捧げる",
+            "zh-CN": "献上一人的<br>鲜血"
+          },
+          "text": {
+            "ja": "ランダムな味方1人のHPが1になる<br>ランダムな導本効果から1つを選んで入手",
+            "zh-CN": "随机一名成员的HP变为1<br>从随机导本效果中选择1个获得"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "ひとり分の<br>血を捧げる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ランダムな味方1人のHPが1になる<br>ランダムな導本効果から1つを選んで入手"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10010103": {
+          "choiceId": 10010103,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "誘惑を振り切って立ち去る",
+            "zh-CN": "摆脱诱惑后离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "誘惑を振り切って立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421416731,
+      "lastSeenAt": 1785422744277
+    },
+    "100201": {
+      "selectionId": 100201,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "闪耀的矿石，只有最后一轮期望是负的"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_1694.jpg",
+      "description": {
+        "ja": "探索の最中、{{PLAYER}}は<br><span style=\"color:#6FC4FF;\">美しく輝く鉱石に満ちた鉱脈</span>を発見した。<br>採掘して持ち帰れば高く売れそうだが、<br>不用意に大きな音を出すと<br>魔物に気づかれるかもしれない……",
+        "zh-CN": "探索途中，{{PLAYER}}发现了充满<span style=\"color:#6FC4FF;\">美丽发光矿石的矿脉</span>。<br>采掘带回应该能卖个好价钱，但<br>发出太大声音可能会被魔物发现……"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "探索の最中、{{PLAYER}}は<br><span style=\"color:#6FC4FF;\">美しく輝く鉱石に満ちた鉱脈</span>を発見した。<br>採掘して持ち帰れば高く売れそうだが、<br>不用意に大きな音を出すと<br>魔物に気づかれるかもしれない……"
+        },
+        {
+          "language": "ja",
+          "text": "ある程度の量を採掘したが、<br>まだ魔物には気づかれていない。<br>採掘を続けようか？"
+        },
+        {
+          "language": "ja",
+          "text": "相当な量の鉱石を掘り出したが、<br>それでも尽きぬ鉱脈が、手を止めさせない。<br>周囲には魔物の気配が漂っている。<br>続けるほど気づかれる危険も増しそうだが……？"
+        }
+      ],
+      "options": {
+        "10020101": {
+          "choiceId": 10020101,
+          "title": {
+            "ja": "採掘する",
+            "zh-CN": "采掘"
+          },
+          "text": {
+            "ja": "90%：セフィラコイン+30<br>10%：魔物に気づかれその場を去る",
+            "zh-CN": "90%：塞菲拉币+30<br>10%：被魔物发现并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "採掘する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "90%：セフィラコイン+30<br>10%：魔物に気づかれその場を去る"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10020102": {
+          "choiceId": 10020102,
+          "title": {
+            "ja": "続ける",
+            "zh-CN": "继续"
+          },
+          "text": {
+            "ja": "75%：セフィラコイン+60\r<br>25%：セフィラコイン-30",
+            "zh-CN": "75%：塞菲拉币+60<br>25%：塞菲拉币-30"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "続ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "75%：セフィラコイン+60\r<br>25%：セフィラコイン-30"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10020103": {
+          "choiceId": 10020103,
+          "title": {
+            "ja": "続ける",
+            "zh-CN": "继续"
+          },
+          "text": {
+            "ja": "40%：セフィラコイン+150\r<br>60%：セフィラコイン-90",
+            "zh-CN": "40%：塞菲拉币+150<br>60%：塞菲拉币-90"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "続ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "40%：セフィラコイン+150\r<br>60%：セフィラコイン-90"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10020105": {
+          "choiceId": 10020105,
+          "title": {
+            "ja": "止める",
+            "zh-CN": "停止"
+          },
+          "text": {
+            "ja": "採掘を中止して立ち去る",
+            "zh-CN": "停止采掘并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "止める"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "採掘を中止して立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10020106": {
+          "choiceId": 10020106,
+          "title": {
+            "ja": "止める",
+            "zh-CN": "停止"
+          },
+          "text": {
+            "ja": "残りの鉱石を諦めて立ち去る",
+            "zh-CN": "放弃剩余矿石并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "止める"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "残りの鉱石を諦めて立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785503381314,
+      "lastSeenAt": 1785513337446
+    },
+    "100301": {
+      "selectionId": 100301,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "遇到巫妖，选择一获得’战斗开始时：对所有队友自动复活效果（1次）/死亡恩典效果（不可叠加 ‘的导本，选择战斗获得随机导本"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_922.jpg",
+      "description": {
+        "ja": "予兆もなく{{PLAYER}}の前に姿を現したのは、<br>理外の禍々しい瘴気を身に纏う死神だった。<br>次の瞬間、魂を凍らせるような声が響く。<br><span style=\"color:#B5A598;\">「選べ。契約を結び力を得るか──<br>あるいは抗い、ここで果てるか」</span>",
+        "zh-CN": "毫无征兆地出现在{{PLAYER}}面前的，<br>是一名身缠悖理而不祥瘴气的死神。<br>下一刻，冻结灵魂般的声音响起。<br><span style=\"color:#B5A598;\">「选择吧。缔结契约获取力量──<br>抑或反抗，并葬身于此」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "予兆もなく{{PLAYER}}の前に姿を現したのは、<br>理外の禍々しい瘴気を身に纏う死神だった。<br>次の瞬間、魂を凍らせるような声が響く。<br><span style=\"color:#B5A598;\">「選べ。契約を結び力を得るか──<br>あるいは抗い、ここで果てるか」</span>"
+        }
+      ],
+      "options": {
+        "10030101": {
+          "choiceId": 10030101,
+          "title": {
+            "ja": "契約を結ぶ",
+            "zh-CN": "缔结契约"
+          },
+          "text": {
+            "ja": "ランダムな味方1人が戦闘不能になる<br>特別な導本効果を獲得",
+            "zh-CN": "随机一名成员陷入战斗不能<br>获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "契約を結ぶ"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ランダムな味方1人が戦闘不能になる<br>特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10030102": {
+          "choiceId": 10030102,
+          "title": {
+            "ja": "抗う",
+            "zh-CN": "反抗"
+          },
+          "text": {
+            "ja": "死神に勝利すると<br>ランダムな導本効果を獲得",
+            "zh-CN": "战胜死神后<br>获得随机导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "抗う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "死神に勝利すると<br>ランダムな導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785424027823,
+      "lastSeenAt": 1785504065371
+    },
+    "100401": {
+      "selectionId": 100401,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_105.jpg",
+      "description": {
+        "ja": "<span style=\"color:#FFCE4A;\">「ヤァ！　ヤァ！　よく来てくれたね！<br>モル……じゃない、お客さんなんて久しぶりだ！<br>最近完成した素晴らしい薬を買わないかい！？<br>こっちの試作品ならお代はいらないよ！？」</span>",
+        "zh-CN": "<span style=\"color:#FFCE4A;\">「呀！呀！欢迎光临！<br>好久没有小白鼠……不，是客人来了！<br>要不要买我最近完成的绝妙药剂！？<br>这边的试作品可以免费送你哦！？」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「ヤァ！　ヤァ！　よく来てくれたね！<br>モル……じゃない、お客さんなんて久しぶりだ！<br>最近完成した素晴らしい薬を買わないかい！？<br>こっちの試作品ならお代はいらないよ！？」</span>"
+        },
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「オォ！　オォ！　実験は大成功だ！<br>キミ、とても優秀な被験者だね！<br>ぜひこの試作品も試してくれ！<br>なぁに、内臓がほんの少し変化するだけだ……」</span>"
+        }
+      ],
+      "options": {
+        "10040101": {
+          "choiceId": 10040101,
+          "title": {
+            "ja": "試作品を試す",
+            "zh-CN": "试用试作品"
+          },
+          "text": {
+            "ja": "ランダムな導本効果を<br>別の効果に変化させる",
+            "zh-CN": "将一个随机导本效果<br>变为其他效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "試作品を試す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ランダムな導本効果を<br>別の効果に変化させる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10040102": {
+          "choiceId": 10040102,
+          "title": {
+            "ja": "完成品を買う",
+            "zh-CN": "购买成品"
+          },
+          "text": {
+            "ja": "セフィラコイン-150<br>導本効果を1つ別の効果に変化させる",
+            "zh-CN": "塞菲拉币-150<br>将1个导本效果变为其他效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "完成品を買う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-150<br>導本効果を1つ別の効果に変化させる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10040103": {
+          "choiceId": 10040103,
+          "title": {
+            "ja": "逃げる",
+            "zh-CN": "逃走"
+          },
+          "text": {
+            "ja": "研究員を振り切って逃走する",
+            "zh-CN": "甩开研究员逃走"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "逃げる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "研究員を振り切って逃走する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10040104": {
+          "choiceId": 10040104,
+          "title": {
+            "ja": "逃走する",
+            "zh-CN": "逃离"
+          },
+          "text": {
+            "ja": "流石に付き合ってられない",
+            "zh-CN": "实在没法再奉陪了"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "逃走する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "流石に付き合ってられない"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421465108,
+      "lastSeenAt": 1785595445628
+    },
+    "100501": {
+      "selectionId": 100501,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_1698.jpg",
+      "description": {
+        "ja": "{{PLAYER}}は透明な水を湛える泉を発見した。<br>澄み渡る空気に、満ち溢れる魔力を感じる。<br>魔物の気配はなく、静寂に満ちている。<br>ここなら身体を休めるには最適だろう。<br>魔力を取り込めば、力を得ることもできそうだ。",
+        "zh-CN": "{{PLAYER}}发现了一处盛满清澈泉水的泉眼。<br>清新的空气中充满魔力，周围没有魔物气息。<br>这里非常适合休息，吸收魔力似乎也能获得力量。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}は透明な水を湛える泉を発見した。<br>澄み渡る空気に、満ち溢れる魔力を感じる。<br>魔物の気配はなく、静寂に満ちている。<br>ここなら身体を休めるには最適だろう。<br>魔力を取り込めば、力を得ることもできそうだ。"
+        }
+      ],
+      "options": {
+        "10050101": {
+          "choiceId": 10050101,
+          "title": {
+            "ja": "休憩する",
+            "zh-CN": "休息"
+          },
+          "text": {
+            "ja": "味方全体が復活し、HPを全回復する",
+            "zh-CN": "全体复活并完全回复HP"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "休憩する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体が復活し、HPを全回復する"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10050102": {
+          "choiceId": 10050102,
+          "title": {
+            "ja": "魔力を<br>取り込む",
+            "zh-CN": "吸收<br>魔力"
+          },
+          "text": {
+            "ja": "導本効果「再生(1000回復)」を獲得",
+            "zh-CN": "获得导本效果「再生(回复1000)」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "魔力を<br>取り込む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "導本効果「再生(1000回復)」を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785452855365,
+      "lastSeenAt": 1785596308927
+    },
+    "100601": {
+      "selectionId": 100601,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "狗：每使用3个技能：第一位队友对所有敌人造成3次属性伤害/攻击力和防御（叠加）/增强伤害（6次攻击），鸟：回合结束时：第一位队友对所有敌人造成纯粹伤害/致盲效果/提升所受伤害/移除1个增益 "
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_1590.jpg",
+      "description": {
+        "ja": "{{PLAYER}}はふと、足に触れた感触に気づく。<br>同時に、肩にも僅かなくすぐったさを覚えた。<br>……犬と鳥だ。どちらと遊ぼうか。",
+        "zh-CN": "{{PLAYER}}忽然察觉脚边的触感，同时肩膀也传来轻微的痒感。<br>……是狗和鸟。要和哪一个玩呢？"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}はふと、足に触れた感触に気づく。<br>同時に、肩にも僅かなくすぐったさを覚えた。<br>……犬と鳥だ。どちらと遊ぼうか。"
+        }
+      ],
+      "options": {
+        "10060101": {
+          "choiceId": 10060101,
+          "title": {
+            "ja": "犬と触れ合う",
+            "zh-CN": "和狗互动"
+          },
+          "text": {
+            "ja": "特別な導本効果を獲得",
+            "zh-CN": "获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "犬と触れ合う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10060102": {
+          "choiceId": 10060102,
+          "title": {
+            "ja": "鳥と触れ合う",
+            "zh-CN": "和鸟互动"
+          },
+          "text": {
+            "ja": "特別な導本効果を獲得",
+            "zh-CN": "获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "鳥と触れ合う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785452845818,
+      "lastSeenAt": 1785595061223
+    },
+    "100801": {
+      "selectionId": 100801,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "传送到最近的宝箱，目的地可以在地图上看到"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "bg_48.jpg",
+      "description": {
+        "ja": "近づくと、不意に装置が起動する。<br>直後、空間が音もなく歪み始め、<br>眼前に広がった裂け目の向こう側には、<br>何かがきらきらと輝いて見えた……",
+        "zh-CN": "靠近后，装置突然启动。<br>紧接着空间无声地开始扭曲，<br>眼前裂隙的另一侧，<br>似乎有什么正在闪闪发光……"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "近づくと、不意に装置が起動する。<br>直後、空間が音もなく歪み始め、<br>眼前に広がった裂け目の向こう側には、<br>何かがきらきらと輝いて見えた……"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10080101": {
+          "choiceId": 10080101,
+          "title": {
+            "ja": "入る",
+            "zh-CN": "进入"
+          },
+          "text": {
+            "ja": "一番近い宝箱マスへ転移する<br>※転移先はマップから確認可能",
+            "zh-CN": "传送至最近的宝箱格<br>※可在地图上确认传送目的地"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "入る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "一番近い宝箱マスへ転移する<br>※転移先はマップから確認可能"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421477514,
+      "lastSeenAt": 1785595730548
+    },
+    "100901": {
+      "selectionId": 100901,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "抽一张牌。这就是武器！<解除封印1号武器>抽一张牌。这就是《硬币》！<获得100枚金币>抽一张牌。这就是《指南》！<获得一个随机的指南效果>抽一张牌。这就是《黑暗指南》！<获得随机的诅咒效果>抽一张牌。它是《心》！<未知治疗效果> "
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_88.jpg",
+      "description": {
+        "ja": "<span style=\"color:#B5A598;\">「占ってやろう……」</span>",
+        "zh-CN": "<span style=\"color:#B5A598;\">「让我为你占卜……」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#B5A598;\">「占ってやろう……」</span>"
+        }
+      ],
+      "options": {
+        "10090101": {
+          "choiceId": 10090101,
+          "title": {
+            "ja": "占ってもらう",
+            "zh-CN": "请对方占卜"
+          },
+          "text": {
+            "ja": "山札からカードを1枚引く",
+            "zh-CN": "从牌堆抽取1张牌"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "占ってもらう"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "山札からカードを1枚引く"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431197084,
+      "lastSeenAt": 1785596484239
+    },
+    "101001": {
+      "selectionId": 101001,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1416.jpg",
+      "description": {
+        "ja": "探索の最中、足を踏み入れた建物は<br>荒くれ者がひしめく闘技場だった。<br>逃げられる雰囲気ではない。",
+        "zh-CN": "探索途中踏入的建筑，<br>竟是一座聚集着粗暴之徒的竞技场。<br>看来无法从这里逃走。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "探索の最中、足を踏み入れた建物は<br>荒くれ者がひしめく闘技場だった。<br>逃げられる雰囲気ではない。"
+        },
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「見事！　チャレンジャーの勝利ィィィ！<br>お次はいよいよチャンピオンのお出ましだァ～！<br>早すぎるだろって！？　しょうがねえだろ！<br>他の選手はみ～んなチャンピオンが<br>喰っちまったんだからよォ～～～ッ！」</span>"
+        }
+      ],
+      "options": {
+        "10100101": {
+          "choiceId": 10100101,
+          "title": {
+            "ja": "戦う",
+            "zh-CN": "战斗"
+          },
+          "text": {
+            "ja": "敵と戦闘",
+            "zh-CN": "与敌人战斗"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "戦う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "敵と戦闘"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10100102": {
+          "choiceId": 10100102,
+          "title": {
+            "ja": "チャンピオン<br>に挑戦",
+            "zh-CN": "??<br>??"
+          },
+          "text": {
+            "ja": "<span style=\"color:#ff4d00;\">チャンピオン</span>に勝利すると<br>セフィラコイン+300",
+            "zh-CN": "??<span style=\"color:#ff4d00;\">??</span>?<br>????+300"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "チャンピオン<br>に挑戦"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "<span style=\"color:#ff4d00;\">チャンピオン</span>に勝利すると<br>セフィラコイン+300"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10100103": {
+          "choiceId": 10100103,
+          "title": {
+            "ja": "逃げる",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "隙を見て逃走する",
+            "zh-CN": "????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "逃げる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "隙を見て逃走する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785424430054,
+      "lastSeenAt": 1785596256388
+    },
+    "101101": {
+      "selectionId": 101101,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_486.jpg",
+      "description": {
+        "ja": "{{PLAYER}}は淡い光を放つ空間に辿り着いた。<br>壁面には<span style=\"color:#6FC4FF;\">煌びやかな鉱脈</span>が幾筋も走っている。<br>力をこめて掘り出せば得られるものは多いが、<br>その場に転がる欠片を拾い集めるだけでも、<br>多少の価値が見込めそうだ。",
+        "zh-CN": "{{PLAYER}}来到一处散发淡淡光芒的空间。<br>墙面上有数道<span style=\"color:#6FC4FF;\">璀璨矿脉</span>纵横延伸。<br>用力挖掘固然能获得更多，<br>但仅仅捡起散落在地的碎块，<br>似乎也能得到一些收获。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}は淡い光を放つ空間に辿り着いた。<br>壁面には<span style=\"color:#6FC4FF;\">煌びやかな鉱脈</span>が幾筋も走っている。<br>力をこめて掘り出せば得られるものは多いが、<br>その場に転がる欠片を拾い集めるだけでも、<br>多少の価値が見込めそうだ。"
+        }
+      ],
+      "options": {
+        "10110101": {
+          "choiceId": 10110101,
+          "title": {
+            "ja": "鉱石を掘る",
+            "zh-CN": "挖掘矿石"
+          },
+          "text": {
+            "ja": "味方全体HP-25%、セフィラコイン+250<br>「ルボルライト」を獲得",
+            "zh-CN": "全体HP-25%、塞菲拉币+250<br>获得「卢博尔石」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "鉱石を掘る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体HP-25%、セフィラコイン+250<br>「ルボルライト」を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10110102": {
+          "choiceId": 10110102,
+          "title": {
+            "ja": "落ちている<br>鉱石を拾う",
+            "zh-CN": "捡起地上的<br>矿石"
+          },
+          "text": {
+            "ja": "セフィラコイン+100",
+            "zh-CN": "塞菲拉币+100"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "落ちている<br>鉱石を拾う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン+100"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "har:事件.har",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785418358958,
+      "lastSeenAt": 1785586702613
+    },
+    "101201": {
+      "selectionId": 101201,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_755.jpg",
+      "description": {
+        "ja": "<span style=\"color:#FFCE4A;\">「……仕事か？」</span>",
+        "zh-CN": "<span style=\"color:#FFCE4A;\">「……有工作？」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「……仕事か？」</span>"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10120101": {
+          "choiceId": 10120101,
+          "title": {
+            "ja": "コインを渡す",
+            "zh-CN": "交出塞菲拉币"
+          },
+          "text": {
+            "ja": "セフィラコインを全て失う<br>武器を1つ解放",
+            "zh-CN": "失去全部塞菲拉币<br>解放1件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "コインを渡す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコインを全て失う<br>武器を1つ解放"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10120102": {
+          "choiceId": 10120102,
+          "title": {
+            "ja": "ルボルライト<br>を渡す",
+            "zh-CN": "交出<br>卢博尔石"
+          },
+          "text": {
+            "ja": "「ルボルライト」を渡す<br>武器を2つ解放",
+            "zh-CN": "交出「卢博尔石」<br>解放2件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "ルボルライト<br>を渡す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "「ルボルライト」を渡す<br>武器を2つ解放"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421397062,
+      "lastSeenAt": 1785595069385
+    },
+    "101301": {
+      "selectionId": 101301,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1075.jpg",
+      "description": {
+        "ja": "岩間より湧き出る清水が、水面を揺らしている。<br>底まで見通せるほどに澄みきった水からは、<br>穢れを拒むような清廉さが感じられる。<br>この泉ならば、導本に宿る穢れも祓えそうだ。",
+        "zh-CN": "从岩缝涌出的清泉泛起涟漪。<br>清澈见底的泉水中，<br>透出一种拒绝污秽的清净气息。<br>这处泉水似乎能祓除寄宿于导本中的污秽。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "岩間より湧き出る清水が、水面を揺らしている。<br>底まで見通せるほどに澄みきった水からは、<br>穢れを拒むような清廉さが感じられる。<br>この泉ならば、導本に宿る穢れも祓えそうだ。"
+        }
+      ],
+      "options": {
+        "10130101": {
+          "choiceId": 10130101,
+          "title": {
+            "ja": "泉に触れる",
+            "zh-CN": "触碰泉水"
+          },
+          "text": {
+            "ja": "選択した導本効果を1つ消失させる",
+            "zh-CN": "使选中的1个导本效果消失"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "泉に触れる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "選択した導本効果を1つ消失させる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785423903379,
+      "lastSeenAt": 1785423903379
+    },
+    "101401": {
+      "selectionId": 101401,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "随机获得三个导本"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1149.jpg",
+      "description": {
+        "ja": "薄暗い室内に薬品の匂い。<br><span style=\"color:#FFCE4A;\">「おや、客人とは珍しい。実に良い機会だ」</span><br>ここで開発中の薬を試飲すれば、<br>その効能によって力を得られるかもしれない。<br>しかし副作用が出ることもあると告げられる。",
+        "zh-CN": "昏暗室内弥漫着药品气味。<br><span style=\"color:#FFCE4A;\">「哎呀，客人可真少见。真是个好机会。」</span><br>试饮开发中的药剂，或许能根据药效获得力量，<br>但也被告知可能出现副作用。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "薄暗い室内に薬品の匂い。<br><span style=\"color:#FFCE4A;\">「おや、客人とは珍しい。実に良い機会だ」</span><br>ここで開発中の薬を試飲すれば、<br>その効能によって力を得られるかもしれない。<br>しかし副作用が出ることもあると告げられる。"
+        },
+        {
+          "language": "ja",
+          "text": "小瓶を傾けると、奇妙な熱が身体を巡る。<br>{{PLAYER}}は力が底から湧き上がるような、<br>確かな変化をその身に感じた。<br><span style=\"color:#FFCE4A;\">「良い効果が出たな。だが飲み過ぎは禁物だ」</span><br>まだ試すかと問う視線に、僅かな含みが宿る。"
+        },
+        {
+          "language": "ja",
+          "text": "今度は別の薬を飲み干す{{PLAYER}}。<br>やがて、身体の奥で力が反応するのがわかる。<br>変化は穏やかだが、確かな上昇が感じ取れた。<br><span style=\"color:#FFCE4A;\">「好調なようだな。だが併用時の保証はできん」</span><br>まだ続けるか否か、その判断は委ねられている。"
+        }
+      ],
+      "options": {
+        "10140101": {
+          "choiceId": 10140101,
+          "title": {
+            "ja": "赤色の薬を<br>飲む",
+            "zh-CN": "饮用红色药剂"
+          },
+          "text": {
+            "ja": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する",
+            "zh-CN": "80%：获得随机导本效果<br>20%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "赤色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140102": {
+          "choiceId": 10140102,
+          "title": {
+            "ja": "青色の薬を<br>飲む",
+            "zh-CN": "饮用蓝色药剂"
+          },
+          "text": {
+            "ja": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する",
+            "zh-CN": "80%：获得随机导本效果<br>20%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "青色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140103": {
+          "choiceId": 10140103,
+          "title": {
+            "ja": "緑色の薬を<br>飲む",
+            "zh-CN": "饮用绿色药剂"
+          },
+          "text": {
+            "ja": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する",
+            "zh-CN": "80%：获得随机导本效果<br>20%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "緑色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "80%：ランダムな導本効果を獲得<br>20%：副作用が発生する"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140104": {
+          "choiceId": 10140104,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140106": {
+          "choiceId": 10140106,
+          "title": {
+            "ja": "青色の薬を<br>飲む",
+            "zh-CN": "饮用蓝色药剂"
+          },
+          "text": {
+            "ja": "70%：ランダムな導本効果を獲得<br>30%：副作用が発生する",
+            "zh-CN": "70%：获得随机导本效果<br>30%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "青色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "70%：ランダムな導本効果を獲得<br>30%：副作用が発生する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140107": {
+          "choiceId": 10140107,
+          "title": {
+            "ja": "緑色の薬を<br>飲む",
+            "zh-CN": "饮用绿色药剂"
+          },
+          "text": {
+            "ja": "70%：ランダムな導本効果を獲得<br>30%：副作用が発生する",
+            "zh-CN": "70%：获得随机导本效果<br>30%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "緑色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "70%：ランダムな導本効果を獲得<br>30%：副作用が発生する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10140110": {
+          "choiceId": 10140110,
+          "title": {
+            "ja": "緑色の薬を<br>飲む",
+            "zh-CN": "饮用绿色药剂"
+          },
+          "text": {
+            "ja": "50%：ランダムな導本効果を獲得<br>50%：副作用が発生する",
+            "zh-CN": "50%：获得随机导本效果<br>50%：发生副作用"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "緑色の薬を<br>飲む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "50%：ランダムな導本効果を獲得<br>50%：副作用が発生する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431968905,
+      "lastSeenAt": 1785512461682
+    },
+    "101501": {
+      "selectionId": 101501,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_807.jpg",
+      "description": {
+        "ja": "古く重厚な建築様式。ここは宝物庫だろうか。<br>封じられていた扉の先に、奥への道が開かれた。<br><span style=\"color:#FFCE4A;\">財宝の気配</span>を感じるが、罠も潜んでいるだろう。<br>堅実に退くべきか、危険を承知で踏み込むか……<br>{{PLAYER}}の好奇心と自制心が揺れ動く。",
+        "zh-CN": "古老厚重的建筑或许是一座宝物库。感受到<span style=\"color:#FFCE4A;\">财宝气息</span>，但其中也可能有陷阱。{{PLAYER}}在稳妥撤退与冒险深入之间摇摆。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "古く重厚な建築様式。ここは宝物庫だろうか。<br>封じられていた扉の先に、奥への道が開かれた。<br><span style=\"color:#FFCE4A;\">財宝の気配</span>を感じるが、罠も潜んでいるだろう。<br>堅実に退くべきか、危険を承知で踏み込むか……<br>{{PLAYER}}の好奇心と自制心が揺れ動く。"
+        }
+      ],
+      "options": {
+        "10150101": {
+          "choiceId": 10150101,
+          "title": {
+            "ja": "入口付近を<br>探索する",
+            "zh-CN": "探索入口附近"
+          },
+          "text": {
+            "ja": "セフィラコイン+100",
+            "zh-CN": "塞菲拉币+100"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "入口付近を<br>探索する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン+100"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10150102": {
+          "choiceId": 10150102,
+          "title": {
+            "ja": "奥まで<br>探索する",
+            "zh-CN": "探索深处"
+          },
+          "text": {
+            "ja": "味方全体のHP-10%<br>武器を1つ解放、セフィラコイン+100",
+            "zh-CN": "全体HP-10%<br>解放1件武器，塞菲拉币+100"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "奥まで<br>探索する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-10%<br>武器を1つ解放、セフィラコイン+100"
+            }
+          ],
+          "turn": 2,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431128495,
+      "lastSeenAt": 1785513275275
+    },
+    "101601": {
+      "selectionId": 101601,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "所有队友的普通攻击、技能伤害和蓄力攻击命中率降低 / 攻击力提升100% / 伤害上限提升50%对所有队友造成50%伤害降低，直到第3回合 / 第4回合及以后：伤害加成 +100% / 20% 伤害减少\nC.A. 使用C.A./增强N.A. DMG时对队友生效封印效果，技能伤害+20% / 技能和蓄力攻击不会消耗蓄力条（不包括0冷却的技能） "
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1079.jpg",
+      "description": {
+        "ja": "不気味な静寂の中、<span style=\"color:#FF4D00;\">禍々しい祭壇</span>が姿を現す。<br>台座からにじみ出る得体の知れない気配に、<br>{{PLAYER}}は思わず触れるのを躊躇った。<br>その力は強大だが、代償もまた小さくはない。<br>手を伸ばすか否かは、自らの覚悟に委ねられた。",
+        "zh-CN": "诡异寂静中，<span style=\"color:#FF4D00;\">不祥祭坛</span>显现。台座渗出的未知气息令人犹豫，强大力量的代价也同样不小。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "不気味な静寂の中、<span style=\"color:#FF4D00;\">禍々しい祭壇</span>が姿を現す。<br>台座からにじみ出る得体の知れない気配に、<br>{{PLAYER}}は思わず触れるのを躊躇った。<br>その力は強大だが、代償もまた小さくはない。<br>手を伸ばすか否かは、自らの覚悟に委ねられた。"
+        }
+      ],
+      "options": {
+        "10160101": {
+          "choiceId": 10160101,
+          "title": {
+            "ja": "祭壇に<br>手を伸ばす",
+            "zh-CN": "伸手触碰祭坛"
+          },
+          "text": {
+            "ja": "闇の力を受け入れる",
+            "zh-CN": "接受黑暗之力"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "祭壇に<br>手を伸ばす"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "闇の力を受け入れる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10160102": {
+          "choiceId": 10160102,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "その場から立ち去る",
+            "zh-CN": "离开此处"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "その場から立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431041453,
+      "lastSeenAt": 1785513327476
+    },
+    "101701": {
+      "selectionId": 101701,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "火山区统治者格子：放大伤害+30% / 额外水伤害效果[20%] / 额外水C.A. DMG效果[20%] / 降低取消敌人预兆的门槛湖区统治者格子：伤害放大+30% / 土系额外伤害效果[20%] / 加成土C.A. DMG效果[20%] / 取消敌人预兆的降低要求森林区域统治者格子：伤害放大+30% / 风系额外伤害效果[20%] / 风系C.A. DMG效果[20%] / 取消敌人预兆的降低要求 "
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "bg_110.jpg",
+      "description": {
+        "ja": "<span style=\"color:#FFCE4A;\">「ふぇふぇふぇ……それなら簡単なことじゃ。<br>力を引き出すものは、己の意志と覚悟の強さ。<br>それを鍛えたいのならば、<br>手っ取り早い方法があってのう……」</span><br>どうやら、修行をつけてくれるらしい。",
+        "zh-CN": "<span style=\"color:#FFCE4A;\">「嘿嘿嘿……力量来自自己的意志与觉悟。若想锻炼它，有个简单快捷的方法……」</span><br>看来老妇人愿意指导修行。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「ふぇふぇふぇ……それなら簡単なことじゃ。<br>力を引き出すものは、己の意志と覚悟の強さ。<br>それを鍛えたいのならば、<br>手っ取り早い方法があってのう……」</span><br>どうやら、修行をつけてくれるらしい。"
+        }
+      ],
+      "options": {
+        "10170101": {
+          "choiceId": 10170101,
+          "title": {
+            "ja": "修行を受ける",
+            "zh-CN": "接受修行"
+          },
+          "text": {
+            "ja": "老婆に勝利すると導本効果を獲得",
+            "zh-CN": "战胜老妇人后获得导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "修行を受ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "老婆に勝利すると導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10170102": {
+          "choiceId": 10170102,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "時間が無いため、申し出を断る",
+            "zh-CN": "因为没有时间而拒绝提议"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "時間が無いため、申し出を断る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431158059,
+      "lastSeenAt": 1785506398297
+    },
+    "101801": {
+      "selectionId": 101801,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1810.jpg",
+      "description": {
+        "ja": "低く抑えた声には、不自然な自信が滲んでいる。<br><span style=\"color:#FFCE4A;\">「村の連中を脅して無理やり聞き出してやった。<br>ヘッヘッヘ……損はさせないぜ」</span><br>穏やかではない情報の出どころに、<br>{{PLAYER}}は思わず言葉を失った。",
+        "zh-CN": "压低的声音中透着不自然的自信。<br><span style=\"color:#FFCE4A;\">「我威胁村里那些家伙，硬是让他们说了出来。<br>嘿嘿嘿……保证不会让你吃亏」</span><br>听到这不太平和的情报来源，<br>{{PLAYER}}一时无言以对。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "低く抑えた声には、不自然な自信が滲んでいる。<br><span style=\"color:#FFCE4A;\">「村の連中を脅して無理やり聞き出してやった。<br>ヘッヘッヘ……損はさせないぜ」</span><br>穏やかではない情報の出どころに、<br>{{PLAYER}}は思わず言葉を失った。"
+        }
+      ],
+      "options": {
+        "10180101": {
+          "choiceId": 10180101,
+          "title": {
+            "ja": "情報料を払う",
+            "zh-CN": "支付情报费"
+          },
+          "text": {
+            "ja": "セフィラコイン-100",
+            "zh-CN": "塞菲拉币-100"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "情報料を払う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-100"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10180102": {
+          "choiceId": 10180102,
+          "title": {
+            "ja": "懲らしめる",
+            "zh-CN": "教训他"
+          },
+          "text": {
+            "ja": "情報屋と戦闘",
+            "zh-CN": "与情报贩子战斗"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "懲らしめる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "情報屋と戦闘"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422917279,
+      "lastSeenAt": 1785595751062
+    },
+    "101901": {
+      "selectionId": 101901,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "选择一个盟友加入你的队伍 "
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1078.jpg",
+      "description": {
+        "ja": "台座の前で祈りを捧げると、<br>それに応えるように光が集ってくる。<br>やがてひとつの巻物が現れ、<br>そっと{{PLAYER}}の手の中へ収まった。",
+        "zh-CN": "在台座前献上祈祷后，<br>光芒仿佛回应一般汇聚而来。<br>不久，一卷卷轴随之显现，<br>轻轻落入{{PLAYER}}手中。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "台座の前で祈りを捧げると、<br>それに応えるように光が集ってくる。<br>やがてひとつの巻物が現れ、<br>そっと{{PLAYER}}の手の中へ収まった。"
+        }
+      ],
+      "options": {
+        "10190101": {
+          "choiceId": 10190101,
+          "title": {
+            "ja": "スクロールを<br>使用する",
+            "zh-CN": "使用<br>卷轴"
+          },
+          "text": {
+            "ja": "仲間キャラを1人選んで加入",
+            "zh-CN": "选择1名伙伴角色加入队伍"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "スクロールを<br>使用する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "仲間キャラを1人選んで加入"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785423594313,
+      "lastSeenAt": 1785595986587
+    },
+    "102001": {
+      "selectionId": 102001,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "可同时选择"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_289.jpg",
+      "description": {
+        "ja": "{{PLAYER}}が魔法学院を訪れると、<br>その一角で魔道具が販売されていた。<br>棚には学生たちが作成したスクロールが並び、<br>どれも手頃な価格で、気軽に手に取れそうだ。<br>掘り出し物も多く、探索の備えには丁度よい。",
+        "zh-CN": "{{PLAYER}}来到魔法学院，发现一角正在出售魔法道具。架上摆满学生制作的卷轴，价格亲民，适合为探索做准备。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}が魔法学院を訪れると、<br>その一角で魔道具が販売されていた。<br>棚には学生たちが作成したスクロールが並び、<br>どれも手頃な価格で、気軽に手に取れそうだ。<br>掘り出し物も多く、探索の備えには丁度よい。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10200101": {
+          "choiceId": 10200101,
+          "title": {
+            "ja": "スクロールを<br>購入する",
+            "zh-CN": "购买卷轴"
+          },
+          "text": {
+            "ja": "セフィラコイン-100<br>武器を1つ解放",
+            "zh-CN": "塞菲拉币-100<br>解放1件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "スクロールを<br>購入する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-100<br>武器を1つ解放"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10200102": {
+          "choiceId": 10200102,
+          "title": {
+            "ja": "スクロールを<br>購入する",
+            "zh-CN": "购买卷轴"
+          },
+          "text": {
+            "ja": "セフィラコイン-150<br>仲間キャラを1人選んで加入",
+            "zh-CN": "塞菲拉币-150<br>选择1名伙伴角色加入"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "スクロールを<br>購入する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-150<br>仲間キャラを1人選んで加入"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785430905493,
+      "lastSeenAt": 1785503308743
+    },
+    "102101": {
+      "selectionId": 102101,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "火属性，第一天891W，第二天8910W"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_1700.jpg",
+      "description": {
+        "ja": "不穏な気配を放つ門に行き当たった。<br>通じる先の判然としない異様な造形は、<br>見るだけで{{PLAYER}}を不安にさせた。<br>くぐろうとした瞬間、門は強く発光し始め──<br>次の瞬間、その姿は<span style=\"color:#FF4D00;\">異形の魔物</span>へと変じていた。",
+        "zh-CN": "{{PLAYER}}遇到一扇散发不祥气息的门。正要穿过时，门强烈发光，转眼变成<span style=\"color:#FF4D00;\">异形魔物</span>。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "不穏な気配を放つ門に行き当たった。<br>通じる先の判然としない異様な造形は、<br>見るだけで{{PLAYER}}を不安にさせた。<br>くぐろうとした瞬間、門は強く発光し始め──<br>次の瞬間、その姿は<span style=\"color:#FF4D00;\">異形の魔物</span>へと変じていた。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10210101": {
+          "choiceId": 10210101,
+          "title": {
+            "ja": "戦う",
+            "zh-CN": "战斗"
+          },
+          "text": {
+            "ja": "異形の門に勝利すると<br>仲間キャラを1人選んで加入",
+            "zh-CN": "战胜异形之门后选择1名伙伴角色加入"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "戦う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "異形の門に勝利すると<br>仲間キャラを1人選んで加入"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431299447,
+      "lastSeenAt": 1785595201510
+    },
+    "102201": {
+      "selectionId": 102201,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "获得一个人物"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_137.jpg",
+      "description": {
+        "ja": "陽気な笑みを浮かべるヴァンパイアと出会った。<br>{{PLAYER}}の血を分け与えることで、<br>その力を媒介に外への道を開き、<br>絆で結ばれた仲間を呼び寄せられるという。",
+        "zh-CN": "{{PLAYER}}遇到一名面带开朗笑容的吸血鬼。只要分享血液，就能借此开启通往外界的道路，召来被羁绊连接的伙伴。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "陽気な笑みを浮かべるヴァンパイアと出会った。<br>{{PLAYER}}の血を分け与えることで、<br>その力を媒介に外への道を開き、<br>絆で結ばれた仲間を呼び寄せられるという。"
+        }
+      ],
+      "options": {
+        "10220101": {
+          "choiceId": 10220101,
+          "title": {
+            "ja": "仲間を<br>呼び出す",
+            "zh-CN": "召唤伙伴"
+          },
+          "text": {
+            "ja": "味方全体のHP-30%<br>仲間キャラを1人選んで加入",
+            "zh-CN": "全体HP-30%<br>选择1名伙伴角色加入"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "仲間を<br>呼び出す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-30%<br>仲間キャラを1人選んで加入"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10220102": {
+          "choiceId": 10220102,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "提案を断り、その場を離れる",
+            "zh-CN": "拒绝提议并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "提案を断り、その場を離れる"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785506973063,
+      "lastSeenAt": 1785586670474
+    },
+    "102301": {
+      "selectionId": 102301,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_115.jpg",
+      "description": {
+        "ja": "船を進めていると、水面下に<span style=\"color:#B5A598;\">巨大な影</span>が揺れた。<br>このまま進めば、何かと対峙することになる。<br>ただものではない、特異な力を宿している気配。<br>迎え撃つか、それとも引き返すか……<br>{{PLAYER}}は判断を迫られる。",
+        "zh-CN": "乘船前进时，水面下掠过一道<span style=\"color:#B5A598;\">巨大黑影</span>。<br>继续前进，势必会与某种存在对峙。<br>那股气息蕴藏着非同寻常的奇异力量。<br>迎击，还是折返……<br>{{PLAYER}}必须作出决定。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "船を進めていると、水面下に<span style=\"color:#B5A598;\">巨大な影</span>が揺れた。<br>このまま進めば、何かと対峙することになる。<br>ただものではない、特異な力を宿している気配。<br>迎え撃つか、それとも引き返すか……<br>{{PLAYER}}は判断を迫られる。"
+        }
+      ],
+      "options": {
+        "10230101": {
+          "choiceId": 10230101,
+          "title": {
+            "ja": "迎え撃つ",
+            "zh-CN": "迎击"
+          },
+          "text": {
+            "ja": "水中に潜む敵に勝利すると<br>導本効果を獲得",
+            "zh-CN": "战胜潜伏于水中的敌人后<br>获得导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "迎え撃つ"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "水中に潜む敵に勝利すると<br>導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10230102": {
+          "choiceId": 10230102,
+          "title": {
+            "ja": "引き返す",
+            "zh-CN": "返回"
+          },
+          "text": {
+            "ja": "安全に岸まで戻る",
+            "zh-CN": "安全返回岸边"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "引き返す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "安全に岸まで戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785423746532,
+      "lastSeenAt": 1785506529578
+    },
+    "102401": {
+      "selectionId": 102401,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "可以两个诅咒导本换两把武器"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1596.jpg",
+      "description": {
+        "ja": "生臭い血のにおいが漂う、不気味な一帯。<br>ここはさながら<span style=\"color:#FF4D00;\">武器の墓場</span>のようにも見えた。<br>地面に突き刺さる無数の武器からは、<br>強力な力と交じって、不吉な残滓も感じられる。<br>手にするのならば、相応の代償を覚悟すべきだ。",
+        "zh-CN": "一片弥漫着腥臭血味的诡异区域。<br>这里看起来宛如一座<span style=\"color:#FF4D00;\">武器坟场</span>。<br>无数刺入地面的武器中，<br>既蕴含强大力量，也残留着不祥气息。<br>若要将其拿起，必须做好付出相应代价的觉悟。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "生臭い血のにおいが漂う、不気味な一帯。<br>ここはさながら<span style=\"color:#FF4D00;\">武器の墓場</span>のようにも見えた。<br>地面に突き刺さる無数の武器からは、<br>強力な力と交じって、不吉な残滓も感じられる。<br>手にするのならば、相応の代償を覚悟すべきだ。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10240101": {
+          "choiceId": 10240101,
+          "title": {
+            "ja": "武器に<br>手を伸ばす",
+            "zh-CN": "伸手拿取<br>武器"
+          },
+          "text": {
+            "ja": "武器を1つ解放<br>呪われた導本効果を獲得",
+            "zh-CN": "解放1件武器<br>获得诅咒导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "武器に<br>手を伸ばす"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "武器を1つ解放<br>呪われた導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422864473,
+      "lastSeenAt": 1785512435992
+    },
+    "102501": {
+      "selectionId": 102501,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "两个100W的怪"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_140.jpg",
+      "description": {
+        "ja": "視界を覆う鮮やかな褐色。<span style=\"color:#FFCE4A;\">キノコの群生地</span>だ。<br>鼻孔をくすぐる香りはどこか懐かしい気がした。<br>ここで一休みしていくのも悪くない。<br>そう考えていた{{PLAYER}}の目線の先で、<br>ひときわ大きなキノコと目が合った……",
+        "zh-CN": "视野被鲜艳的褐色覆盖，这是一片<span style=\"color:#FFCE4A;\">蘑菇群落</span>。香气令人怀念，{{PLAYER}}正想着休息时，与一朵格外巨大的蘑菇对上了视线……"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "視界を覆う鮮やかな褐色。<span style=\"color:#FFCE4A;\">キノコの群生地</span>だ。<br>鼻孔をくすぐる香りはどこか懐かしい気がした。<br>ここで一休みしていくのも悪くない。<br>そう考えていた{{PLAYER}}の目線の先で、<br>ひときわ大きなキノコと目が合った……"
+        }
+      ],
+      "options": {
+        "10250101": {
+          "choiceId": 10250101,
+          "title": {
+            "ja": "討伐する",
+            "zh-CN": "讨伐"
+          },
+          "text": {
+            "ja": "キノコの魔物に勝利すると<br>導本効果を獲得",
+            "zh-CN": "战胜蘑菇魔物后获得导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "討伐する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "キノコの魔物に勝利すると<br>導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10250102": {
+          "choiceId": 10250102,
+          "title": {
+            "ja": "会釈する",
+            "zh-CN": "点头致意"
+          },
+          "text": {
+            "ja": "味方全体が復活し、HPを全回復する<br>呪われた導本効果を獲得",
+            "zh-CN": "全体复活并完全回复HP<br>获得诅咒导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "会釈する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体が復活し、HPを全回復する<br>呪われた導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785431057671,
+      "lastSeenAt": 1785595662930
+    },
+    "102601": {
+      "selectionId": 102601,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "读书，6回合，第二和第三次各能获得一次导本"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_395.jpg",
+      "description": {
+        "ja": "所狭しと並ぶ背の高い書架、そして収められた<br>大量の魔道書に、{{PLAYER}}は圧倒された。<br>この世界の知識を一所に蒐集したかのようだ。<br>ふと何かに惹かれるように目を向けた先には、<br><span style=\"color:#9DFF67;\">異質な存在感を放つ本</span>があった。",
+        "zh-CN": "高大的书架密集排列，其中收藏的<br>大量魔导书令{{PLAYER}}为之震撼。<br>这里仿佛汇集了整个世界的知识。<br>视线像被什么吸引般望去，<br>那里有一本散发着<span style=\"color:#9DFF67;\">异质存在感的书</span>。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "所狭しと並ぶ背の高い書架、そして収められた<br>大量の魔道書に、{{PLAYER}}は圧倒された。<br>この世界の知識を一所に蒐集したかのようだ。<br>ふと何かに惹かれるように目を向けた先には、<br><span style=\"color:#9DFF67;\">異質な存在感を放つ本</span>があった。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10260101": {
+          "choiceId": 10260101,
+          "title": {
+            "ja": "ページを<br>めくる",
+            "zh-CN": "翻开<br>书页"
+          },
+          "text": {
+            "ja": "魔導書を読み進める",
+            "zh-CN": "继续阅读魔导书"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "ページを<br>めくる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "魔導書を読み進める"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421402598,
+      "lastSeenAt": 1785504371369
+    },
+    "102701": {
+      "selectionId": 102701,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": "三个火属性70W的怪"
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_676.jpg",
+      "description": {
+        "ja": "<span style=\"color:#FFCE4A;\">「オイオイ、これっぽっちかァ？」</span><br>盗賊は袋の軽さを確かめ、不満をあらわにする。<br><span style=\"color:#FFCE4A;\">「賭けに負けちまってな、金が必要なんだ。<br>その懐の中に、まだ隠してるんだろォ？<br>ありったけ出してもらおうか」</span>",
+        "zh-CN": "<span style=\"color:#FFCE4A;\">「喂喂，就这么一点吗？」</span><br>盗贼掂量着轻飘飘的钱袋，显得十分不满。<br><span style=\"color:#FFCE4A;\">「我赌博输光了，现在正缺钱。<br>你怀里还藏着吧？<br>全都给我交出来。」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "<span style=\"color:#FFCE4A;\">「オイオイ、これっぽっちかァ？」</span><br>盗賊は袋の軽さを確かめ、不満をあらわにする。<br><span style=\"color:#FFCE4A;\">「賭けに負けちまってな、金が必要なんだ。<br>その懐の中に、まだ隠してるんだろォ？<br>ありったけ出してもらおうか」</span>"
+        }
+      ],
+      "options": {
+        "10270101": {
+          "choiceId": 10270101,
+          "title": {
+            "ja": "盗賊と戦う",
+            "zh-CN": "与盗贼战斗"
+          },
+          "text": {
+            "ja": "盗賊に勝利するとセフィラコイン+200",
+            "zh-CN": "战胜盗贼后塞菲拉币+200"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "盗賊と戦う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "盗賊に勝利するとセフィラコイン+200"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10270102": {
+          "choiceId": 10270102,
+          "title": {
+            "ja": "従う",
+            "zh-CN": "服从"
+          },
+          "text": {
+            "ja": "セフィラコインを全て失う",
+            "zh-CN": "失去全部塞菲拉币"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "従う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコインを全て失う"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422548204,
+      "lastSeenAt": 1785595481985
+    },
+    "102801": {
+      "selectionId": 102801,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_867.jpg",
+      "description": {
+        "ja": "揺らめく淡い光に導かれ、<br>{{PLAYER}}は霊廟の奥へと足を踏み入れる。<br>そこには石棺が息を潜めるように佇んでいた。<br>時の流れから切り離されたかのように神秘的で、<br>なぜかその棺を開けたい衝動に駆られた。",
+        "zh-CN": "被摇曳的淡光引导，{{PLAYER}}进入陵墓深处。石棺仿佛屏住呼吸般静置，神秘得像被时间隔绝，不知为何让人产生打开它的冲动。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "揺らめく淡い光に導かれ、<br>{{PLAYER}}は霊廟の奥へと足を踏み入れる。<br>そこには石棺が息を潜めるように佇んでいた。<br>時の流れから切り離されたかのように神秘的で、<br>なぜかその棺を開けたい衝動に駆られた。"
+        }
+      ],
+      "options": {
+        "10280101": {
+          "choiceId": 10280101,
+          "title": {
+            "ja": "棺を開ける",
+            "zh-CN": "打开棺材"
+          },
+          "text": {
+            "ja": "武器を1つ解放<br>50%：呪われた導本効果を獲得",
+            "zh-CN": "解放1件武器<br>50%：获得诅咒导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "棺を開ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "武器を1つ解放<br>50%：呪われた導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10280102": {
+          "choiceId": 10280102,
+          "title": {
+            "ja": "引き返す",
+            "zh-CN": "返回"
+          },
+          "text": {
+            "ja": "誘惑に負けず立ち去る",
+            "zh-CN": "不受诱惑影响并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "引き返す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "誘惑に負けず立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453328256,
+      "lastSeenAt": 1785596233602
+    },
+    "102901": {
+      "selectionId": 102901,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_174.jpg",
+      "description": {
+        "ja": "彼は{{PLAYER}}の手元にある導本を指差し、<br>何かを求めるように見つめている。<br><span style=\"color:#FFCE4A;\">「汝ガチカラト、我ガチカラ……<br>ココニ交ワシ、ヒトシク分カツコトヲ、求ム」</span>",
+        "zh-CN": "他指着{{PLAYER}}手中的导本，<br>仿佛有所求般凝视着。<br><span style=\"color:#FFCE4A;\">「汝之力，与吾之力……<br>于此交换，等分共享，吾有所求。」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "彼は{{PLAYER}}の手元にある導本を指差し、<br>何かを求めるように見つめている。<br><span style=\"color:#FFCE4A;\">「汝ガチカラト、我ガチカラ……<br>ココニ交ワシ、ヒトシク分カツコトヲ、求ム」</span>"
+        }
+      ],
+      "options": {
+        "10290101": {
+          "choiceId": 10290101,
+          "title": {
+            "ja": "導本を渡す",
+            "zh-CN": "交出导本"
+          },
+          "text": {
+            "ja": "ランダムな導本効果を<br>別の効果に変化させる",
+            "zh-CN": "将一个随机导本效果<br>变为其他效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "導本を渡す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ランダムな導本効果を<br>別の効果に変化させる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10290102": {
+          "choiceId": 10290102,
+          "title": {
+            "ja": "断る",
+            "zh-CN": "拒绝"
+          },
+          "text": {
+            "ja": "その場から離れる",
+            "zh-CN": "离开此处"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "断る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "その場から離れる"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421448111,
+      "lastSeenAt": 1785512340639
+    },
+    "103001": {
+      "selectionId": 103001,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_1704.jpg",
+      "description": {
+        "ja": "天蓋を割るように、一筋の光が降り注ぐ。<br>その輝きはすべてを浄化するかのようで、<br>触れれば何かを得られると、本能が告げる。<br>しかし清廉さも、過ぎればその負荷は大きい。<br>この身を割きかねない危うさをも孕んでいる。",
+        "zh-CN": "一道光如劈开天幕般落下，仿佛能净化一切。直觉告诉人触碰它便能获得力量，但过度的清净也会带来负担。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "天蓋を割るように、一筋の光が降り注ぐ。<br>その輝きはすべてを浄化するかのようで、<br>触れれば何かを得られると、本能が告げる。<br>しかし清廉さも、過ぎればその負荷は大きい。<br>この身を割きかねない危うさをも孕んでいる。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10300101": {
+          "choiceId": 10300101,
+          "title": {
+            "ja": "導本を<br>光に当てる",
+            "zh-CN": "让导本<br>照射光芒"
+          },
+          "text": {
+            "ja": "導本効果を1つ複製<br>味方全体のHP-20%",
+            "zh-CN": "复制1个导本效果<br>全体HP-20%"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "導本を<br>光に当てる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "導本効果を1つ複製<br>味方全体のHP-20%"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785504396669,
+      "lastSeenAt": 1785512863487
+    },
+    "103101": {
+      "selectionId": 103101,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_121.jpg",
+      "description": {
+        "ja": "奇妙な形状の花が、その場で脈動している。<br>漂う魔力は導本へと呼びかけるようで、<br>{{PLAYER}}が近くに寄るほどに、<br>まるで包み込まんとするように揺らめいていた。<br>触れれば、導本に<span style=\"color:#9DFF67;\">何らかの変化</span>が起こりそうだ。",
+        "zh-CN": "奇异形状的花在原地脉动。漂浮的魔力仿佛在呼唤导本，{{PLAYER}}靠近时花朵如要将其包裹，触碰或许会让导本发生<span style=\"color:#9DFF67;\">某种变化</span>。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "奇妙な形状の花が、その場で脈動している。<br>漂う魔力は導本へと呼びかけるようで、<br>{{PLAYER}}が近くに寄るほどに、<br>まるで包み込まんとするように揺らめいていた。<br>触れれば、導本に<span style=\"color:#9DFF67;\">何らかの変化</span>が起こりそうだ。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10310101": {
+          "choiceId": 10310101,
+          "title": {
+            "ja": "謎の花に<br>触れる",
+            "zh-CN": "触碰神秘之花"
+          },
+          "text": {
+            "ja": "導本効果を1つ別の効果に変化させる",
+            "zh-CN": "将1个导本效果变为其他效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "謎の花に<br>触れる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "導本効果を1つ別の効果に変化させる"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785507146228,
+      "lastSeenAt": 1785512553122
+    },
+    "103201": {
+      "selectionId": 103201,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_588.jpg",
+      "description": {
+        "ja": "空はすでに暗く、夜の帳が下り始めていた。<br>この辺りで休息を取るべきかどうか、<br>{{PLAYER}}は判断を迫られる。<br>周囲には何が潜んでいるのか判然とせず、<br>匂いの強いものは、魔物を呼び寄せかねない。",
+        "zh-CN": "天色已暗，夜幕开始降临。<br>是否应该在此处休息，<br>{{PLAYER}}必须作出判断。<br>四周潜伏着什么仍不明朗，<br>气味浓烈的东西或许会引来魔物。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "空はすでに暗く、夜の帳が下り始めていた。<br>この辺りで休息を取るべきかどうか、<br>{{PLAYER}}は判断を迫られる。<br>周囲には何が潜んでいるのか判然とせず、<br>匂いの強いものは、魔物を呼び寄せかねない。"
+        }
+      ],
+      "options": {
+        "10320101": {
+          "choiceId": 10320101,
+          "title": {
+            "ja": "豪華な食事を<br>作る",
+            "zh-CN": "制作<br>豪华餐点"
+          },
+          "text": {
+            "ja": "味方全体が復活し、HPを全回復する<br>50%：敵と遭遇",
+            "zh-CN": "全体复活并完全回复HP<br>50%：遭遇敌人"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "豪華な食事を<br>作る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体が復活し、HPを全回復する<br>50%：敵と遭遇"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10320102": {
+          "choiceId": 10320102,
+          "title": {
+            "ja": "携帯食で<br>一夜を明かす",
+            "zh-CN": "用便携食品<br>度过一夜"
+          },
+          "text": {
+            "ja": "味方全体のHPを20%回復",
+            "zh-CN": "回复全体20%HP"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "携帯食で<br>一夜を明かす"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHPを20%回復"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10320103": {
+          "choiceId": 10320103,
+          "title": {
+            "ja": "探索を続ける",
+            "zh-CN": "继续探索"
+          },
+          "text": {
+            "ja": "休憩せず探索を進める",
+            "zh-CN": "不休息并继续探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "探索を続ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "休憩せず探索を進める"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422314483,
+      "lastSeenAt": 1785502947776
+    },
+    "103301": {
+      "selectionId": 103301,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_921.jpg",
+      "description": {
+        "ja": "{{PLAYER}}の前に、古びた遺跡が姿を現す。<br>内部からは、どこか不穏な気配が滲み出ていた。<br>未知の財宝を求め、奥へ進む価値は充分にある。<br>だがその道のりは、決して平坦ではなさそうだ。",
+        "zh-CN": "一座古老遗迹出现在{{PLAYER}}面前。<br>内部隐约散发着不祥气息。<br>为了未知财宝而继续深入，确实值得一试。<br>但前方的道路似乎绝不会平坦。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}の前に、古びた遺跡が姿を現す。<br>内部からは、どこか不穏な気配が滲み出ていた。<br>未知の財宝を求め、奥へ進む価値は充分にある。<br>だがその道のりは、決して平坦ではなさそうだ。"
+        },
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}は慎重に遺跡の奥へと踏み込む。<br>警戒の甲斐もあってか、罠は発動せず、<br>途中までは無事にやり過ごすことができた。<br>だが奥へ進むほどに、罠の気配は増していく。<br>このまま進むか、引き返すか、判断を迫られる。"
+        }
+      ],
+      "options": {
+        "10330101": {
+          "choiceId": 10330101,
+          "title": {
+            "ja": "遺跡を進む",
+            "zh-CN": "深入遗迹"
+          },
+          "text": {
+            "ja": "奥へと進む<br>30%：味方全体のHP-10%",
+            "zh-CN": "向深处前进<br>30%：全体HP-10%"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "遺跡を進む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "奥へと進む<br>30%：味方全体のHP-10%"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10330102": {
+          "choiceId": 10330102,
+          "title": {
+            "ja": "遺跡を進む",
+            "zh-CN": "深入遗迹"
+          },
+          "text": {
+            "ja": "奥へ進み武器を1つ解放<br>50%：味方全体のHP-20%",
+            "zh-CN": "深入并解放1件武器<br>50%：全体HP-20%"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "遺跡を進む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "奥へ進み武器を1つ解放<br>50%：味方全体のHP-20%"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10330104": {
+          "choiceId": 10330104,
+          "title": {
+            "ja": "諦める",
+            "zh-CN": "放弃"
+          },
+          "text": {
+            "ja": "遺跡への挑戦を諦める",
+            "zh-CN": "放弃挑战遗迹"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "諦める"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "遺跡への挑戦を諦める"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10330105": {
+          "choiceId": 10330105,
+          "title": {
+            "ja": "諦める",
+            "zh-CN": "放弃"
+          },
+          "text": {
+            "ja": "挑戦を諦めて引き返す",
+            "zh-CN": "放弃挑战并返回"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "諦める"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "挑戦を諦めて引き返す"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "incident",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422466294,
+      "lastSeenAt": 1785596088503
+    },
+    "103401": {
+      "selectionId": 103401,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_668.jpg",
+      "description": {
+        "ja": "やがて、それを放ったと思わしき男が現れた。<br><span style=\"color:#FFCE4A;\">「どうだい、俺の自信作は。かわいいだろう。<br>……おっと、そんなに怖い目をしなさんな。<br>金さえ払えば、抗体を譲ってやってもいい。<br>お前さんにその気があればだが、どうする？」</span>",
+        "zh-CN": "男人终于出现了。<br><span style=\"color:#FFCE4A;\">「怎么样，这是我的得意之作。很可爱吧。别露出那么可怕的眼神，只要付钱我就把抗体给你。」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "やがて、それを放ったと思わしき男が現れた。<br><span style=\"color:#FFCE4A;\">「どうだい、俺の自信作は。かわいいだろう。<br>……おっと、そんなに怖い目をしなさんな。<br>金さえ払えば、抗体を譲ってやってもいい。<br>お前さんにその気があればだが、どうする？」</span>"
+        }
+      ],
+      "options": {
+        "10340101": {
+          "choiceId": 10340101,
+          "title": {
+            "ja": "代金を支払う",
+            "zh-CN": "支付费用"
+          },
+          "text": {
+            "ja": "セフィラコイン-200、導本効果と<br>「得体の知れない調合薬」を獲得",
+            "zh-CN": "塞菲拉币-200，获得导本效果和「来历不明的调制药」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "代金を支払う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-200、導本効果と<br>「得体の知れない調合薬」を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10340102": {
+          "choiceId": 10340102,
+          "title": {
+            "ja": "懲らしめる",
+            "zh-CN": "教训他"
+          },
+          "text": {
+            "ja": "戦闘に勝利すると導本効果と<br>「得体の知れない調合薬」を獲得",
+            "zh-CN": "战斗胜利后获得导本效果和「来历不明的调制药」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "懲らしめる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "戦闘に勝利すると導本効果と<br>「得体の知れない調合薬」を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453131518,
+      "lastSeenAt": 1785595602959
+    },
+    "103501": {
+      "selectionId": 103501,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "bg_39.jpg",
+      "description": {
+        "ja": "幸い動きは鈍く、避けて通ることは難しくない。<br>だが彼を助けたいと望んで対峙するのであれば、<br>方法さえ誤らなければ可能性はありそうだ。<br>どう対処するかが、その生死を分けるだろう。",
+        "zh-CN": "幸好他的动作迟缓，想绕开并不困难。<br>但如果希望与之对峙并救下他，<br>只要方法无误，似乎仍有可能。<br>如何应对，将决定他的生死。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "幸い動きは鈍く、避けて通ることは難しくない。<br>だが彼を助けたいと望んで対峙するのであれば、<br>方法さえ誤らなければ可能性はありそうだ。<br>どう対処するかが、その生死を分けるだろう。"
+        }
+      ],
+      "options": {
+        "10350101": {
+          "choiceId": 10350101,
+          "title": {
+            "ja": "薬を使う",
+            "zh-CN": "使用药剂"
+          },
+          "text": {
+            "ja": "「得体の知れない調合薬」を使用する<br>特別な導本効果を獲得",
+            "zh-CN": "使用「来历不明的调制药」<br>获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "薬を使う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "「得体の知れない調合薬」を使用する<br>特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10350102": {
+          "choiceId": 10350102,
+          "title": {
+            "ja": "植物を<br>排除する",
+            "zh-CN": "清除<br>植物"
+          },
+          "text": {
+            "ja": "呪われた導本効果を獲得<br>特別な導本効果を獲得",
+            "zh-CN": "获得诅咒导本效果<br>获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "植物を<br>排除する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "呪われた導本効果を獲得<br>特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10350103": {
+          "choiceId": 10350103,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "植物の寄生を警戒して立ち去る",
+            "zh-CN": "警惕植物寄生并离开"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "植物の寄生を警戒して立ち去る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785421456943,
+      "lastSeenAt": 1785512472502
+    },
+    "103601": {
+      "selectionId": 103601,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_66.jpg",
+      "description": {
+        "ja": "太古の森の奥、開けた場所に出たかと思うと、<br>そこは張り詰めた気配に満ちていた。<br>中心には、武器が深く大地に突き刺さっている。<br>ただならぬ力を宿し、近づくだけで圧を感じた。<br>まるで使い手となる器を試しているようだ。",
+        "zh-CN": "来到太古森林深处的一片开阔地后，<br>周围充满紧绷的气息。<br>中央有一件武器深深刺入大地。<br>其中蕴藏非凡力量，仅仅靠近便能感到压迫。<br>仿佛正在考验谁有资格成为它的使用者。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "太古の森の奥、開けた場所に出たかと思うと、<br>そこは張り詰めた気配に満ちていた。<br>中心には、武器が深く大地に突き刺さっている。<br>ただならぬ力を宿し、近づくだけで圧を感じた。<br>まるで使い手となる器を試しているようだ。"
+        },
+        {
+          "language": "ja",
+          "text": "{{PLAYER}}が武器に手をかけ、力を込めると、<br>全身から力が奪われるような感覚に襲われる。<br>武器は僅かに軋み、確かに応じた気配を見せる。<br>だが未だ大地に留まり、完全には抜ききれない。"
+        },
+        {
+          "language": "ja",
+          "text": "さらに力を込めると、負荷はより一層強まった。<br>{{PLAYER}}は額の汗を拭い、力を込め続けた。<br>武器が呼応するような手応えは確かにある。<br>続ければ、きっと手にすることができるはずだ。"
+        }
+      ],
+      "options": {
+        "10360101": {
+          "choiceId": 10360101,
+          "title": {
+            "ja": "武器を<br>引き抜く",
+            "zh-CN": "拔出<br>武器"
+          },
+          "text": {
+            "ja": "味方全体のHP-10％<br>30%：武器を2つ解放",
+            "zh-CN": "全体HP-10%<br>30%：解放2件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "武器を<br>引き抜く"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-10％<br>30%：武器を2つ解放"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10360102": {
+          "choiceId": 10360102,
+          "title": {
+            "ja": "もう一度<br>引き抜く",
+            "zh-CN": "再次<br>拔出"
+          },
+          "text": {
+            "ja": "味方全体のHP-20%<br>75%：武器を2つ解放",
+            "zh-CN": "全体HP-20%<br>75%：解放2件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "もう一度<br>引き抜く"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-20%<br>75%：武器を2つ解放"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10360103": {
+          "choiceId": 10360103,
+          "title": {
+            "ja": "もう一度<br>引き抜く",
+            "zh-CN": "再次<br>拔出"
+          },
+          "text": {
+            "ja": "味方全体のHP-20%<br>武器を2つ解放",
+            "zh-CN": "全体HP-20%<br>解放2件武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "もう一度<br>引き抜く"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "味方全体のHP-20%<br>武器を2つ解放"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10360104": {
+          "choiceId": 10360104,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "武器を諦める",
+            "zh-CN": "放弃武器"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "武器を諦める"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN",
+        "incident"
+      ],
+      "firstSeenAt": 1785423426713,
+      "lastSeenAt": 1785595254425
+    },
+    "103701": {
+      "selectionId": 103701,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_18.jpg",
+      "description": {
+        "ja": "森の中を、白い影が慌ただしく駆け抜けていく。<br>ホワイトラビットが魔物に追われているようだ。<br>小さな身体で逃げる姿は、いかにも危うい。<br>助けに入るか、このまま様子を窺うか。<br>{{PLAYER}}は判断を迫られる。",
+        "zh-CN": "白色身影慌忙穿过森林，白兔似乎正被魔物追赶。是否出手相助，还是继续观察，{{PLAYER}}必须作出判断。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "森の中を、白い影が慌ただしく駆け抜けていく。<br>ホワイトラビットが魔物に追われているようだ。<br>小さな身体で逃げる姿は、いかにも危うい。<br>助けに入るか、このまま様子を窺うか。<br>{{PLAYER}}は判断を迫られる。"
+        }
+      ],
+      "options": {
+        "10370101": {
+          "choiceId": 10370101,
+          "title": {
+            "ja": "助けに入る",
+            "zh-CN": "出手相助"
+          },
+          "text": {
+            "ja": "ホワイトラビットを助けるため<br><span style=\"color:#ff4d00;\">強敵</span>と戦闘する",
+            "zh-CN": "为帮助白兔，与<span style=\"color:#ff4d00;\">强敌</span>战斗"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "助けに入る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ホワイトラビットを助けるため<br><span style=\"color:#ff4d00;\">強敵</span>と戦闘する"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10370102": {
+          "choiceId": 10370102,
+          "title": {
+            "ja": "様子を見る",
+            "zh-CN": "观察情况"
+          },
+          "text": {
+            "ja": "何かが近づく気配を感じたため<br>一度様子を見る",
+            "zh-CN": "感觉有什么正在靠近，先观察情况"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "様子を見る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "何かが近づく気配を感じたため<br>一度様子を見る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785454189764,
+      "lastSeenAt": 1785596328114
+    },
+    "104001": {
+      "selectionId": 104001,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_251.jpg",
+      "description": {
+        "ja": "探索の最中、小柄な影がこちらに手を振る。<br>長い耳を揺らしながら、<br>ミハニコスがこちらに歩み寄ってきた。<br><span style=\"color:#FFCE4A;\">「ちょっと導本を貸して～！<br>さっき見つけた力を、お裾分けしちゃうよ～！」</span>",
+        "zh-CN": "探索途中，一个矮小身影挥手示意。米哈尼科斯摇着长耳走近。<br><span style=\"color:#FFCE4A;\">「借我一个导本嘛～！把刚发现的力量分给你一点～！」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "探索の最中、小柄な影がこちらに手を振る。<br>長い耳を揺らしながら、<br>ミハニコスがこちらに歩み寄ってきた。<br><span style=\"color:#FFCE4A;\">「ちょっと導本を貸して～！<br>さっき見つけた力を、お裾分けしちゃうよ～！」</span>"
+        }
+      ],
+      "options": {
+        "10400101": {
+          "choiceId": 10400101,
+          "title": {
+            "ja": "導本を渡す",
+            "zh-CN": "交出导本"
+          },
+          "text": {
+            "ja": "いずれかの導本効果を獲得",
+            "zh-CN": "获得任意一个导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "導本を渡す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "いずれかの導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453098453,
+      "lastSeenAt": 1785513672052
+    },
+    "104101": {
+      "selectionId": 104101,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_1168.jpg",
+      "description": {
+        "ja": "探索の最中、小柄な影がこちらに手を振る。<br>ミハニコスが、またも姿を現した。<br><span style=\"color:#FFCE4A;\">「えへへ、あの時の力、役に立ってる～？」</span><br>どうやら今回も力を貸してくれるつもりらしい。",
+        "zh-CN": "探索途中，矮小身影再次挥手。米哈尼科斯又出现了。<br><span style=\"color:#FFCE4A;\">「嘿嘿，那时的力量派上用场了吗～？」</span><br>看来这次也打算提供帮助。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "探索の最中、小柄な影がこちらに手を振る。<br>ミハニコスが、またも姿を現した。<br><span style=\"color:#FFCE4A;\">「えへへ、あの時の力、役に立ってる～？」</span><br>どうやら今回も力を貸してくれるつもりらしい。"
+        }
+      ],
+      "options": {
+        "10410101": {
+          "choiceId": 10410101,
+          "title": {
+            "ja": "導本を渡す",
+            "zh-CN": "交出导本"
+          },
+          "text": {
+            "ja": "いずれかの導本効果を獲得",
+            "zh-CN": "获得任意一个导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "導本を渡す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "いずれかの導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453940329,
+      "lastSeenAt": 1785503864084
+    },
+    "104201": {
+      "selectionId": 104201,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_87.jpg",
+      "description": {
+        "ja": "洞窟を進む中、金属を擦るような音が耳に届く。<br>奥ではゴブリンが、硬貨を丁寧に磨いていた。<br>こちらの姿に気づき、口元を下品に歪ませると、<br><span style=\"color:#9DFF67;\">歪んだ鍵</span>をちらちらと揺らしながら、<br>指をすり合わせて代価を求める仕草を見せた。",
+        "zh-CN": "在洞窟中前进时，传来金属摩擦声。洞穴深处，哥布林正仔细擦拭硬币，看到众人后露出下流笑容，挥舞着<span style=\"color:#9DFF67;\">扭曲的钥匙</span>索要代价。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "洞窟を進む中、金属を擦るような音が耳に届く。<br>奥ではゴブリンが、硬貨を丁寧に磨いていた。<br>こちらの姿に気づき、口元を下品に歪ませると、<br><span style=\"color:#9DFF67;\">歪んだ鍵</span>をちらちらと揺らしながら、<br>指をすり合わせて代価を求める仕草を見せた。"
+        }
+      ],
+      "options": {
+        "10420101": {
+          "choiceId": 10420101,
+          "title": {
+            "ja": "購入する",
+            "zh-CN": "购买"
+          },
+          "text": {
+            "ja": "セフィラコイン-200<br>「監獄の鍵」を獲得",
+            "zh-CN": "塞菲拉币-200<br>获得「监狱的钥匙」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "購入する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-200<br>「監獄の鍵」を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10420102": {
+          "choiceId": 10420102,
+          "title": {
+            "ja": "討伐する",
+            "zh-CN": "讨伐"
+          },
+          "text": {
+            "ja": "魔物に勝利すると<br>「監獄の鍵」を獲得",
+            "zh-CN": "战胜魔物后获得「监狱的钥匙」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "討伐する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "魔物に勝利すると<br>「監獄の鍵」を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785503448439,
+      "lastSeenAt": 1785506255040
+    },
+    "104301": {
+      "selectionId": 104301,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "bg_173.jpg",
+      "description": {
+        "ja": "宝石のような甲羅がいくつも煌めいている。<br>そこには<span style=\"color:#FFCE4A;\">巨大なルビガメの群れ</span>が集まっていた。<br>倒せば価値のある宝石を得られるが、<br>この種は仲間を呼ぶという、厄介な習性がある。<br>同時に倒せなければきりがないだろう。",
+        "zh-CN": "数个宝石般的甲壳闪闪发光，<span style=\"color:#FFCE4A;\">巨大红玉龟群</span>聚集于此。击败它们能得到有价值的宝石，但这种生物会呼唤同伴，若不能同时击倒便没完没了。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "宝石のような甲羅がいくつも煌めいている。<br>そこには<span style=\"color:#FFCE4A;\">巨大なルビガメの群れ</span>が集まっていた。<br>倒せば価値のある宝石を得られるが、<br>この種は仲間を呼ぶという、厄介な習性がある。<br>同時に倒せなければきりがないだろう。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10430101": {
+          "choiceId": 10430101,
+          "title": {
+            "ja": "戦う",
+            "zh-CN": "战斗"
+          },
+          "text": {
+            "ja": "ルビガメを倒す",
+            "zh-CN": "击败红玉龟"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "戦う"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ルビガメを倒す"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785453047607,
+      "lastSeenAt": 1785595099505
+    },
+    "104401": {
+      "selectionId": 104401,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_619.jpg",
+      "description": {
+        "ja": "荒れ果てた書斎の奥、埃を被った机が目に入る。<br>その上には<span style=\"color:#FF4D00;\">不穏な気配を放つ一本の筆</span>があった。<br>触れる者を拒むような重い力を感じるが、<br>使いこなせれば、その真価を引き出せそうだ。",
+        "zh-CN": "在荒废书房深处，看见一张积灰的桌子。桌上有一支散发<span style=\"color:#FF4D00;\">不祥气息的笔</span>，虽然力量沉重得像在拒绝触碰，但若能驾驭或许能发挥真正价值。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "荒れ果てた書斎の奥、埃を被った机が目に入る。<br>その上には<span style=\"color:#FF4D00;\">不穏な気配を放つ一本の筆</span>があった。<br>触れる者を拒むような重い力を感じるが、<br>使いこなせれば、その真価を引き出せそうだ。"
+        }
+      ],
+      "options": {
+        "1": {
+          "choiceId": 1,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "探索に戻る",
+            "zh-CN": "返回探索"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "探索に戻る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10440101": {
+          "choiceId": 10440101,
+          "title": {
+            "ja": "筆を手に取る",
+            "zh-CN": "拿起笔"
+          },
+          "text": {
+            "ja": "特別な導本効果を獲得",
+            "zh-CN": "获得特殊导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "筆を手に取る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "特別な導本効果を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785432148895,
+      "lastSeenAt": 1785512625660
+    },
+    "104501": {
+      "selectionId": 104501,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_662.jpg",
+      "description": {
+        "ja": "街道を進む中、助けを求める声が響き渡る。<br>見ると女性が荷を抱えたまま、<br><span style=\"color:#FF4D00;\">後に迫る魔物</span>から必死に逃げ惑っている。<br>一刻も早く助けなければ！",
+        "zh-CN": "沿街道前进时，听见求救声。一名女子抱着货物，正拼命逃离<span style=\"color:#FF4D00;\">身后的魔物</span>。必须马上救她！"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "街道を進む中、助けを求める声が響き渡る。<br>見ると女性が荷を抱えたまま、<br><span style=\"color:#FF4D00;\">後に迫る魔物</span>から必死に逃げ惑っている。<br>一刻も早く助けなければ！"
+        }
+      ],
+      "options": {
+        "10450101": {
+          "choiceId": 10450101,
+          "title": {
+            "ja": "魔物を倒す",
+            "zh-CN": "击败魔物"
+          },
+          "text": {
+            "ja": "襲われている女性を助ける<br>魔物に勝利すると導本効果を獲得",
+            "zh-CN": "帮助被袭击的女子<br>战胜魔物后获得导本效果"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "魔物を倒す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "襲われている女性を助ける<br>魔物に勝利すると導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785503136596,
+      "lastSeenAt": 1785506106079
+    },
+    "104601": {
+      "selectionId": 104601,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "event_65.jpg",
+      "description": {
+        "ja": "森の中を探索中、対向から男がやってくる。<br>男はこちらを見るなり、歩み寄ってきた。<br><span style=\"color:#FFCE4A;\">「アンタら、この先の洞窟に向かってるのか？<br>あそこは魔物がうじゃうじゃ出やがるからな……<br>役立つ物を譲ってやる。勿論、タダじゃねぇが」</span>",
+        "zh-CN": "在森林中探索时，一名男子从对面走来。<br>男子一看到众人，便主动靠近。<br><span style=\"color:#FFCE4A;\">「你们要去前面的洞窟吗？<br>那里到处都是魔物……<br>我可以把有用的东西让给你们。当然，不是免费的。」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "森の中を探索中、対向から男がやってくる。<br>男はこちらを見るなり、歩み寄ってきた。<br><span style=\"color:#FFCE4A;\">「アンタら、この先の洞窟に向かってるのか？<br>あそこは魔物がうじゃうじゃ出やがるからな……<br>役立つ物を譲ってやる。勿論、タダじゃねぇが」</span>"
+        }
+      ],
+      "options": {
+        "10460101": {
+          "choiceId": 10460101,
+          "title": {
+            "ja": "購入する",
+            "zh-CN": "购买"
+          },
+          "text": {
+            "ja": "セフィラコイン-100<br>「異臭漂う生血」を獲得",
+            "zh-CN": "塞菲拉币-100<br>获得「散发异臭的生血」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "購入する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "セフィラコイン-100<br>「異臭漂う生血」を獲得"
+            }
+          ],
+          "turn": 1,
+          "disabled": true,
+          "questCheck": false
+        },
+        "10460102": {
+          "choiceId": 10460102,
+          "title": {
+            "ja": "立ち去る",
+            "zh-CN": "离开"
+          },
+          "text": {
+            "ja": "その場から離れる",
+            "zh-CN": "离开此处"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "立ち去る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "その場から離れる"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785422357883,
+      "lastSeenAt": 1785422357883
+    },
+    "104701": {
+      "selectionId": 104701,
+      "specialIncidentId": null,
+      "nodeType": 5,
+      "eventKind": "normal",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {},
+      "enumKey": "",
+      "group": "",
+      "tips": [],
+      "image": "common_243.jpg",
+      "description": {
+        "ja": "街道で荷車を引くミハニコスと遭遇する。<br>その様子は慌ただしく、明らかに尋常ではない。<br>背後からは、魔物の気配が迫ってきている。<br><span style=\"color:#FFCE4A;\">「あわわ！　追われてるんだ！<br>お願い、助けて～！」</span>",
+        "zh-CN": "在街道上遇到拉着货车的米哈尼科斯。它显得慌慌张张，身后传来魔物逼近的气息。<br><span style=\"color:#FFCE4A;\">「哇！被追上了！拜托，帮帮我～！」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "街道で荷車を引くミハニコスと遭遇する。<br>その様子は慌ただしく、明らかに尋常ではない。<br>背後からは、魔物の気配が迫ってきている。<br><span style=\"color:#FFCE4A;\">「あわわ！　追われてるんだ！<br>お願い、助けて～！」</span>"
+        }
+      ],
+      "options": {
+        "10470101": {
+          "choiceId": 10470101,
+          "title": {
+            "ja": "助ける",
+            "zh-CN": "帮助"
+          },
+          "text": {
+            "ja": "<span style=\"color:#ff4d00;\">強敵</span>に勝利すると<br>「スーパーセール・チケット」を獲得",
+            "zh-CN": "战胜<span style=\"color:#ff4d00;\">强敌</span>后获得「超级特卖券」"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "助ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "<span style=\"color:#ff4d00;\">強敵</span>に勝利すると<br>「スーパーセール・チケット」を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10470102": {
+          "choiceId": 10470102,
+          "title": {
+            "ja": "逃げる",
+            "zh-CN": "逃跑"
+          },
+          "text": {
+            "ja": "ミハニコスと一緒に逃げる",
+            "zh-CN": "与米哈尼科斯一起逃跑"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "逃げる"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "ミハニコスと一緒に逃げる"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785513588661,
+      "lastSeenAt": 1785513588661
+    },
+    "special:1": {
+      "selectionId": null,
+      "specialIncidentId": 1,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "邪教祖",
+        "ja": "邪教祖",
+        "en": "Cult Founder"
+      },
+      "enumKey": "GURU",
+      "group": "邪教祖",
+      "tips": [
+        "狂信者数量会影响强度",
+        "地图图标为邪教祖"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "邪教祖。场上狂信者越多，邪教祖越强；属于特殊战斗。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:2": {
+      "selectionId": null,
+      "specialIncidentId": 2,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "狂信者",
+        "ja": "狂信者",
+        "en": "Cultist"
+      },
+      "enumKey": "FANATIC_1",
+      "group": "狂信者",
+      "tips": [
+        "击败后可削弱邪教祖相关威胁"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "崇拜邪教祖的狂信者之一，属于特殊战斗。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:3": {
+      "selectionId": null,
+      "specialIncidentId": 3,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "狂信者",
+        "ja": "狂信者",
+        "en": "Cultist"
+      },
+      "enumKey": "FANATIC_2",
+      "group": "狂信者",
+      "tips": [
+        "与 special:2 同属狂信者分组"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "崇拜邪教祖的另一种狂信者，属于特殊战斗。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:4": {
+      "selectionId": null,
+      "specialIncidentId": 4,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "真浮空城",
+        "ja": "浮遊城",
+        "en": "Floating Castle"
+      },
+      "enumKey": "FLOATING_CASTLE",
+      "group": "真浮空城",
+      "tips": [
+        "需先由研究者确定正确传送口",
+        "具有金色地点底图"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "与浮空城研究者互动后，可经正确传送口到达真浮空城，并获得随机金色导本三选一。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:5": {
+      "selectionId": null,
+      "specialIncidentId": 5,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "浮空城传送口",
+        "ja": "浮遊城への転移",
+        "en": "Floating Castle Portal"
+      },
+      "enumKey": "FLOATING_CASTLE_TELEPORT_1",
+      "group": "浮空城传送",
+      "tips": [
+        "正确入口确定后会高亮"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "浮空城候选传送口之一；确定真入口前可能与另外两个传送口同时存在。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:6": {
+      "selectionId": null,
+      "specialIncidentId": 6,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "浮空城传送口",
+        "ja": "浮遊城への転移",
+        "en": "Floating Castle Portal"
+      },
+      "enumKey": "FLOATING_CASTLE_TELEPORT_2",
+      "group": "浮空城传送",
+      "tips": [
+        "需配合浮空城研究者辨认真入口"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "浮空城候选传送口之一。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:7": {
+      "selectionId": null,
+      "specialIncidentId": 7,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "浮空城传送口",
+        "ja": "浮遊城への転移",
+        "en": "Floating Castle Portal"
+      },
+      "enumKey": "FLOATING_CASTLE_TELEPORT_3",
+      "group": "浮空城传送",
+      "tips": [
+        "需配合浮空城研究者辨认真入口"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "浮空城候选传送口之一。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:8": {
+      "selectionId": null,
+      "specialIncidentId": 8,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "浮空城研究者",
+        "ja": "浮遊城の研究者",
+        "en": "Floating Castle Researcher"
+      },
+      "enumKey": "FLOATING_CASTLE_RESEARCHER",
+      "group": "浮空城研究者",
+      "tips": [
+        "用于确定真浮空城入口"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "与研究者互动并选择导本后，假传送口会消失，真传送口得到标记。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:9": {
+      "selectionId": null,
+      "specialIncidentId": 9,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "时停塔",
+        "ja": "時計塔",
+        "en": "Clock Tower"
+      },
+      "enumKey": "CLOCK_TOWER",
+      "group": "地点特殊",
+      "tips": [
+        "四场战斗期间停止计算缩圈时间",
+        "具有金色地点底图"
+      ],
+      "image": "common_797.jpg",
+      "description": {
+        "zh-CN": "进入不计入缩圈时间的四连战，全部完成后可获得丰厚奖励。",
+        "ja": "戦闘を重ね、{{PLAYER}}は違和感に気づく。<br>魔術師たちの瞳には意思の光がなく、<br>ただ命令に従うかのように襲いかかってくる。<br>それを指揮する者の正体とは。<br>最上階は近い──いずれ対峙するはずだ。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "動かぬ時の中で、魔術師たちが術式を展開する。<br>それは侵入者を排除しようという意思表示だ。<br>否応のない態度に戸惑いつつも、武器を構える。<br>幸い、時の止まった今ならば、<br>時間を気にせずに経験を積むには絶好の機会だ。"
+        },
+        {
+          "language": "ja",
+          "text": "戦闘を重ね、{{PLAYER}}は違和感に気づく。<br>魔術師たちの瞳には意思の光がなく、<br>ただ命令に従うかのように襲いかかってくる。<br>それを指揮する者の正体とは。<br>最上階は近い──いずれ対峙するはずだ。"
+        }
+      ],
+      "options": {
+        "10500701": {
+          "choiceId": 10500701,
+          "title": {
+            "ja": "塔を上る",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "時の止まった空間で敵と戦闘",
+            "zh-CN": "??????????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "塔を上る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "時の止まった空間で敵と戦闘"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10500702": {
+          "choiceId": 10500702,
+          "title": {
+            "ja": "引き返す",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "塔を離れる",
+            "zh-CN": "???"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "引き返す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "塔を離れる"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10500703": {
+          "choiceId": 10500703,
+          "title": {
+            "ja": "塔を上る",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "時の止まった空間で<span style=\"color:#ff4d00;\">強敵</span>と戦闘",
+            "zh-CN": "??????????<span style=\"color:#ff4d00;\">??</span>??"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "塔を上る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "時の止まった空間で<span style=\"color:#ff4d00;\">強敵</span>と戦闘"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10500704": {
+          "choiceId": 10500704,
+          "title": {
+            "ja": "諦める",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "塔を上らずに探索へ戻る<br>※次に訪れたときに再挑戦が可能",
+            "zh-CN": "????????<br>????????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "諦める"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "塔を上らずに探索へ戻る<br>※次に訪れたときに再挑戦が可能"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "special-incident-meta",
+        "node_event"
+      ],
+      "firstSeenAt": 1785596361902,
+      "lastSeenAt": 1785596407159
+    },
+    "special:10": {
+      "selectionId": null,
+      "specialIncidentId": 10,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "花畑",
+        "ja": "花畑",
+        "en": "Flower Garden"
+      },
+      "enumKey": "FLOWER_GARDEN",
+      "group": "地点特殊",
+      "tips": [
+        "两种选择都会完整恢复队伍",
+        "具有金色地点底图"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "恢复全队生命、技能冷却和召唤冷却，并从转化两个导本或获得一个导本中选择。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:11": {
+      "selectionId": null,
+      "specialIncidentId": 11,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "监狱",
+        "ja": "監獄",
+        "en": "Prison"
+      },
+      "enumKey": "PRISON",
+      "group": "地点特殊",
+      "tips": [
+        "潜入成功率约20%",
+        "监狱钥匙可绕过战斗直接取得奖励"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "可与守卫战斗、尝试潜入、使用监狱钥匙，或暂时离开以后再来。奖励可能为召唤石或金色导本。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:12": {
+      "selectionId": null,
+      "specialIncidentId": 12,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "温泉",
+        "ja": "温泉",
+        "en": "Hot Spring"
+      },
+      "enumKey": "HOT_SPRING",
+      "group": "地点特殊",
+      "tips": [
+        "特殊导本可缩短技能冷却并在回合开始回复HP"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "恢复全队所有生命、技能冷却和召唤冷却，并获得一个特殊导本。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:13": {
+      "selectionId": null,
+      "specialIncidentId": 13,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "铁匠台",
+        "ja": "鍛冶台",
+        "en": "Blacksmith Table"
+      },
+      "enumKey": "BLACKSMITH_TABLE",
+      "group": "地点特殊",
+      "tips": [
+        "结果具有随机性",
+        "具有金色地点底图"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "随机触发获得600塞菲拉币、损失全体20%HP并解锁召唤石或武器、或交换导本等结果。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:14": {
+      "selectionId": null,
+      "specialIncidentId": 14,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "要塞",
+        "ja": "砦",
+        "en": "Fort"
+      },
+      "enumKey": "FORT",
+      "group": "地点特殊",
+      "tips": [
+        "属于高收益战斗事件",
+        "具有金色地点底图"
+      ],
+      "image": "common_776.jpg",
+      "description": {
+        "zh-CN": "与强敌战斗，奖励必定包含一个角色或一件武器。",
+        "ja": "砦の前に立つ影は、ただの魔物ではなかった。<br>統率された気配が、この場を支配している。<br>周辺の魔物を束ねる、小隊長格の存在のようだ。<br>{{PLAYER}}は慎重に出方を窺う。<br>挑むのであれば、相応の覚悟が必要だろう。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "砦の前に立つ影は、ただの魔物ではなかった。<br>統率された気配が、この場を支配している。<br>周辺の魔物を束ねる、小隊長格の存在のようだ。<br>{{PLAYER}}は慎重に出方を窺う。<br>挑むのであれば、相応の覚悟が必要だろう。"
+        }
+      ],
+      "options": {
+        "10501201": {
+          "choiceId": 10501201,
+          "title": {
+            "ja": "砦の門番に<br>挑む",
+            "zh-CN": "??<br>????"
+          },
+          "text": {
+            "ja": "<span style=\"color:#ff4d00;\">強敵</span>に勝利すると強力な導本効果を獲得<br>仲間キャラか装備を解放",
+            "zh-CN": "??<span style=\"color:#ff4d00;\">??</span>?????????<br>?????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "砦の門番に<br>挑む"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "<span style=\"color:#ff4d00;\">強敵</span>に勝利すると強力な導本効果を獲得<br>仲間キャラか装備を解放"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10501202": {
+          "choiceId": 10501202,
+          "title": {
+            "ja": "撤退する",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "戦力を整える<br>※次に訪れたときに再挑戦が可能",
+            "zh-CN": "????<br>????????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "撤退する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "戦力を整える<br>※次に訪れたときに再挑戦が可能"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "special-incident-meta",
+        "node_event"
+      ],
+      "firstSeenAt": 1785596097996,
+      "lastSeenAt": 1785596097996
+    },
+    "special:15": {
+      "selectionId": null,
+      "specialIncidentId": 15,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "大教堂",
+        "ja": "大聖堂",
+        "en": "Cathedral"
+      },
+      "enumKey": "CATHEDRAL",
+      "group": "地点特殊",
+      "tips": [
+        "重组导本费用约150",
+        "购买特殊导本费用约300"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "可花费塞菲拉币重组导本，或购买一个提供前两回合防护的特殊导本。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    },
+    "special:16": {
+      "selectionId": null,
+      "specialIncidentId": 16,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "洞窟",
+        "ja": "洞窟",
+        "en": "Cave"
+      },
+      "enumKey": "CAVE",
+      "group": "地点特殊",
+      "tips": [
+        "多阶段探索事件",
+        "具有金色地点底图"
+      ],
+      "image": "common_42.jpg",
+      "description": {
+        "zh-CN": "最多探索5次，每次可能遇到奖励或战斗；持有特定血液道具时可引出特定魔物。",
+        "ja": "山を貫く長い洞窟が、目の前に口を開けている。<br>かつては人々の行き交う往来の要所であったが、<br>魔物が棲み着き、踏み入る者は絶えたという。<br>探索すれば放棄された品が見つかりそうだが、<br>当然、危険も伴うだろう。"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "山を貫く長い洞窟が、目の前に口を開けている。<br>かつては人々の行き交う往来の要所であったが、<br>魔物が棲み着き、踏み入る者は絶えたという。<br>探索すれば放棄された品が見つかりそうだが、<br>当然、危険も伴うだろう。"
+        },
+        {
+          "language": "ja",
+          "text": "洞窟はなおも奥へと続いている。<br>慎重に進むほかなさそうだ。"
+        },
+        {
+          "language": "ja",
+          "text": "洞窟の奥には、なおも危険な気配が満ちている。<br>気を抜けば、次は無事では済まないだろう。"
+        }
+      ],
+      "options": {
+        "10501601": {
+          "choiceId": 10501601,
+          "title": {
+            "ja": "洞窟に入る",
+            "zh-CN": "????"
+          },
+          "text": {
+            "ja": "危険を顧みず洞窟を探索する<br>10%：味方全体のHP-10％",
+            "zh-CN": "????????<br>10%???HP-10?"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "洞窟に入る"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "危険を顧みず洞窟を探索する<br>10%：味方全体のHP-10％"
+            }
+          ],
+          "turn": 1,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10501602": {
+          "choiceId": 10501602,
+          "title": {
+            "ja": "アイテムを<br>使用する",
+            "zh-CN": "??<br>??"
+          },
+          "text": {
+            "ja": "一部の魔物が嫌う「異臭漂う生血」を<br>使いながら探索する",
+            "zh-CN": "????????????????????<br>????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "アイテムを<br>使用する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "一部の魔物が嫌う「異臭漂う生血」を<br>使いながら探索する"
+            }
+          ],
+          "turn": 1,
+          "disabled": true,
+          "questCheck": false
+        },
+        "10501603": {
+          "choiceId": 10501603,
+          "title": {
+            "ja": "引き返す",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "洞窟を出る",
+            "zh-CN": "????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "引き返す"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "洞窟を出る"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        },
+        "10501604": {
+          "choiceId": 10501604,
+          "title": {
+            "ja": "洞窟を<br>進み続ける",
+            "zh-CN": "??<br>????"
+          },
+          "text": {
+            "ja": "危険を顧みず洞窟内を探索する<br>30%：魔物と遭遇",
+            "zh-CN": "????????????<br>30%?????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "洞窟を<br>進み続ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "危険を顧みず洞窟内を探索する<br>30%：魔物と遭遇"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10501605": {
+          "choiceId": 10501605,
+          "title": {
+            "ja": "洞窟を<br>進み続ける",
+            "zh-CN": "??<br>????"
+          },
+          "text": {
+            "ja": "危険を顧みず洞窟内を探索する<br>40%：味方全体のHP-20％",
+            "zh-CN": "????????????<br>40%???HP-20?"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "洞窟を<br>進み続ける"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "危険を顧みず洞窟内を探索する<br>40%：味方全体のHP-20％"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "special-incident-meta",
+        "node_event",
+        "incident"
+      ],
+      "firstSeenAt": 1785594468781,
+      "lastSeenAt": 1785594956733
+    },
+    "special:17": {
+      "selectionId": null,
+      "specialIncidentId": 17,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "石像",
+        "ja": "石像",
+        "en": "Stone Face"
+      },
+      "enumKey": "STONE_FACE",
+      "group": "地点特殊",
+      "tips": [
+        "需要连续完成三场精英战斗"
+      ],
+      "image": "bg_101.jpg",
+      "description": {
+        "zh-CN": "完成精英怪三连战后获得一个特殊导本，该导本提供土风伤害、弱化、土属性追击、回复和奥义槽提升。",
+        "ja": "遺跡の奥に、ひとりの老人が静かに佇んでいた。<br><span style=\"color:#FFCE4A;\">「戦を恐れぬ者よ、武を守護者に示すがよい。<br>三の試練を越えし者に、神器はその真意を示す。<br>その覚悟、時を越えし我が眼にて見届けん……」</span>"
+      },
+      "observedDescriptions": [
+        {
+          "language": "ja",
+          "text": "遺跡の奥に、ひとりの老人が静かに佇んでいた。<br><span style=\"color:#FFCE4A;\">「戦を恐れぬ者よ、武を守護者に示すがよい。<br>三の試練を越えし者に、神器はその真意を示す。<br>その覚悟、時を越えし我が眼にて見届けん……」</span>"
+        }
+      ],
+      "options": {
+        "10501501": {
+          "choiceId": 10501501,
+          "title": {
+            "ja": "試練に<br>挑戦する",
+            "zh-CN": "??<br>??"
+          },
+          "text": {
+            "ja": "<span style=\"color:#ff4d00;\">強敵</span>との3連戦を制することで<br>特別な導本効果を獲得",
+            "zh-CN": "???<span style=\"color:#ff4d00;\">??</span>?3???<br>????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "試練に<br>挑戦する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "<span style=\"color:#ff4d00;\">強敵</span>との3連戦を制することで<br>特別な導本効果を獲得"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": true
+        },
+        "10501502": {
+          "choiceId": 10501502,
+          "title": {
+            "ja": "撤退する",
+            "zh-CN": "??"
+          },
+          "text": {
+            "ja": "戦力を整える<br>※次に訪れたときに再挑戦が可能",
+            "zh-CN": "????<br>????????????"
+          },
+          "observedTitles": [
+            {
+              "language": "ja",
+              "text": "撤退する"
+            }
+          ],
+          "observedTexts": [
+            {
+              "language": "ja",
+              "text": "戦力を整える<br>※次に訪れたときに再挑戦が可能"
+            }
+          ],
+          "turn": null,
+          "disabled": false,
+          "questCheck": false
+        }
+      },
+      "sources": [
+        "special-incident-meta",
+        "node_event"
+      ],
+      "firstSeenAt": 1785595816043,
+      "lastSeenAt": 1785595816043
+    },
+    "special:18": {
+      "selectionId": null,
+      "specialIncidentId": 18,
+      "nodeType": 10,
+      "eventKind": "special",
+      "notes": {
+        "zh-CN": ""
+      },
+      "name": {
+        "zh-CN": "村庄",
+        "ja": "村",
+        "en": "Village"
+      },
+      "enumKey": "VILLAGE",
+      "group": "地点特殊",
+      "tips": [
+        "战斗后转为折扣商店"
+      ],
+      "image": "",
+      "description": {
+        "zh-CN": "与怪物战斗后获得300塞菲拉币；此处随后变为商店，并提供25%折扣。"
+      },
+      "observedDescriptions": [],
+      "options": {},
+      "sources": [
+        "special-incident-meta"
+      ],
+      "firstSeenAt": null,
+      "lastSeenAt": null
+    }
+  }
+}
