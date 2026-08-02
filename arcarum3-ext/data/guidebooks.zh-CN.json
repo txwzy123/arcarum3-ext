@@ -101,6 +101,7 @@
     "110": { "statusId": 110, "text": { "zh-CN": "战斗开始时，凯姆发动「愚者的正位」/我方累计使用12次技能时，仅限一次使全体技能立即可用；仅当凯姆位于前排时发动(不可重复)" }, "sources": ["community-zh-CN"] },
     "116": { "statusId": 116, "text": { "zh-CN": "全体在回合结束时，随机获得弱化效果" }, "sources": ["community-zh-CN"] },
     "117": { "statusId": 117, "text": { "zh-CN": "连击率降低(100%)" }, "sources": ["community-zh-CN"] },
+    "118": { "statusId": 118, "text": { "zh-CN": "每回合受到伤害" }, "sources": ["community-zh-CN"] },
     "119": { "statusId": 119, "text": { "zh-CN": "君临者格/Boss格出现的敌人预兆解除条件增加" }, "sources": ["community-zh-CN"] },
     "120": { "statusId": 120, "text": { "zh-CN": "全体在回合结束时，有概率使自身技能使用间隔延长1回合" }, "sources": ["community-zh-CN"] },
     "121": { "statusId": 121, "text": { "zh-CN": "战斗胜利时获得的塞菲拉币数量降低(-30%)" }, "sources": ["community-zh-CN"] },

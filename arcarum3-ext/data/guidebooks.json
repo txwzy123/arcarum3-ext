@@ -2653,6 +2653,30 @@
       "firstSeenAt": 1785422875372,
       "lastSeenAt": 1785422940957
     },
+    "118": {
+      "statusId": 118,
+      "text": {
+        "zh-CN": "每回合受到伤害",
+        "ja": "毎ターンダメージを受ける",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "毎ターンダメージを受ける"
+        }
+      ],
+      "rarity": 99,
+      "iconCategory": 4,
+      "iconType": 503,
+      "sources": [
+        "incident",
+        "node_event",
+        "community-zh-CN"
+      ],
+      "firstSeenAt": 1785631562727,
+      "lastSeenAt": 1785631677338
+    },
     "119": {
       "statusId": 119,
       "text": {

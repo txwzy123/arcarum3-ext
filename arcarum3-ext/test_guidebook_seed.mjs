@@ -51,6 +51,10 @@ const expectedTexts = {
     ja: "味方全体がターン終了時、自分にランダムな弱体効果",
     "zh-CN": "全体在回合结束时，随机获得弱化效果",
   },
+  118: {
+    ja: "毎ターンダメージを受ける",
+    "zh-CN": "每回合受到伤害",
+  },
   119: {
     ja: "君臨者マス/ボスマスで出現する敵の予兆解除条件が増加",
     "zh-CN": "君临者格/Boss格出现的敌人预兆解除条件增加",
@@ -68,8 +72,8 @@ const dynamicTextStatusIds = new Set([45, 53, 54, 57, 85, 86]);
 const intentionalNumberAdaptations = new Set([30, 56]);
 const numbersIn = (text) => [...text.matchAll(/\d+/g)].map((match) => match[0]);
 
-assert.equal(Object.keys(database.entries).length, 108);
-assert.equal(Object.keys(translations.entries).length, 108);
+assert.equal(Object.keys(database.entries).length, 109);
+assert.equal(Object.keys(translations.entries).length, 109);
 assert.deepEqual(database.unresolved, []);
 assert.deepEqual(translations.unresolved, []);
 
