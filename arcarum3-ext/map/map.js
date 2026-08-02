@@ -35,8 +35,13 @@ import {
   PRESET_LABEL,
   toRouteMap,
   planRouteWithVias,
+  isValidTargetRoute,
   summarizeRoute,
 } from "../shared/path/weightedRoute.js";
+import {
+  nextTargetSelection,
+  isDuplicateRightClick,
+} from "../shared/path/routeInteraction.js";
 import {
   findLowestScorePathSticky,
   describeExploreScores,
@@ -753,62 +758,63 @@ function buildLegend() {
   }
 }
 
+function getTargetRoutePlan(goal, vias) {
+  const start = state?.current_node_id;
+  if (goal == null) return { path: null, error: null, map: null };
+  if (start == null) {
+    return {
+      path: null,
+      error: `已设目标 #${goal}，但当前地图没有 current_node_id（请重新进图抓包）`,
+      map: null,
+    };
+  }
+  if (!state?.node_list?.length) return { path: null, error: "当前地图没有节点", map: null };
+  const map = toRouteMap(state);
+  const result = planRouteWithVias(map, Number(start), Number(goal), vias, routePreset);
+  return { ...result, map };
+}
+
+function renderTargetRoute(goal, vias, plan) {
+  routeMode = "target";
+  routeGoal = Number(goal);
+  routeVias = vias.map(Number);
+  routePath = plan.path;
+  const sum = summarizeRoute(plan.map, plan.path);
+  updateRouteStats(sum);
+  $("route-hint").textContent =
+    `预设「${PRESET_LABEL[routePreset]}」· 目标 #${routeGoal}` +
+    (routeVias.length ? ` · 途经 ${routeVias.map((v) => "#" + v).join(",")}` : "") +
+    " · 右键改目标/加途经";
+  setRouteButtonsEnabled(true);
+  scheduleDraw();
+}
+
 function recomputeRoute() {
   try {
-    const start = state?.current_node_id;
     if (routeGoal == null) {
       routePath = null;
       updateRouteStats(null);
       scheduleDraw();
-      return;
+      return false;
     }
-    if (start == null) {
+    const plan = getTargetRoutePlan(routeGoal, routeVias);
+    if (!plan.path) {
       routePath = null;
-      updateRouteStats(null);
-      $("route-hint").textContent =
-        `已设目标 #${routeGoal}，但当前地图没有 current_node_id（请重新进图抓包）`;
-      setRouteButtonsEnabled(true);
-      scheduleDraw();
-      return;
-    }
-    if (!state?.node_list?.length) {
-      routePath = null;
-      updateRouteStats(null);
-      scheduleDraw();
-      return;
-    }
-    const map = toRouteMap(state);
-    const { path, error } = planRouteWithVias(
-      map,
-      Number(start),
-      Number(routeGoal),
-      routeVias,
-      routePreset
-    );
-    if (!path) {
-      routePath = null;
-      $("route-hint").textContent = error || `无法规划 #${start} → #${routeGoal}`;
+      $("route-hint").textContent = plan.error || `无法规划当前路线`;
       updateRouteStats(null);
       setRouteButtonsEnabled(true);
       scheduleDraw();
-      return;
+      return false;
     }
-    routeMode = "target";
-    routePath = path;
-    const sum = summarizeRoute(map, path);
-    updateRouteStats(sum);
-    $("route-hint").textContent =
-      `预设「${PRESET_LABEL[routePreset]}」· 目标 #${routeGoal}` +
-      (routeVias.length ? ` · 途经 ${routeVias.map((v) => "#" + v).join(",")}` : "") +
-      " · 右键改目标/加途经";
-    setRouteButtonsEnabled(true);
-    scheduleDraw();
+    renderTargetRoute(routeGoal, routeVias, plan);
+    return true;
   } catch (err) {
     console.error("[map] recomputeRoute failed", err);
     routePath = null;
     $("route-hint").textContent = `路径计算出错：${err?.message || err}`;
     $("status").textContent = `路径计算出错：${err?.message || err}`;
     scheduleDraw();
+    return false;
   }
 }
 
@@ -1029,29 +1035,39 @@ function runExploreGenerate() {
 function onRouteRightClick(nid) {
   if (nid == null) return;
   try {
-    routeMode = "target";
+    const clickedNode = state?.node_list?.find(
+      (node) => Number(node.node_id) === Number(nid)
+    );
+    const clickedBoss = Number(clickedNode?.node_type) === NODE_TYPE.BOSS;
+    const candidate = nextTargetSelection({
+      currentId: state?.current_node_id,
+      clickedId: nid,
+      clickedIsBoss: clickedBoss,
+      routeGoal,
+      routeVias,
+    });
+    if (candidate.action === "ignore") {
+      showDetail(nid);
+      return;
+    }
+
+    const plan = getTargetRoutePlan(candidate.goal, candidate.vias);
+    if (!plan.path) {
+      // Planning is transactional: a failed candidate must not erase the
+      // last valid target, vias, or blue route.
+      $("route-hint").textContent = plan.error || "无法规划该右键路线，已保留原路线";
+      scheduleDraw();
+      showDetail(nid);
+      return;
+    }
+
     exploreScore = null;
     const es = $("explore-stats");
     if (es) {
       es.hidden = true;
       es.innerHTML = "";
     }
-    const clickedNode = state?.node_list?.find(
-      (node) => Number(node.node_id) === Number(nid)
-    );
-    const clickedBoss = Number(clickedNode?.node_type) === NODE_TYPE.BOSS;
-    if (clickedBoss || routeGoal == null || routeGoal === nid) {
-      // 右键 Boss 时始终把它设为最终目标，不会加入途经点。
-      routeGoal = nid;
-      routeVias = routeVias.filter((v) => v !== nid);
-    } else if (
-      !routeVias.includes(nid) &&
-      nid !== state?.current_node_id &&
-      nid !== routeGoal
-    ) {
-      routeVias.push(nid);
-    }
-    recomputeRoute();
+    renderTargetRoute(candidate.goal, candidate.vias, plan);
     showDetail(nid);
   } catch (err) {
     console.error("[map] onRouteRightClick failed", err);
@@ -1102,30 +1118,51 @@ function trimExploreRouteToCurrent() {
  */
 function trimTargetRouteToCurrent() {
   if (routeMode !== "target" || routeGoal == null) return false;
-  if (!Array.isArray(routePath) || routePath.length < 2) return false;
   const cur = state?.current_node_id != null ? Number(state.current_node_id) : null;
   if (cur == null) return false;
 
   const goal = Number(routeGoal);
   if (cur === goal) {
-    routePath = [cur];
+    // Completion is a state transition, not a one-node route. Clear the old
+    // target so the next ordinary right-click starts a new route.
+    routeGoal = null;
     routeVias = [];
+    routePath = null;
+    routeMode = null;
+    exploreScore = null;
     updateRouteStats(null);
+    setRouteButtonsEnabled(false);
     $("route-hint").textContent = `已到达目标 #${goal}。右键可设新目标。`;
     return true;
   }
+
+  const map = toRouteMap(state);
+  const byId = new Map(map.nodes.map((node) => [Number(node.id), node]));
+  routeVias = routeVias.filter((viaId) => {
+    const id = Number(viaId);
+    const node = byId.get(id);
+    return (
+      node != null &&
+      id !== cur &&
+      id !== goal &&
+      node.displayType !== NODE_TYPE.BOSS
+    );
+  });
+
+  if (!Array.isArray(routePath) || routePath.length < 2) return false;
 
   const idx = routePath.indexOf(cur);
   if (idx < 0) return false;
   if (Number(routePath[routePath.length - 1]) !== goal) return false;
 
-  routePath = routePath.slice(idx);
+  const candidatePath = routePath.slice(idx);
+  if (!isValidTargetRoute(map, candidatePath, goal, routePreset)) return false;
+  routePath = candidatePath;
   // 途经点若已走过则丢掉
   if (routeVias.length) {
     const remain = new Set(routePath);
     routeVias = routeVias.filter((v) => remain.has(Number(v)) && Number(v) !== cur);
   }
-  const map = toRouteMap(state);
   updateRouteStats(summarizeRoute(map, routePath));
   $("route-hint").textContent =
     `沿路线前进 · 预设「${PRESET_LABEL[routePreset]}」· 目标 #${goal}` +
@@ -1233,8 +1270,29 @@ function applyState(s) {
 // —— 交互：仅左键拖拽/点选；右键设路线（避免 capture 吞掉右键）——
 /** @type {number|null} */
 let activePointerId = null;
-/** 防止 pointerup(button=2) 与 contextmenu 双触发 */
-let rightClickHandledAt = 0;
+/** 防止 pointerup(button=2) 与 contextmenu 双触发（支持任意事件顺序） */
+let lastRightClickGesture = null;
+
+function handleRightClickGesture(id, source, x, y) {
+  const now = Date.now();
+  const current = {
+    nodeId: id == null ? null : Number(id),
+    source,
+    x,
+    y,
+    time: now,
+  };
+  if (isDuplicateRightClick(lastRightClickGesture, current)) {
+    // Consume the paired browser event. A fast second right-click must start
+    // a new gesture instead of being mistaken for this one's companion.
+    lastRightClickGesture = null;
+    return;
+  }
+  // Record before routing so the companion browser event is suppressed even
+  // when route planning throws or updates the DOM synchronously.
+  lastRightClickGesture = current;
+  if (id != null) onRouteRightClick(id);
+}
 
 function endPointerDrag(e) {
   if (activePointerId != null && e && e.pointerId !== activePointerId) {
@@ -1310,10 +1368,7 @@ canvas.addEventListener("pointerup", (e) => {
     endPointerDrag(e);
     const rect = canvas.getBoundingClientRect();
     const id = hitTest(e.clientX - rect.left, e.clientY - rect.top);
-    if (id != null) {
-      rightClickHandledAt = Date.now();
-      onRouteRightClick(id);
-    }
+    handleRightClickGesture(id, "pointerup", e.clientX, e.clientY);
     return;
   }
 
@@ -1344,11 +1399,9 @@ canvas.addEventListener("lostpointercapture", () => {
 canvas.addEventListener("contextmenu", (e) => {
   e.preventDefault();
   e.stopPropagation();
-  // 若 pointerup 已处理过，跳过（50ms 内）
-  if (Date.now() - rightClickHandledAt < 80) return;
   const rect = canvas.getBoundingClientRect();
   const id = hitTest(e.clientX - rect.left, e.clientY - rect.top);
-  if (id != null) onRouteRightClick(id);
+  handleRightClickGesture(id, "contextmenu", e.clientX, e.clientY);
 });
 
 canvas.addEventListener(

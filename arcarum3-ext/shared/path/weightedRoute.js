@@ -411,6 +411,50 @@ export function planRouteWithVias(map, startId, goalId, viaIds, preset) {
 }
 
 /**
+ * Validate a previously planned target route against the latest map snapshot.
+ * Node types and adjacency can change after a state broadcast, so trimming a
+ * path is only safe when the remaining path still obeys the planner rules.
+ * @param {{nodes: {id:number, displayType:number, adjacentIds:number[]}[]}} map
+ * @param {number[]} pathIds
+ * @param {number} goalId
+ * @param {'short'|'reward'|'safe'} [preset]
+ * @returns {boolean}
+ */
+export function isValidTargetRoute(map, pathIds, goalId, preset = "short") {
+  if (!Array.isArray(pathIds) || pathIds.length < 2) return false;
+  const byId = new Map((map?.nodes || []).map((node) => [Number(node.id), node]));
+  const normalized = pathIds.map(Number);
+  if (normalized.some((id) => !Number.isFinite(id) || !byId.has(id))) return false;
+  if (normalized[normalized.length - 1] !== Number(goalId)) return false;
+  if (new Set(normalized).size !== normalized.length) return false;
+
+  const startNode = byId.get(normalized[0]);
+  if (!startNode || startNode.displayType === NODE_TYPE.BOSS) return false;
+  for (let i = 0; i < normalized.length; i++) {
+    const node = byId.get(normalized[i]);
+    if (!node) return false;
+    if (node.displayType === NODE_TYPE.BOSS && i !== normalized.length - 1) {
+      return false;
+    }
+    if (
+      preset === "safe" &&
+      i > 0 &&
+      i !== normalized.length - 1 &&
+      AVOID_TYPES.has(node.displayType)
+    ) {
+      return false;
+    }
+    if (i > 0) {
+      const previous = byId.get(normalized[i - 1]);
+      if (!previous?.adjacentIds?.some((id) => Number(id) === normalized[i])) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+/**
  * 路径统计（不含起点）
  */
 export function summarizeRoute(map, pathIds) {

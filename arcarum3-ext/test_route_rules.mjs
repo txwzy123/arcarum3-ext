@@ -7,6 +7,7 @@ import {
 } from "./shared/path/exploreScore.js";
 import {
   findWeightedPath,
+  isValidTargetRoute,
   planRouteWithVias,
 } from "./shared/path/weightedRoute.js";
 import { NODE_TYPE } from "./shared/nodeTypes.js";
@@ -52,6 +53,42 @@ assert.equal(
   planRouteWithVias(map, 1, 3, [2], "short").path,
   null,
   "a Boss node must not be accepted as a via",
+);
+
+const staleBossMap = {
+  nodes: [
+    { id: 1, displayType: NODE_TYPE.EMPTY, adjacentIds: [2] },
+    { id: 2, displayType: NODE_TYPE.BOSS, adjacentIds: [1, 3] },
+    { id: 3, displayType: NODE_TYPE.BATTLE, adjacentIds: [2] },
+  ],
+};
+assert.equal(
+  isValidTargetRoute(staleBossMap, [1, 2, 3], 3),
+  false,
+  "a dynamic Boss in the middle invalidates the old route",
+);
+assert.equal(
+  isValidTargetRoute(staleBossMap, [1, 2], 2),
+  true,
+  "a Boss remains valid when it is the final target",
+);
+const staleStrongMap = {
+  nodes: [
+    { id: 1, displayType: NODE_TYPE.EMPTY, adjacentIds: [2] },
+    { id: 2, displayType: NODE_TYPE.STRONG, adjacentIds: [3] },
+    { id: 3, displayType: NODE_TYPE.BATTLE, adjacentIds: [] },
+  ],
+};
+assert.equal(isValidTargetRoute(staleStrongMap, [1, 2, 3], 3, "safe"), false);
+assert.equal(isValidTargetRoute(staleStrongMap, [1, 2, 3], 3, "short"), true);
+assert.equal(
+  isValidTargetRoute(
+    { nodes: [{ id: 1, displayType: NODE_TYPE.EMPTY, adjacentIds: [] }, { id: 2, displayType: NODE_TYPE.BATTLE, adjacentIds: [1] }] },
+    [1, 2],
+    2,
+  ),
+  false,
+  "stale adjacency invalidates the old route",
 );
 
 console.log("route rules: all assertions passed");
