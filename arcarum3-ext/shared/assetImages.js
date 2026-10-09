@@ -1,5 +1,18 @@
 const activeLoads = new WeakMap();
 
+export function backgroundImageKey(mapId) {
+  const id = Number(mapId);
+  return `bg:assets/map_bg/${Number.isSafeInteger(id) && id > 0 ? id : 1}.jpg`;
+}
+
+export function selectBackgroundImage(images, mapId) {
+  for (const key of [backgroundImageKey(mapId), backgroundImageKey(1)]) {
+    const image = images.get(key);
+    if (image?.complete && image.naturalWidth > 0) return image;
+  }
+  return null;
+}
+
 /** CDN paths below arcarum3 mirror the bundled assets directory. */
 export function localAssetUrl(remoteUrl) {
   const pathname = new URL(remoteUrl).pathname;

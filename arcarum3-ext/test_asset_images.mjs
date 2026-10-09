@@ -12,7 +12,7 @@ const context = vm.createContext({
   clearTimeout: (id) => timers.delete(id),
 });
 vm.runInContext(source.replaceAll("export function", "function"), context);
-const { loadAssetImage, localAssetUrl } = context;
+const { loadAssetImage, localAssetUrl, backgroundImageKey, selectBackgroundImage } = context;
 const remote = "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/arcarum3/assets/map_bg/1.jpg";
 const local = "chrome-extension://test/assets/assets/map_bg/1.jpg";
 function image() {
@@ -96,6 +96,25 @@ for (const relative of relativeImages) {
   assert.equal(localAssetUrl(url), `chrome-extension://test/assets/${relative}`);
   await access(new URL(`./assets/${relative}`, import.meta.url));
 }
-const mapSource = await readFile(new URL("./map/map.js", import.meta.url), "utf8");
-assert.doesNotMatch(mapSource, /map_bg\/\$\{/, "map_id must not be guessed as a background file number");
+const backgrounds = new Map();
+const first = { complete: true, naturalWidth: 2680, naturalHeight: 1830 };
+const second = { complete: true, naturalWidth: 3000, naturalHeight: 2000 };
+assert.equal(backgroundImageKey("2"), "bg:assets/map_bg/2.jpg");
+for (const invalid of [null, undefined, "", "bad", 0, -1, 1.5]) {
+  assert.equal(backgroundImageKey(invalid), "bg:assets/map_bg/1.jpg");
+}
+assert.equal(selectBackgroundImage(backgrounds, 2), null);
+backgrounds.set(backgroundImageKey(2), { complete: false, naturalWidth: 3000 });
+backgrounds.set(backgroundImageKey(1), first);
+assert.equal(selectBackgroundImage(backgrounds, 2), first, "use 1.jpg while 2.jpg is loading");
+backgrounds.set(backgroundImageKey(2), null);
+assert.equal(selectBackgroundImage(backgrounds, 2), first, "missing numbered image falls back to 1.jpg");
+backgrounds.set(backgroundImageKey(2), second);
+assert.equal(selectBackgroundImage(backgrounds, 2), second);
+backgrounds.delete(backgroundImageKey(1));
+backgrounds.set(backgroundImageKey(1), first);
+assert.equal(selectBackgroundImage(backgrounds, 2), second, "late 1.jpg cannot replace ready 2.jpg");
+assert.equal(selectBackgroundImage(backgrounds, 1), first, "switching maps must not retain the old numbered image");
+assert.equal(selectBackgroundImage(backgrounds, 3), first, "a third map must not use a cached second-map image");
+assert.equal(localAssetUrl(remote.replace("1.jpg", "2.jpg")), "chrome-extension://test/assets/assets/map_bg/2.jpg");
 console.log(`asset fallback: all assertions passed; ${relativeImages.length} required images present`);

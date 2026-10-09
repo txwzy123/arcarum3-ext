@@ -51,7 +51,7 @@ import {
   EXPLORE_SCORE_FIELDS,
 } from "../shared/path/exploreScore.js";
 import { createGuidebookView } from "./guidebookView.js";
-import { loadAssetImage } from "../shared/assetImages.js";
+import { loadAssetImage, backgroundImageKey, selectBackgroundImage } from "../shared/assetImages.js";
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d", { alpha: false });
@@ -103,7 +103,6 @@ let bgBrightness = (() => {
 
 const images = new Map();
 let cdnBase = CDN_BASES[0];
-let bgKey = "bg:assets/map_bg/1.jpg";
 let mapW = 2680;
 let mapH = 1830;
 
@@ -131,6 +130,12 @@ function assetUrl(rel) {
   return `${cdnBase}/${rel}`;
 }
 
+function syncBackgroundSize() {
+  const background = selectBackgroundImage(images, state?.map_id);
+  mapW = background?.naturalWidth || 2680;
+  mapH = background?.naturalHeight || 1830;
+}
+
 function loadImage(key, url) {
   if (images.has(key)) return images.get(key);
   const img = new Image();
@@ -138,11 +143,7 @@ function loadImage(key, url) {
   images.set(key, img);
   loadAssetImage(img, url, {
     onLoad: () => {
-      if (String(key).startsWith("bg:") && img.naturalWidth) {
-        mapW = img.naturalWidth;
-        mapH = img.naturalHeight;
-        bgKey = key;
-      }
+      if (String(key).startsWith("bg:")) syncBackgroundSize();
       staticDirty = true;
       scheduleDraw();
     },
@@ -156,8 +157,12 @@ function loadImage(key, url) {
 }
 
 function ensureAssets() {
-  // 背景固定 1.jpg（map_id 不是 bg 编号）
-  loadImage("bg:assets/map_bg/1.jpg", assetUrl("assets/map_bg/1.jpg"));
+  const preferredKey = backgroundImageKey(state?.map_id);
+  loadImage(preferredKey, assetUrl(preferredKey.slice(3)));
+  if (preferredKey !== backgroundImageKey(1)) {
+    loadImage(backgroundImageKey(1), assetUrl("assets/map_bg/1.jpg"));
+  }
+  syncBackgroundSize();
   loadImage("base", assetUrl("assets/node_icon/base.png"));
   loadImage("base_cleared", assetUrl("assets/node_icon/base_cleared.png"));
   loadImage("piece", assetUrl("assets/node_icon/piece_1.png"));
@@ -281,7 +286,7 @@ function rebuildStaticLayer() {
   sctx.fillStyle = "#0b0f14";
   sctx.fillRect(0, 0, mapW, mapH);
 
-  const bg = imgReady(bgKey);
+  const bg = selectBackgroundImage(images, state?.map_id);
   if (bg) {
     // 全不透明绘制，亮度由滑杆控制（旧版 0.5 半透明叠黑底导致整图过暗）
     sctx.filter = `brightness(${bgBrightness / 100}) saturate(1.06)`;
