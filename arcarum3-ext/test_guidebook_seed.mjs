@@ -23,6 +23,14 @@ const expectedTexts = {
     ja: "自属性スキルエンハンス(60%)",
     "zh-CN": "自属性加护强化(60%)",
   },
+  71: {
+    ja: "味方全体がターン終了時、自分にランダムな強化効果",
+    "zh-CN": "全体在回合结束时，随机获得强化效果",
+  },
+  72: {
+    ja: "与ダメージUP(50%)",
+    "zh-CN": "造成伤害提升(50%)",
+  },
   74: {
     ja: "アビリティ使用間隔短縮(2ターン)",
     "zh-CN": "技能使用间隔缩短(2回合)",
@@ -68,12 +76,12 @@ const expectedTexts = {
     "zh-CN": "技能使用间隔延长(2回合)；战斗胜利3次后变为「技能使用间隔缩短(2回合)」(0/3次)",
   },
 };
-const dynamicTextStatusIds = new Set([45, 53, 54, 57, 85, 86]);
+const dynamicTextStatusIds = new Set([45, 53, 54, 55, 57, 85, 86]);
 const intentionalNumberAdaptations = new Set([30, 56]);
 const numbersIn = (text) => [...text.matchAll(/\d+/g)].map((match) => match[0]);
 
-assert.equal(Object.keys(database.entries).length, 109);
-assert.equal(Object.keys(translations.entries).length, 109);
+assert.equal(Object.keys(database.entries).length, 111);
+assert.equal(Object.keys(translations.entries).length, 111);
 assert.deepEqual(database.unresolved, []);
 assert.deepEqual(translations.unresolved, []);
 

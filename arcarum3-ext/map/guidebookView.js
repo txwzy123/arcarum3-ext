@@ -6,6 +6,7 @@ import {
 import { getGuidebookDisplayName } from "../shared/guidebookTranslations.js";
 import { serializeGuidebookDatabase } from "../shared/guidebookDatabase.js";
 import { MSG } from "../shared/constants.js";
+import { loadAssetImage } from "../shared/assetImages.js";
 import { resolvePlayerText } from "../shared/playerText.js";
 import { getShopItemTranslation, normalizeShopItemText } from "../shared/shopItems.js";
 
@@ -104,8 +105,10 @@ export function createGuidebookView({ onRender } = {}) {
       const type = button.dataset.type;
       const active = activeRarities.has(Number(button.dataset.rarity));
       button.setAttribute("aria-pressed", String(active));
-      button.querySelector("img").src =
-        `${BOOK_TAB_BASE}/btn_${type}_${active ? "on" : "off"}.png`;
+      loadAssetImage(
+        button.querySelector("img"),
+        `${BOOK_TAB_BASE}/btn_${type}_${active ? "on" : "off"}.png`
+      );
     });
   }
 

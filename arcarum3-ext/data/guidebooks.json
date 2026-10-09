@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T16:09:00.727Z",
+  "updatedAt": "2026-08-13T13:18:36.352Z",
   "entries": {
     "1": {
       "statusId": 1,
@@ -27,10 +27,12 @@
         "status_list",
         "node_event",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "incident",
+        "gain"
       ],
       "firstSeenAt": 1785332400696,
-      "lastSeenAt": 1785513712196
+      "lastSeenAt": 1786627114855
     },
     "2": {
       "statusId": 2,
@@ -62,7 +64,7 @@
         "gain"
       ],
       "firstSeenAt": 1785332312862,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626828084
     },
     "3": {
       "statusId": 3,
@@ -86,10 +88,11 @@
         "status_list",
         "community-zh-CN",
         "node_event",
-        "incident"
+        "incident",
+        "gain"
       ],
       "firstSeenAt": 1785332240204,
-      "lastSeenAt": 1785513839849
+      "lastSeenAt": 1786626010097
     },
     "4": {
       "statusId": 4,
@@ -113,10 +116,11 @@
         "community-zh-CN",
         "incident",
         "shop",
-        "node_event"
+        "node_event",
+        "gain"
       ],
       "firstSeenAt": 1785340828974,
-      "lastSeenAt": 1785513534091
+      "lastSeenAt": 1786626392527
     },
     "5": {
       "statusId": 5,
@@ -139,10 +143,12 @@
         "status_list",
         "community-zh-CN",
         "shop",
-        "node_event"
+        "node_event",
+        "gain",
+        "incident"
       ],
       "firstSeenAt": 1785333379868,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786627047164
     },
     "6": {
       "statusId": 6,
@@ -170,7 +176,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332513004,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626743663
     },
     "7": {
       "statusId": 7,
@@ -194,10 +200,11 @@
         "status_list",
         "community-zh-CN",
         "shop",
-        "incident"
+        "incident",
+        "gain"
       ],
       "firstSeenAt": 1785333273739,
-      "lastSeenAt": 1785513578284
+      "lastSeenAt": 1786626920378
     },
     "8": {
       "statusId": 8,
@@ -229,7 +236,7 @@
         "gain"
       ],
       "firstSeenAt": 1785332434641,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786455259053
     },
     "9": {
       "statusId": 9,
@@ -257,10 +264,11 @@
         "community-zh-CN",
         "shop",
         "incident",
-        "node_event"
+        "node_event",
+        "gain"
       ],
       "firstSeenAt": 1785333739335,
-      "lastSeenAt": 1785513767767
+      "lastSeenAt": 1786626870886
     },
     "10": {
       "statusId": 10,
@@ -288,10 +296,12 @@
         "status_list",
         "community-zh-CN",
         "node_event",
-        "gain"
+        "gain",
+        "incident",
+        "remove"
       ],
       "firstSeenAt": 1785332631432,
-      "lastSeenAt": 1785513612017
+      "lastSeenAt": 1786455548587
     },
     "11": {
       "statusId": 11,
@@ -315,10 +325,11 @@
         "shop",
         "community-zh-CN",
         "node_event",
-        "incident"
+        "incident",
+        "gain"
       ],
       "firstSeenAt": 1785332942922,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786625888409
     },
     "13": {
       "statusId": 13,
@@ -350,7 +361,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332631432,
-      "lastSeenAt": 1785513839849
+      "lastSeenAt": 1786626682836
     },
     "14": {
       "statusId": 14,
@@ -378,10 +389,11 @@
         "battle_result",
         "status_list",
         "shop",
-        "community-zh-CN"
+        "community-zh-CN",
+        "gain"
       ],
       "firstSeenAt": 1785332465704,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786627114855
     },
     "15": {
       "statusId": 15,
@@ -409,10 +421,11 @@
         "shop",
         "status_list",
         "community-zh-CN",
-        "node_event"
+        "node_event",
+        "gain"
       ],
       "firstSeenAt": 1785332984833,
-      "lastSeenAt": 1785513839849
+      "lastSeenAt": 1786627114855
     },
     "17": {
       "statusId": 17,
@@ -439,10 +452,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "battle_result"
+        "battle_result",
+        "gain"
       ],
       "firstSeenAt": 1785332434641,
-      "lastSeenAt": 1785513536790
+      "lastSeenAt": 1786626928723
     },
     "18": {
       "statusId": 18,
@@ -468,10 +482,12 @@
         "node_event",
         "status_list",
         "battle_result",
-        "community-zh-CN"
+        "community-zh-CN",
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785332661566,
-      "lastSeenAt": 1785513183129
+      "lastSeenAt": 1786626582769
     },
     "19": {
       "statusId": 19,
@@ -497,10 +513,12 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "battle_result"
+        "battle_result",
+        "shop",
+        "incident"
       ],
       "firstSeenAt": 1785333382826,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626978874
     },
     "20": {
       "statusId": 20,
@@ -523,10 +541,11 @@
         "community-zh-CN",
         "node_event",
         "status_list",
-        "battle_result"
+        "battle_result",
+        "incident"
       ],
       "firstSeenAt": 1785340171679,
-      "lastSeenAt": 1785513580899
+      "lastSeenAt": 1786626830959
     },
     "21": {
       "statusId": 21,
@@ -550,10 +569,11 @@
         "gain",
         "status_list",
         "community-zh-CN",
-        "battle_result"
+        "battle_result",
+        "shop"
       ],
       "firstSeenAt": 1785332210297,
-      "lastSeenAt": 1785513716373
+      "lastSeenAt": 1786625913728
     },
     "22": {
       "statusId": 22,
@@ -580,7 +600,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332210297,
-      "lastSeenAt": 1785507142503
+      "lastSeenAt": 1786455706117
     },
     "23": {
       "statusId": 23,
@@ -606,7 +626,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333666870,
-      "lastSeenAt": 1785507231764
+      "lastSeenAt": 1786455259053
     },
     "24": {
       "statusId": 24,
@@ -633,7 +653,7 @@
         "incident"
       ],
       "firstSeenAt": 1785344115209,
-      "lastSeenAt": 1785504494397
+      "lastSeenAt": 1786455585630
     },
     "25": {
       "statusId": 25,
@@ -656,10 +676,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "incident"
+        "incident",
+        "gain"
       ],
       "firstSeenAt": 1785333105431,
-      "lastSeenAt": 1785513488080
+      "lastSeenAt": 1786626830959
     },
     "27": {
       "statusId": 27,
@@ -687,10 +708,11 @@
         "incident",
         "status_list",
         "battle_result",
-        "shop"
+        "shop",
+        "gain"
       ],
       "firstSeenAt": 1785332421869,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626156344
     },
     "28": {
       "statusId": 28,
@@ -717,7 +739,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332326169,
-      "lastSeenAt": 1785513536790
+      "lastSeenAt": 1786626582769
     },
     "29": {
       "statusId": 29,
@@ -745,10 +767,11 @@
         "status_list",
         "community-zh-CN",
         "incident",
-        "gain"
+        "gain",
+        "shop"
       ],
       "firstSeenAt": 1785333382826,
-      "lastSeenAt": 1785512940703
+      "lastSeenAt": 1786455259053
     },
     "30": {
       "statusId": 30,
@@ -775,7 +798,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332242471,
-      "lastSeenAt": 1785513674137
+      "lastSeenAt": 1786625828544
     },
     "31": {
       "statusId": 31,
@@ -801,7 +824,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332326169,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786625939940
     },
     "32": {
       "statusId": 32,
@@ -823,10 +846,12 @@
         "gain",
         "status_list",
         "community-zh-CN",
-        "node_event"
+        "node_event",
+        "incident",
+        "battle_result"
       ],
       "firstSeenAt": 1785332993407,
-      "lastSeenAt": 1785507231764
+      "lastSeenAt": 1786455259053
     },
     "33": {
       "statusId": 33,
@@ -848,10 +873,11 @@
         "battle_result",
         "status_list",
         "community-zh-CN",
-        "node_event"
+        "node_event",
+        "incident"
       ],
       "firstSeenAt": 1785333379868,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786455259053
     },
     "34": {
       "statusId": 34,
@@ -879,7 +905,7 @@
         "shop"
       ],
       "firstSeenAt": 1785332242471,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786455259053
     },
     "35": {
       "statusId": 35,
@@ -904,7 +930,7 @@
         "status_list"
       ],
       "firstSeenAt": 1785340886018,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786455259053
     },
     "36": {
       "statusId": 36,
@@ -926,10 +952,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "battle_result"
+        "battle_result",
+        "incident"
       ],
       "firstSeenAt": 1785339738616,
-      "lastSeenAt": 1785513451449
+      "lastSeenAt": 1786626582769
     },
     "37": {
       "statusId": 37,
@@ -951,10 +978,11 @@
         "battle_result",
         "node_event",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "gain"
       ],
       "firstSeenAt": 1785333481473,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626470651
     },
     "38": {
       "statusId": 38,
@@ -980,7 +1008,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333189355,
-      "lastSeenAt": 1785507364365
+      "lastSeenAt": 1786625939940
     },
     "39": {
       "statusId": 39,
@@ -1005,7 +1033,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332714801,
-      "lastSeenAt": 1785506541039
+      "lastSeenAt": 1786625828544
     },
     "40": {
       "statusId": 40,
@@ -1028,10 +1056,11 @@
         "status_list",
         "community-zh-CN",
         "battle_result",
-        "incident"
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785333282066,
-      "lastSeenAt": 1785513580899
+      "lastSeenAt": 1786221741217
     },
     "41": {
       "statusId": 41,
@@ -1057,7 +1086,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333635438,
-      "lastSeenAt": 1785513674137
+      "lastSeenAt": 1786627001812
     },
     "42": {
       "statusId": 42,
@@ -1084,7 +1113,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332210297,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786627049969
     },
     "43": {
       "statusId": 43,
@@ -1110,7 +1139,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332849426,
-      "lastSeenAt": 1785513716373
+      "lastSeenAt": 1786627049969
     },
     "44": {
       "statusId": 44,
@@ -1137,7 +1166,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333237991,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626398554
     },
     "45": {
       "statusId": 45,
@@ -1172,10 +1201,11 @@
         "community-zh-CN",
         "status_list",
         "battle_result",
-        "incident"
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785332516067,
-      "lastSeenAt": 1785513451449
+      "lastSeenAt": 1786455465988
     },
     "46": {
       "statusId": 46,
@@ -1198,10 +1228,11 @@
         "node_event",
         "battle_result",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "shop"
       ],
       "firstSeenAt": 1785332434641,
-      "lastSeenAt": 1785513615106
+      "lastSeenAt": 1786626133163
     },
     "47": {
       "statusId": 47,
@@ -1224,10 +1255,11 @@
         "battle_result",
         "status_list",
         "community-zh-CN",
-        "incident"
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785332242471,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786455517742
     },
     "48": {
       "statusId": 48,
@@ -1254,7 +1286,7 @@
         "shop"
       ],
       "firstSeenAt": 1785332945650,
-      "lastSeenAt": 1785513829782
+      "lastSeenAt": 1786626398554
     },
     "49": {
       "statusId": 49,
@@ -1277,10 +1309,11 @@
         "status_list",
         "community-zh-CN",
         "battle_result",
-        "incident"
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785333189355,
-      "lastSeenAt": 1785507574294
+      "lastSeenAt": 1786455259053
     },
     "50": {
       "statusId": 50,
@@ -1304,10 +1337,11 @@
         "gain",
         "status_list",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "battle_result"
       ],
       "firstSeenAt": 1785332210297,
-      "lastSeenAt": 1785513387711
+      "lastSeenAt": 1786455295902
     },
     "51": {
       "statusId": 51,
@@ -1334,7 +1368,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332631432,
-      "lastSeenAt": 1785513580899
+      "lastSeenAt": 1786626720843
     },
     "52": {
       "statusId": 52,
@@ -1360,7 +1394,7 @@
         "status_list"
       ],
       "firstSeenAt": 1785332743225,
-      "lastSeenAt": 1785513006103
+      "lastSeenAt": 1786626375047
     },
     "53": {
       "statusId": 53,
@@ -1394,10 +1428,11 @@
         "node_event",
         "battle_result",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "shop"
       ],
       "firstSeenAt": 1785332326169,
-      "lastSeenAt": 1785452835466
+      "lastSeenAt": 1786455626276
     },
     "54": {
       "statusId": 54,
@@ -1427,10 +1462,11 @@
         "battle_result",
         "status_list",
         "community-zh-CN",
-        "node_event"
+        "node_event",
+        "shop"
       ],
       "firstSeenAt": 1785333767048,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626513147
     },
     "55": {
       "statusId": 55,
@@ -1443,6 +1479,10 @@
         {
           "language": "ja",
           "text": "次に獲得する呪われた導本効果を打ち消す(残り1/1回)"
+        },
+        {
+          "language": "ja",
+          "text": "次に獲得する呪われた導本効果を打ち消す(残り0/1回)"
         }
       ],
       "rarity": 2,
@@ -1453,10 +1493,11 @@
         "community-zh-CN",
         "battle_result",
         "shop",
-        "incident"
+        "incident",
+        "status_list"
       ],
       "firstSeenAt": 1785332403545,
-      "lastSeenAt": 1785512912082
+      "lastSeenAt": 1786626687168
     },
     "56": {
       "statusId": 56,
@@ -1482,7 +1523,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785332403545,
-      "lastSeenAt": 1785513661883
+      "lastSeenAt": 1786626923089
     },
     "57": {
       "statusId": 57,
@@ -1512,10 +1553,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "incident"
+        "incident",
+        "battle_result"
       ],
       "firstSeenAt": 1785332421869,
-      "lastSeenAt": 1785507051288
+      "lastSeenAt": 1786626133163
     },
     "58": {
       "statusId": 58,
@@ -1538,10 +1580,11 @@
         "incident",
         "status_list",
         "community-zh-CN",
-        "battle_result"
+        "battle_result",
+        "shop"
       ],
       "firstSeenAt": 1785332516067,
-      "lastSeenAt": 1785513401820
+      "lastSeenAt": 1786626978874
     },
     "59": {
       "statusId": 59,
@@ -1567,7 +1610,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333240962,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626156344
     },
     "60": {
       "statusId": 60,
@@ -1588,10 +1631,12 @@
       "sources": [
         "node_event",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "battle_result",
+        "incident"
       ],
       "firstSeenAt": 1785332945650,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626459850
     },
     "61": {
       "statusId": 61,
@@ -1614,10 +1659,12 @@
         "gain",
         "status_list",
         "community-zh-CN",
-        "node_event"
+        "node_event",
+        "battle_result",
+        "shop"
       ],
       "firstSeenAt": 1785339748997,
-      "lastSeenAt": 1785513451449
+      "lastSeenAt": 1786626392527
     },
     "62": {
       "statusId": 62,
@@ -1638,10 +1685,12 @@
       "sources": [
         "node_event",
         "community-zh-CN",
-        "status_list"
+        "status_list",
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785332661566,
-      "lastSeenAt": 1785513716373
+      "lastSeenAt": 1786455259053
     },
     "63": {
       "statusId": 63,
@@ -1665,7 +1714,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332849426,
-      "lastSeenAt": 1785513615106
+      "lastSeenAt": 1786454751621
     },
     "64": {
       "statusId": 64,
@@ -1685,10 +1734,12 @@
       "iconType": 401,
       "sources": [
         "node_event",
-        "community-zh-CN"
+        "community-zh-CN",
+        "incident",
+        "status_list"
       ],
       "firstSeenAt": 1785334273430,
-      "lastSeenAt": 1785513401820
+      "lastSeenAt": 1786626459850
     },
     "65": {
       "statusId": 65,
@@ -1709,10 +1760,11 @@
       "sources": [
         "node_event",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "shop"
       ],
       "firstSeenAt": 1785332849426,
-      "lastSeenAt": 1785507574294
+      "lastSeenAt": 1786626923089
     },
     "66": {
       "statusId": 66,
@@ -1732,10 +1784,11 @@
       "iconType": 401,
       "sources": [
         "incident",
-        "community-zh-CN"
+        "community-zh-CN",
+        "status_list"
       ],
       "firstSeenAt": 1785341196534,
-      "lastSeenAt": 1785345204046
+      "lastSeenAt": 1786626882229
     },
     "67": {
       "statusId": 67,
@@ -1759,7 +1812,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785332880141,
-      "lastSeenAt": 1785452848963
+      "lastSeenAt": 1786169104936
     },
     "70": {
       "statusId": 70,
@@ -1783,7 +1836,53 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785512476429,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1785776682640
+    },
+    "71": {
+      "statusId": 71,
+      "text": {
+        "zh-CN": "全体在回合结束时，随机获得强化效果",
+        "ja": "味方全体がターン終了時、自分にランダムな強化効果",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "味方全体がターン終了時、自分にランダムな強化効果"
+        }
+      ],
+      "rarity": 2,
+      "iconCategory": 3,
+      "iconType": 401,
+      "sources": [
+        "incident",
+        "manual-zh-CN"
+      ],
+      "firstSeenAt": 1786107342840,
+      "lastSeenAt": 1786107342840
+    },
+    "72": {
+      "statusId": 72,
+      "text": {
+        "zh-CN": "造成伤害提升(50%)",
+        "ja": "与ダメージUP(50%)",
+        "en": ""
+      },
+      "observedTexts": [
+        {
+          "language": "ja",
+          "text": "与ダメージUP(50%)"
+        }
+      ],
+      "rarity": 3,
+      "iconCategory": 1,
+      "iconType": 310,
+      "sources": [
+        "node_event",
+        "manual-zh-CN"
+      ],
+      "firstSeenAt": 1786455420804,
+      "lastSeenAt": 1786455420804
     },
     "73": {
       "statusId": 73,
@@ -1807,7 +1906,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785419349226,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626687168
     },
     "74": {
       "statusId": 74,
@@ -1831,7 +1930,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785344115209,
-      "lastSeenAt": 1785345075981
+      "lastSeenAt": 1786220858347
     },
     "75": {
       "statusId": 75,
@@ -1858,7 +1957,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333107965,
-      "lastSeenAt": 1785512767590
+      "lastSeenAt": 1786626978874
     },
     "76": {
       "statusId": 76,
@@ -1884,7 +1983,7 @@
         "incident"
       ],
       "firstSeenAt": 1785333107965,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626599574
     },
     "77": {
       "statusId": 77,
@@ -1909,7 +2008,7 @@
         "shop"
       ],
       "firstSeenAt": 1785344746682,
-      "lastSeenAt": 1785513488080
+      "lastSeenAt": 1786626687168
     },
     "79": {
       "statusId": 79,
@@ -1934,7 +2033,7 @@
         "node_event"
       ],
       "firstSeenAt": 1785333022915,
-      "lastSeenAt": 1785512568150
+      "lastSeenAt": 1786221094117
     },
     "80": {
       "statusId": 80,
@@ -1961,7 +2060,7 @@
         "battle_result"
       ],
       "firstSeenAt": 1785340362579,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626140565
     },
     "81": {
       "statusId": 81,
@@ -1982,10 +2081,11 @@
       "sources": [
         "node_event",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "status_list"
       ],
       "firstSeenAt": 1785419167390,
-      "lastSeenAt": 1785513319017
+      "lastSeenAt": 1786455510644
     },
     "83": {
       "statusId": 83,
@@ -2008,10 +2108,11 @@
         "status_list",
         "community-zh-CN",
         "node_event",
-        "shop"
+        "shop",
+        "battle_result"
       ],
       "firstSeenAt": 1785333338128,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626599574
     },
     "84": {
       "statusId": 84,
@@ -2037,7 +2138,7 @@
         "incident"
       ],
       "firstSeenAt": 1785332631432,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786627049969
     },
     "85": {
       "statusId": 85,
@@ -2054,6 +2155,18 @@
         {
           "language": "ja",
           "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(100%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(81%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(83%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降に味方全体で消費したHPの合計量に応じて味方全体の与ダメージUP(78%/最大100%)"
         }
       ],
       "rarity": 3,
@@ -2063,10 +2176,12 @@
         "node_event",
         "community-zh-CN",
         "incident",
-        "status_list"
+        "status_list",
+        "battle_result",
+        "shop"
       ],
       "firstSeenAt": 1785341120810,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626286998
     },
     "86": {
       "statusId": 86,
@@ -2091,6 +2206,10 @@
         {
           "language": "ja",
           "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(90%/最大100%)"
+        },
+        {
+          "language": "ja",
+          "text": "この導本効果を入手して以降にイベントマスに到達した回数に応じて味方全体の与ダメージUP(20%/最大100%)"
         }
       ],
       "rarity": 3,
@@ -2100,10 +2219,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "incident"
       ],
       "firstSeenAt": 1785333189355,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626286998
     },
     "87": {
       "statusId": 87,
@@ -2125,10 +2245,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "incident"
+        "incident",
+        "shop"
       ],
       "firstSeenAt": 1785332987123,
-      "lastSeenAt": 1785504494397
+      "lastSeenAt": 1786455259053
     },
     "88": {
       "statusId": 88,
@@ -2150,10 +2271,11 @@
         "node_event",
         "community-zh-CN",
         "shop",
-        "status_list"
+        "status_list",
+        "incident"
       ],
       "firstSeenAt": 1785340362579,
-      "lastSeenAt": 1785513449520
+      "lastSeenAt": 1786626392527
     },
     "89": {
       "statusId": 89,
@@ -2175,10 +2297,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "incident"
       ],
       "firstSeenAt": 1785340362579,
-      "lastSeenAt": 1785512901476
+      "lastSeenAt": 1786626599574
     },
     "90": {
       "statusId": 90,
@@ -2204,7 +2327,7 @@
         "shop"
       ],
       "firstSeenAt": 1785333107965,
-      "lastSeenAt": 1785506168205
+      "lastSeenAt": 1786455641721
     },
     "91": {
       "statusId": 91,
@@ -2230,7 +2353,7 @@
         "status_list"
       ],
       "firstSeenAt": 1785334388518,
-      "lastSeenAt": 1785504494397
+      "lastSeenAt": 1786626019697
     },
     "92": {
       "statusId": 92,
@@ -2252,10 +2375,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "incident"
       ],
       "firstSeenAt": 1785334308257,
-      "lastSeenAt": 1785507364365
+      "lastSeenAt": 1786627114855
     },
     "93": {
       "statusId": 93,
@@ -2281,7 +2405,7 @@
         "node_event"
       ],
       "firstSeenAt": 1785345906012,
-      "lastSeenAt": 1785513839849
+      "lastSeenAt": 1786221188836
     },
     "95": {
       "statusId": 95,
@@ -2307,7 +2431,7 @@
         "incident"
       ],
       "firstSeenAt": 1785344746682,
-      "lastSeenAt": 1785512597040
+      "lastSeenAt": 1786222012015
     },
     "96": {
       "statusId": 96,
@@ -2332,7 +2456,7 @@
         "shop"
       ],
       "firstSeenAt": 1785345286957,
-      "lastSeenAt": 1785512767590
+      "lastSeenAt": 1786626513147
     },
     "97": {
       "statusId": 97,
@@ -2358,7 +2482,7 @@
         "status_list"
       ],
       "firstSeenAt": 1785341225260,
-      "lastSeenAt": 1785504494397
+      "lastSeenAt": 1786626286998
     },
     "98": {
       "statusId": 98,
@@ -2382,7 +2506,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785431189839,
-      "lastSeenAt": 1785506421849
+      "lastSeenAt": 1786625890730
     },
     "99": {
       "statusId": 99,
@@ -2406,7 +2530,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785431189839,
-      "lastSeenAt": 1785506421849
+      "lastSeenAt": 1786625890730
     },
     "100": {
       "statusId": 100,
@@ -2431,7 +2555,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785431189839,
-      "lastSeenAt": 1785506421849
+      "lastSeenAt": 1786625890730
     },
     "101": {
       "statusId": 101,
@@ -2475,10 +2599,11 @@
       "iconType": 401,
       "sources": [
         "node_event",
-        "community-zh-CN"
+        "community-zh-CN",
+        "status_list"
       ],
       "firstSeenAt": 1785419854803,
-      "lastSeenAt": 1785513546306
+      "lastSeenAt": 1786455433830
     },
     "103": {
       "statusId": 103,
@@ -2499,10 +2624,11 @@
       "sources": [
         "node_event",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "gain"
       ],
       "firstSeenAt": 1785432053444,
-      "lastSeenAt": 1785432098518
+      "lastSeenAt": 1786018084264
     },
     "104": {
       "statusId": 104,
@@ -2522,10 +2648,11 @@
       "iconType": 401,
       "sources": [
         "incident",
-        "community-zh-CN"
+        "community-zh-CN",
+        "status_list"
       ],
       "firstSeenAt": 1785453538488,
-      "lastSeenAt": 1785453538488
+      "lastSeenAt": 1785633122831
     },
     "105": {
       "statusId": 105,
@@ -2548,7 +2675,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785454243942,
-      "lastSeenAt": 1785454243942
+      "lastSeenAt": 1786107070668
     },
     "108": {
       "statusId": 108,
@@ -2570,10 +2697,11 @@
         "node_event",
         "status_list",
         "community-zh-CN",
-        "shop"
+        "shop",
+        "incident"
       ],
       "firstSeenAt": 1785344085041,
-      "lastSeenAt": 1785506828021
+      "lastSeenAt": 1786221193400
     },
     "110": {
       "statusId": 110,
@@ -2623,7 +2751,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785344004878,
-      "lastSeenAt": 1785506455187
+      "lastSeenAt": 1786106695701
     },
     "117": {
       "statusId": 117,
@@ -2648,10 +2776,11 @@
       "sources": [
         "incident",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "remove"
       ],
       "firstSeenAt": 1785422875372,
-      "lastSeenAt": 1785422940957
+      "lastSeenAt": 1786626495952
     },
     "118": {
       "statusId": 118,
@@ -2675,7 +2804,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785631562727,
-      "lastSeenAt": 1785631677338
+      "lastSeenAt": 1786626062869
     },
     "119": {
       "statusId": 119,
@@ -2701,7 +2830,7 @@
         "node_event"
       ],
       "firstSeenAt": 1785344011681,
-      "lastSeenAt": 1785504463891
+      "lastSeenAt": 1786626498379
     },
     "120": {
       "statusId": 120,
@@ -2726,7 +2855,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785422867660,
-      "lastSeenAt": 1785423909880
+      "lastSeenAt": 1786106963853
     },
     "121": {
       "statusId": 121,
@@ -2752,7 +2881,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785431199082,
-      "lastSeenAt": 1785453514562
+      "lastSeenAt": 1786017605637
     },
     "122": {
       "statusId": 122,
@@ -2773,10 +2902,11 @@
       "sources": [
         "incident",
         "remove",
-        "community-zh-CN"
+        "community-zh-CN",
+        "node_event"
       ],
       "firstSeenAt": 1785512446966,
-      "lastSeenAt": 1785512520549
+      "lastSeenAt": 1786626513405
     },
     "123": {
       "statusId": 123,
@@ -2797,10 +2927,11 @@
       "sources": [
         "incident",
         "status_list",
-        "community-zh-CN"
+        "community-zh-CN",
+        "remove"
       ],
       "firstSeenAt": 1785431976459,
-      "lastSeenAt": 1785432098518
+      "lastSeenAt": 1786627107881
     },
     "124": {
       "statusId": 124,
@@ -2825,7 +2956,7 @@
         "node_event"
       ],
       "firstSeenAt": 1785344262571,
-      "lastSeenAt": 1785512557923
+      "lastSeenAt": 1785633122831
     },
     "126": {
       "statusId": 126,
@@ -2845,10 +2976,12 @@
       "iconType": 504,
       "sources": [
         "incident",
-        "community-zh-CN"
+        "community-zh-CN",
+        "status_list",
+        "node_event"
       ],
       "firstSeenAt": 1785432151934,
-      "lastSeenAt": 1785432151934
+      "lastSeenAt": 1786455420804
     },
     "127": {
       "statusId": 127,
@@ -2872,7 +3005,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785419088742,
-      "lastSeenAt": 1785512968776
+      "lastSeenAt": 1786626687168
     },
     "128": {
       "statusId": 128,
@@ -2896,7 +3029,7 @@
         "community-zh-CN"
       ],
       "firstSeenAt": 1785343995077,
-      "lastSeenAt": 1785344115209
+      "lastSeenAt": 1786220858347
     }
   },
   "unresolved": []

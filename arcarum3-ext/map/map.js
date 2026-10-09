@@ -51,6 +51,7 @@ import {
   EXPLORE_SCORE_FIELDS,
 } from "../shared/path/exploreScore.js";
 import { createGuidebookView } from "./guidebookView.js";
+import { loadAssetImage } from "../shared/assetImages.js";
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d", { alpha: false });
@@ -134,32 +135,29 @@ function loadImage(key, url) {
   if (images.has(key)) return images.get(key);
   const img = new Image();
   img.decoding = "async";
-  img.crossOrigin = "anonymous";
-  img.src = url;
   images.set(key, img);
-  img.onload = () => {
-    if (String(key).startsWith("bg:") && img.naturalWidth) {
-      mapW = img.naturalWidth;
-      mapH = img.naturalHeight;
-      bgKey = key;
-    }
-    staticDirty = true;
-    scheduleDraw();
-  };
-  img.onerror = () => {
-    images.set(key, null);
-    scheduleDraw();
-  };
+  loadAssetImage(img, url, {
+    onLoad: () => {
+      if (String(key).startsWith("bg:") && img.naturalWidth) {
+        mapW = img.naturalWidth;
+        mapH = img.naturalHeight;
+        bgKey = key;
+      }
+      staticDirty = true;
+      scheduleDraw();
+    },
+    onError: () => {
+      images.set(key, null);
+      staticDirty = true;
+      scheduleDraw();
+    },
+  });
   return img;
 }
 
 function ensureAssets() {
-  const mapId = state?.map_id || 1;
   // 背景固定 1.jpg（map_id 不是 bg 编号）
   loadImage("bg:assets/map_bg/1.jpg", assetUrl("assets/map_bg/1.jpg"));
-  if (mapId !== 1) {
-    loadImage(`bg:assets/map_bg/${mapId}.jpg`, assetUrl(`assets/map_bg/${mapId}.jpg`));
-  }
   loadImage("base", assetUrl("assets/node_icon/base.png"));
   loadImage("base_cleared", assetUrl("assets/node_icon/base_cleared.png"));
   loadImage("piece", assetUrl("assets/node_icon/piece_1.png"));
@@ -283,10 +281,7 @@ function rebuildStaticLayer() {
   sctx.fillStyle = "#0b0f14";
   sctx.fillRect(0, 0, mapW, mapH);
 
-  const bg =
-    imgReady(bgKey) ||
-    imgReady("bg:assets/map_bg/1.jpg") ||
-    imgReady(`bg:assets/map_bg/${state?.map_id || 1}.jpg`);
+  const bg = imgReady(bgKey);
   if (bg) {
     // 全不透明绘制，亮度由滑杆控制（旧版 0.5 半透明叠黑底导致整图过暗）
     sctx.filter = `brightness(${bgBrightness / 100}) saturate(1.06)`;
@@ -737,7 +732,7 @@ function buildLegend() {
     btn.setAttribute("aria-label", item.label);
     if (item.key === legendSelectedKey) btn.classList.add("is-active");
     const img = document.createElement("img");
-    img.src = item.src;
+    loadAssetImage(img, item.src);
     img.alt = item.label;
     btn.appendChild(img);
     btn.addEventListener("click", () => {
